@@ -54,3 +54,17 @@
 失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%227011513421%22%2C%22first%22%3A12%7D
 結束時間: 2026-01-28 12:02:20
 
+起始時間: 2026-01-28 14:56:52
+正在爬取: @power3067830678
+成功人數: 0
+狀態: 暫時封鎖
+失敗原因/備註: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%223791242285%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 14:57:02
+
+起始時間: 2026-01-28 14:56:52
+正在爬取: @power3067830678
+成功人數: 0
+狀態: 暫時封鎖
+失敗原因/備註: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%223791242285%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 15:27:06
+

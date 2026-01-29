@@ -172,7 +172,7 @@ def main_scraper():
             time.sleep(long_wait)
         else:
             # 如果是私密帳號或是失敗跳過，只休眠較短時間便繼續下一位
-            time.sleep(5)
+            time.sleep(8)
 
 if __name__ == "__main__":
     main_scraper()
