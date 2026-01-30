@@ -31,7 +31,7 @@ def trigger_human_noise(L, session_user):
         if choice == "SELF_CHECK":
             print(f"正在模擬『查看自己 (@{session_user}) 的個人檔案』...")
             instaloader.Profile.from_username(L.context, session_user)
-            time.sleep(random.uniform(5, 10))
+            time.sleep(random.uniform(16, 33))
             
         elif choice == "CELEBRITY_CHECK":
             celebs = ["instagram", "cristiano", "leomessi", "natgeo"]
