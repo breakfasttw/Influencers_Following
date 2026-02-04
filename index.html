@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網紅社交生態系 - 互動儀表板</title>
+    <script src="https://unpkg.com/force-graph"></script>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @font-face {
+            font-family: 'Iansui';
+            src: url('https://cdn.jsdelivr.net/gh/lfont-project/iansui/fonts/Iansui-Regular.ttf');
+        }
+        body { font-family: 'Iansui', sans-serif; background-color: #0f172a; color: #e2e8f0; height: 100vh; overflow: hidden; }
+        .tab-active { border-bottom: 2px solid #60a5fa; color: #60a5fa; }
+        .chart-container { height: calc(100vh - 160px); width: 100%; }
+        .hidden { display: none; }
+        .search-input { background: #1e293b; border: 1px solid #334155; color: white; padding: 0.5rem 1rem; border-radius: 9999px; outline: none; transition: all 0.2s; width: 220px; }
+        .search-input:focus { border-color: #60a5fa; width: 300px; box-shadow: 0 0 10px rgba(96, 165, 250, 0.3); }
+        
+        /* Tooltip 樣式優化 */
+        .force-graph-container .graph-tooltip {
+            background: rgba(15, 23, 42, 0.95) !important;
+            border: 1px solid #334155 !important;
+            border-radius: 8px !important;
+            padding: 12px !important;
+            font-size: 14px !important;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+        }
+    </style>
+</head>
+<body class="flex flex-col">
+    <header class="p-6 bg-slate-900 border-b border-slate-800 flex justify-between items-center">
+        <div class="flex items-center space-x-6">
+            <div>
+                <h1 class="text-2xl font-bold text-blue-400">網紅社交生態系</h1>
+                <p class="text-xs text-slate-500">200 Influencers Interactive Demo</p>
+            </div>
+            <nav class="flex space-x-6 ml-4">
+                <button onclick="switchTab('network')" id="btn-network" class="tab-active py-2 px-1 text-lg font-medium transition-all">🌐 社交網路</button>
+                <button onclick="switchTab('heatmap')" id="btn-heatmap" class="py-2 px-1 text-lg font-medium text-slate-400 transition-all">📊 聚類矩陣</button>
+            </nav>
+        </div>
+
+        <div id="search-section" class="flex items-center space-x-2">
+            <input type="text" id="influencer-search" class="search-input text-sm" placeholder="搜尋網紅名稱...">
+            <button onclick="handleSearch()" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors">尋找</button>
+        </div>
+    </header>
+
+    <main class="flex-grow relative p-4">
+        <div id="tab-network" class="chart-container">
+            <div id="network-viz" class="w-full h-full bg-slate-800 rounded-xl overflow-hidden shadow-2xl"></div>
+            <div class="absolute bottom-8 right-8 flex flex-col space-y-2">
+                 <button onclick="unlockNodes()" class="bg-red-500/80 hover:bg-red-600 p-2 rounded-lg text-xs backdrop-blur-md text-white">🔓 解除所有固定</button>
+                 <button onclick="resetView()" class="bg-slate-700/80 hover:bg-slate-600 p-2 rounded-lg text-xs backdrop-blur-md text-white">🏠 重置視角</button>
+            </div>
+        </div>
+
+        <div id="tab-heatmap" class="chart-container hidden flex flex-col">
+            <div class="flex justify-end mb-2 space-x-2">
+                <span class="text-xs text-slate-400 self-center">💡 技巧：框選矩陣局部區域可放大查看姓名</span>
+                <button onclick="toggleDetailedLabels()" id="btn-toggle-labels" class="bg-blue-600/80 hover:bg-blue-600 px-3 py-1 rounded text-xs text-white transition-colors">
+                    🔍 顯示所有姓名 (精細模式)
+                </button>
+            </div>
+            <div id="heatmap-viz" class="w-full flex-grow bg-slate-800 rounded-xl overflow-hidden shadow-2xl"></div>
+        </div>
+    </main>
+
+    <script>
+        let graphInstance = null;
+        let gData = { nodes: [], links: [] };
+        let matrixData = null;
+        let isDetailedMode = false;
+        
+        const highlightNodes = new Set();
+        const highlightLinks = new Set();
+        let searchNode = null;
+
+        // 初始化
+        Promise.all([
+            fetch('nodes_edges.json').then(res => res.json()),
+            fetch('matrix.json').then(res => res.json())
+        ]).then(([nodesEdges, matrix]) => {
+            gData = nodesEdges;
+            matrixData = matrix;
+            
+            // 建立鄰居索引
+            gData.links.forEach(link => {
+                const a = gData.nodes.find(n => n.id === (link.source.id || link.source));
+                const b = gData.nodes.find(n => n.id === (link.target.id || link.target));
+                if(a && b) {
+                    !a.neighbors && (a.neighbors = []);
+                    !b.neighbors && (b.neighbors = []);
+                    a.neighbors.push(b);
+                    b.neighbors.push(a);
+                    !a.links && (a.links = []);
+                    !b.links && (b.links = []);
+                    a.links.push(link);
+                    b.links.push(link);
+                }
+            });
+            initNetwork();
+            initHeatmap();
+        });
+
+        function initNetwork() {
+            const elem = document.getElementById('network-viz');
+            graphInstance = ForceGraph()(elem)
+                .graphData(gData)
+                .nodeId('id')
+                .width(elem.clientWidth)
+                .height(elem.clientHeight)
+                
+                // --- 加回數據顯示 (Hover Tooltip) ---
+                .nodeLabel(node => `
+                    <div style="color: #60a5fa; font-weight: bold; margin-bottom: 4px;">${node.name}</div>
+                    <div style="color: #94a3b8; font-size: 12px;">
+                        派系：${node.group}<br/>
+                        <hr style="border-color: #334155; margin: 4px 0;"/>
+                        被追蹤數：<span style="color: #f8fafc">${node.metrics.in_degree}</span><br/>
+                        追蹤他人：<span style="color: #f8fafc">${node.metrics.out_degree}</span><br/>
+                        雙向互粉：<span style="color: #f8fafc">${node.metrics.mutual}</span>
+                    </div>
+                `)
+                
+                .linkCurvature(l => l.type === 'mutual' ? 0.3 : 0)
+                .linkDirectionalArrowLength(3)
+                .nodeColor(node => highlightNodes.has(node) || node === searchNode ? '#fbbf24' : node.color)
+                .linkColor(link => highlightLinks.has(link) ? '#60a5fa' : 'rgba(148, 163, 184, 0.1)')
+                .linkWidth(link => highlightLinks.has(link) ? 2 : 0.5)
+                .onNodeDrag((node) => {
+                    highlightNodes.clear();
+                    highlightLinks.clear();
+                    if (node) {
+                        highlightNodes.add(node);
+                        node.neighbors && node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+                        node.links && node.links.forEach(link => highlightLinks.add(link));
+                    }
+                    searchNode = node;
+                })
+                .onNodeDragEnd(node => {
+                    node.fx = node.x;
+                    node.fy = node.y;
+                })
+                .nodeCanvasObject((node, ctx, globalScale) => {
+                    const isFocus = node === searchNode || highlightNodes.has(node);
+                    const label = node.name;
+                    const radius = Math.sqrt(node.val) * 2;
+
+                    if (isFocus) {
+                        ctx.shadowColor = node === searchNode ? '#fbbf24' : '#60a5fa';
+                        ctx.shadowBlur = 15;
+                        ctx.fillStyle = node === searchNode ? '#fbbf24' : '#60a5fa';
+                        ctx.beginPath(); ctx.arc(node.x, node.y, radius + 1, 0, 2 * Math.PI); ctx.fill();
+                        ctx.shadowBlur = 0;
+                    }
+
+                    ctx.fillStyle = node.color;
+                    ctx.beginPath(); ctx.arc(node.x, node.y, radius, 0, 2 * Math.PI, false); ctx.fill();
+
+                    if (globalScale > 2 || isFocus) {
+                        const fontSize = isFocus ? 16/globalScale : 12/globalScale;
+                        ctx.font = `${isFocus ? 'bold ' : ''}${fontSize}px Iansui`;
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
+                        ctx.fillStyle = isFocus ? '#ffffff' : '#f8fafc';
+                        ctx.fillText(label, node.x, node.y + radius + fontSize + 2);
+                    }
+                })
+                .onNodeClick(node => focusNode(node));
+        }
+
+        function initHeatmap() {
+            const trace = {
+                z: matrixData.z,
+                x: matrixData.x,
+                y: matrixData.y,
+                type: 'heatmap',
+                colorscale: [[0, '#0f172a'], [0.5, '#3b82f6'], [1, '#93c5fd']],
+                hovertemplate: '追蹤者: %{y}<br>被追蹤者: %{x}<br>強度: %{z}<extra></extra>'
+            };
+
+            const layout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                margin: { l: 150, r: 50, b: 150, t: 20 },
+                xaxis: { 
+                    tickangle: 45, 
+                    color: '#94a3b8',
+                    automargin: true,
+                    // 根據模式決定是否強制顯示所有 tick
+                    tickmode: isDetailedMode ? 'linear' : 'auto',
+                    dtick: isDetailedMode ? 1 : undefined
+                },
+                yaxis: { 
+                    autorange: 'reversed', 
+                    color: '#94a3b8', 
+                    scaleanchor: 'x',
+                    automargin: true,
+                    tickmode: isDetailedMode ? 'linear' : 'auto',
+                    dtick: isDetailedMode ? 1 : undefined
+                }
+            };
+
+            Plotly.newPlot('heatmap-viz', [trace], layout, { responsive: true, scrollZoom: true });
+        }
+
+        // 切換精細模式 (顯示所有姓名)
+        function toggleDetailedLabels() {
+            isDetailedMode = !isDetailedMode;
+            const btn = document.getElementById('btn-toggle-labels');
+            btn.innerText = isDetailedMode ? "📉 恢復自動縮放 (一般模式)" : "🔍 顯示所有姓名 (精細模式)";
+            btn.classList.toggle('bg-blue-600/80');
+            btn.classList.toggle('bg-green-600/80');
+            initHeatmap(); // 重新渲染以更新 axis 設定
+        }
+
+        function handleSearch() {
+            const input = document.getElementById('influencer-search').value.trim();
+            const node = gData.nodes.find(n => n.name.includes(input));
+            if (node) focusNode(node); else alert('未找到網紅');
+        }
+
+        function focusNode(node) {
+            searchNode = node;
+            highlightNodes.clear(); highlightLinks.clear();
+            highlightNodes.add(node);
+            node.neighbors && node.neighbors.forEach(n => highlightNodes.add(n));
+            node.links && node.links.forEach(l => highlightLinks.add(l));
+            graphInstance.centerAt(node.x, node.y, 1000);
+            graphInstance.zoom(3, 1000);
+        }
+
+        function unlockNodes() {
+            gData.nodes.forEach(n => { n.fx = null; n.fy = null; });
+            searchNode = null; highlightNodes.clear(); highlightLinks.clear();
+        }
+
+        function resetView() { graphInstance.zoomToFit(1000); }
+
+        function switchTab(tab) {
+            document.getElementById('tab-network').classList.toggle('hidden', tab !== 'network');
+            document.getElementById('tab-heatmap').classList.toggle('hidden', tab !== 'heatmap');
+            document.getElementById('btn-network').classList.toggle('tab-active', tab === 'network');
+            document.getElementById('btn-heatmap').classList.toggle('tab-active', tab === 'heatmap');
+            if(tab === 'heatmap') Plotly.Plots.resize('heatmap-viz');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+起始時間: 2026-01-28 10:57:39
+正在爬取: @power3067830678
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%223791242285%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 10:57:49
+
+起始時間: 2026-01-28 11:07:49
+正在爬取: @yga0721
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%2245717781%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 11:07:57
+
+起始時間: 2026-01-28 11:11:13
+正在爬取: @power3067830678
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%223791242285%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 11:11:22
+
+起始時間: 2026-01-28 11:21:22
+正在爬取: @yga0721
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%2245717781%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 11:21:33
+
+起始時間: 2026-01-28 11:31:33
+正在爬取: @2uncle987
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%222113732341%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 11:31:48
+
+起始時間: 2026-01-28 11:41:48
+正在爬取: @tsaigray2018
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%228047388429%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 11:41:59
+
+起始時間: 2026-01-28 11:51:59
+正在爬取: @cheapaoe
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%221752644498%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 11:52:08
+
+起始時間: 2026-01-28 12:02:08
+正在爬取: @shasha77.daily
+成功人數: 0
+狀態: 失敗
+失敗原因: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%227011513421%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 12:02:20
+
+起始時間: 2026-01-28 14:56:52
+正在爬取: @power3067830678
+成功人數: 0
+狀態: 暫時封鎖
+失敗原因/備註: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%223791242285%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 14:57:02
+
+起始時間: 2026-01-28 14:56:52
+正在爬取: @power3067830678
+成功人數: 0
+狀態: 暫時封鎖
+失敗原因/備註: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%223791242285%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-28 15:27:06
+
+起始時間: 2026-01-29 11:30:17
+正在爬取: @power3067830678
+成功人數: 0
+狀態: 暫時封鎖
+失敗原因/備註: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?query_hash=58712303d941c6855d4e888c5f0cd22f&variables=%7B%22id%22%3A%223791242285%22%2C%22first%22%3A12%7D
+結束時間: 2026-01-29 11:30:27
+

@@ -94,7 +94,7 @@ def solve_phase_1():
     # ==========================================
     # 4. 去重並產出 CSV
     # ==========================================
-    edge_df = pd.DataFrame(all_edges).drop_duplicates()
+    edge_df = pd.DataFrame(all_edges).drop_duplicates() # 處理多個小帳追蹤同一主帳
     
     save_path = os.path.join(OUTPUT_DIR, OUTPUT_FILENAME)
     edge_df.to_csv(save_path, index=False, encoding='utf-8-sig')
