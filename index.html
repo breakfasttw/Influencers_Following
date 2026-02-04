@@ -81,8 +81,8 @@
 
         // 初始化
         Promise.all([
-            fetch('nodes_edges.json').then(res => res.json()),
-            fetch('matrix.json').then(res => res.json())
+            fetch('./Output/nodes_edges.json').then(res => res.json()),
+            fetch('./Output/matrix.json').then(res => res.json())
         ]).then(([nodesEdges, matrix]) => {
             gData = nodesEdges;
             matrixData = matrix;
