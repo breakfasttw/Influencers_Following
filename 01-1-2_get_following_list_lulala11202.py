@@ -13,9 +13,13 @@ from dotenv import load_dotenv
 load_dotenv()
 # 請在 .env 中將 SESSION_USER 更新為你的老帳號名稱
 SESSION_USER = os.getenv("SESSION_USER2")  # lulala11202
-INPUT_CSV = "Top200_ig_20260126.csv"   
-CHECKPOINT_FILE = "finished_list.txt"
-LOG_FILE = "scraper_log.txt"
+INPUT_CSV = "600_todo.csv" 
+OUTPUT_DIR = 'Output'
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
+CHECKPOINT_FILE = os.path.join(OUTPUT_DIR, 'finished_list.txt')
+LOG_FILE = os.path.join(OUTPUT_DIR, 'scraper_log.txt') 
+
 
 # CSV 欄位定義
 CSV_COLUMNS = [
@@ -105,7 +109,7 @@ def main():
         if random.random() < 0.10: trigger_human_noise(L, SESSION_USER)
 
         # 動態生成檔名
-        target_output = f"{target}-Following-{datetime.now().strftime('%Y%m%d-%H-%M')}.csv"
+        target_output = os.path.join(OUTPUT_DIR, f"{target}-Following-{datetime.now().strftime('%Y%m%d-%H-%M')}.csv")
         print(f"[{datetime.now().strftime('%H:%M:%S')}] 抓取目標: @{target}...", end=" ", flush=True)
         
         try:
@@ -127,7 +131,7 @@ def main():
                         "full_namee": followee.full_name,
                         "scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     })
-                    if order % 100 == 0:
+                    if order % 49 == 0:
                         f.flush(); delay = random.uniform(40, 70)
                         print(f"  - 抓取 {order} 人，冷卻 {delay:.1f}s..."); time.sleep(delay)
                     order += 1

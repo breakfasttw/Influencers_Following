@@ -5,7 +5,7 @@
       "name": "館長-陳之漢",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 0
@@ -16,7 +16,7 @@
       "name": "蔡阿嘎-蔡緯嘉",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 7.0,
+      "val": 8.5,
       "metrics": {
         "in_degree": 30,
         "mutual": 19
@@ -27,7 +27,7 @@
       "name": "嘎嫂二伯&蔡波能",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.2,
+      "val": 5.0,
       "metrics": {
         "in_degree": 16,
         "mutual": 11
@@ -38,7 +38,7 @@
       "name": "蔡桃貴",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 3.2,
+      "val": 3.75,
       "metrics": {
         "in_degree": 11,
         "mutual": 2
@@ -49,7 +49,7 @@
       "name": "Cheap-鄭才暐",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
         "in_degree": 5,
         "mutual": 5
@@ -60,7 +60,7 @@
       "name": "張志祺（志祺七七-X-圖文不符）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.6,
+      "val": 5.5,
       "metrics": {
         "in_degree": 18,
         "mutual": 12
@@ -71,7 +71,7 @@
       "name": "亞拉（貓貓蟲咖波）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 4
@@ -93,7 +93,7 @@
       "name": "鍾明軒",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.8,
+      "val": 3.25,
       "metrics": {
         "in_degree": 9,
         "mutual": 0
@@ -104,7 +104,7 @@
       "name": "寒國人-張紹群",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 1
@@ -115,7 +115,7 @@
       "name": "唐綺陽",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 6
@@ -126,7 +126,7 @@
       "name": "反骨男孩-WACKYBOYS",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 2
@@ -137,7 +137,7 @@
       "name": "八炯-温子渝（攝徒日記Fun-TV）",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 1
@@ -148,7 +148,7 @@
       "name": "有感筆電-Daptoper",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 3
@@ -159,7 +159,7 @@
       "name": "恩恩老師EanTV",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 2
@@ -170,7 +170,7 @@
       "name": "Den",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 1
@@ -181,7 +181,7 @@
       "name": "居妮-Ginny",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 4
@@ -192,7 +192,7 @@
       "name": "黃明志",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
         "in_degree": 5,
         "mutual": 0
@@ -203,7 +203,7 @@
       "name": "Andy老師-王崇睿",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 4.4,
+      "val": 5.25,
       "metrics": {
         "in_degree": 17,
         "mutual": 3
@@ -214,7 +214,7 @@
       "name": "薔薔-林嘉凌",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 4
@@ -225,7 +225,7 @@
       "name": "呱吉-邱威傑",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.0,
+      "val": 6.0,
       "metrics": {
         "in_degree": 20,
         "mutual": 9
@@ -236,7 +236,7 @@
       "name": "葳老闆-周品均",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 2
@@ -247,7 +247,7 @@
       "name": "Inokawa-Hajime井川一",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 2
@@ -258,7 +258,7 @@
       "name": "黃氏兄弟",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.8,
+      "val": 3.25,
       "metrics": {
         "in_degree": 9,
         "mutual": 1
@@ -269,7 +269,7 @@
       "name": "阿滴-都省瑞",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 9.4,
+      "val": 11.5,
       "metrics": {
         "in_degree": 42,
         "mutual": 3
@@ -280,7 +280,7 @@
       "name": "蹦闆-呂育銓",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -291,7 +291,7 @@
       "name": "亞洲統神-張嘉航",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 3
@@ -302,7 +302,7 @@
       "name": "許伯&簡芝（倉鼠人）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
         "in_degree": 5,
         "mutual": 4
@@ -313,7 +313,7 @@
       "name": "琳妲-林羿禎",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.8,
+      "val": 5.75,
       "metrics": {
         "in_degree": 19,
         "mutual": 6
@@ -324,7 +324,7 @@
       "name": "曾博恩",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 8
@@ -335,7 +335,7 @@
       "name": "儒哥",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 5
@@ -346,7 +346,7 @@
       "name": "小吳（見習網美小吳）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.4,
+      "val": 5.25,
       "metrics": {
         "in_degree": 17,
         "mutual": 12
@@ -357,7 +357,7 @@
       "name": "喬瑟夫-ChillSeph",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 2
@@ -368,7 +368,7 @@
       "name": "啾啾鞋",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 7
@@ -379,7 +379,7 @@
       "name": "羅時豐",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 1
@@ -390,7 +390,7 @@
       "name": "超強系列",
       "group": "主要派系 5",
       "color": "#98D8C8",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -401,7 +401,7 @@
       "name": "關關關兒",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 3.4,
+      "val": 4.0,
       "metrics": {
         "in_degree": 12,
         "mutual": 9
@@ -412,7 +412,7 @@
       "name": "王思佳",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 0
@@ -423,7 +423,7 @@
       "name": "阿神",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 4
@@ -434,7 +434,7 @@
       "name": "洋蔥（Onion-Man）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 6.4,
+      "val": 7.75,
       "metrics": {
         "in_degree": 27,
         "mutual": 8
@@ -445,7 +445,7 @@
       "name": "Lobo-蘿蔔",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 2
@@ -456,7 +456,7 @@
       "name": "瑋瑋-黃挺瑋",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 4.8,
+      "val": 5.75,
       "metrics": {
         "in_degree": 19,
         "mutual": 13
@@ -467,7 +467,7 @@
       "name": "孫沁岳",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.4,
+      "val": 4.0,
       "metrics": {
         "in_degree": 12,
         "mutual": 11
@@ -478,7 +478,7 @@
       "name": "Ryu",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 0
@@ -489,7 +489,7 @@
       "name": "好味小姐-Lady-Flavor",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 1
@@ -500,7 +500,7 @@
       "name": "阿格力",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -511,7 +511,7 @@
       "name": "霸軒與小美-Baxuan-&-Mei",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.0,
+      "val": 3.5,
       "metrics": {
         "in_degree": 10,
         "mutual": 7
@@ -533,7 +533,7 @@
       "name": "尼克星-潘律星",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -544,7 +544,7 @@
       "name": "志銘與狸貓",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 0
@@ -555,7 +555,7 @@
       "name": "蛇丸",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 5.2,
+      "val": 6.25,
       "metrics": {
         "in_degree": 21,
         "mutual": 14
@@ -566,7 +566,7 @@
       "name": "千千-Chien-Chien",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 6.2,
+      "val": 7.5,
       "metrics": {
         "in_degree": 26,
         "mutual": 0
@@ -577,7 +577,7 @@
       "name": "哲哲-黃雍哲",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 4.6,
+      "val": 5.5,
       "metrics": {
         "in_degree": 18,
         "mutual": 1
@@ -599,7 +599,7 @@
       "name": "蛋哥",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -610,7 +610,7 @@
       "name": "小賴-賴晏駒",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.8,
+      "val": 3.25,
       "metrics": {
         "in_degree": 9,
         "mutual": 0
@@ -621,7 +621,7 @@
       "name": "Our-TV",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 1
@@ -632,7 +632,7 @@
       "name": "反正我很閒",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 0
@@ -643,7 +643,7 @@
       "name": "老王",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 2
@@ -654,7 +654,7 @@
       "name": "白癡公主",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 6.4,
+      "val": 7.75,
       "metrics": {
         "in_degree": 27,
         "mutual": 14
@@ -665,7 +665,7 @@
       "name": "6tan",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 4.4,
+      "val": 5.25,
       "metrics": {
         "in_degree": 17,
         "mutual": 14
@@ -676,7 +676,7 @@
       "name": "阿部瑪利亞",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 0
@@ -687,7 +687,7 @@
       "name": "床編故事-Bad-Time-Stories",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 0
@@ -698,7 +698,7 @@
       "name": "小慧就愛吃-シャオホイ",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -709,7 +709,7 @@
       "name": "賀瓏-Hello",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 1
@@ -720,7 +720,7 @@
       "name": "一隻阿圓",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 5.8,
+      "val": 7.0,
       "metrics": {
         "in_degree": 24,
         "mutual": 0
@@ -731,7 +731,7 @@
       "name": "西西歪",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 0
@@ -742,7 +742,7 @@
       "name": "超粒方",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 0
@@ -753,7 +753,7 @@
       "name": "許廷瑞（超認真少年Imserious）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 4.4,
+      "val": 5.25,
       "metrics": {
         "in_degree": 17,
         "mutual": 0
@@ -764,7 +764,7 @@
       "name": "HowHow-陳孜昊",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 6.6,
+      "val": 8.0,
       "metrics": {
         "in_degree": 28,
         "mutual": 7
@@ -775,7 +775,7 @@
       "name": "希露弟弟啃雞腿",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -786,7 +786,7 @@
       "name": "愛莉莎莎-Alisasa",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 5.4,
+      "val": 6.5,
       "metrics": {
         "in_degree": 22,
         "mutual": 0
@@ -797,7 +797,7 @@
       "name": "郭哲榮",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -808,7 +808,7 @@
       "name": "Bobo&Kira（Bobo-TV）",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 4
@@ -819,7 +819,7 @@
       "name": "欣西亞和Shane",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 1
@@ -830,7 +830,7 @@
       "name": "林進",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
         "in_degree": 5,
         "mutual": 0
@@ -841,7 +841,7 @@
       "name": "Bump-黃煦傑",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -852,7 +852,7 @@
       "name": "윤도이-尹到怡",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -863,7 +863,7 @@
       "name": "布萊克薛薛",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -896,7 +896,7 @@
       "name": "賤葆-J-Bao",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 5.0,
+      "val": 6.0,
       "metrics": {
         "in_degree": 20,
         "mutual": 0
@@ -907,7 +907,7 @@
       "name": "龜狗",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 1
@@ -918,7 +918,7 @@
       "name": "恩熙俊",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 0
@@ -929,7 +929,7 @@
       "name": "多米多羅-Domidolo",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 1
@@ -940,7 +940,7 @@
       "name": "溫妮-黃于恩",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.4,
+      "val": 5.25,
       "metrics": {
         "in_degree": 17,
         "mutual": 0
@@ -951,7 +951,7 @@
       "name": "滴妹-都冠伶",
       "group": "主要派系 6",
       "color": "#BB8FCE",
-      "val": 6.6,
+      "val": 8.0,
       "metrics": {
         "in_degree": 28,
         "mutual": 0
@@ -962,7 +962,7 @@
       "name": "HOOK",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.4,
+      "val": 5.25,
       "metrics": {
         "in_degree": 17,
         "mutual": 12
@@ -973,7 +973,7 @@
       "name": "游庭皓",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -984,7 +984,7 @@
       "name": "冏星人-余玥",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.4,
+      "val": 2.75,
       "metrics": {
         "in_degree": 7,
         "mutual": 5
@@ -1006,7 +1006,7 @@
       "name": "百靈果",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 3.8,
+      "val": 4.5,
       "metrics": {
         "in_degree": 14,
         "mutual": 0
@@ -1017,7 +1017,7 @@
       "name": "喬老師（MR.JOE-HOBBY.tv）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 2
@@ -1028,7 +1028,7 @@
       "name": "波特王-陳加晉",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 3
@@ -1039,7 +1039,7 @@
       "name": "鳥屎",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.6,
+      "val": 4.25,
       "metrics": {
         "in_degree": 13,
         "mutual": 0
@@ -1061,7 +1061,7 @@
       "name": "鐵牛-伍嘉緯",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 4.8,
+      "val": 5.75,
       "metrics": {
         "in_degree": 19,
         "mutual": 0
@@ -1072,7 +1072,7 @@
       "name": "黑男",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 0
@@ -1083,7 +1083,7 @@
       "name": "李芷婷",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 0
@@ -1094,7 +1094,7 @@
       "name": "RuRu（Ru味春捲）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 0
@@ -1105,7 +1105,7 @@
       "name": "阿啾",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 2
@@ -1116,7 +1116,7 @@
       "name": "品筠&京燁（那對夫妻）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -1127,7 +1127,7 @@
       "name": "鄭毓倫（台南Josh）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 4
@@ -1138,7 +1138,7 @@
       "name": "那個女生-Kiki",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 3.0,
+      "val": 3.5,
       "metrics": {
         "in_degree": 10,
         "mutual": 8
@@ -1149,7 +1149,7 @@
       "name": "Zoebitalk肉比頭",
       "group": "主要派系 4",
       "color": "#FF6B6B",
-      "val": 2.4,
+      "val": 2.75,
       "metrics": {
         "in_degree": 7,
         "mutual": 0
@@ -1160,7 +1160,7 @@
       "name": "理科太太-Li-Ke-Tai-Tai",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.2,
+      "val": 5.0,
       "metrics": {
         "in_degree": 16,
         "mutual": 8
@@ -1171,7 +1171,7 @@
       "name": "本本",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 3.8,
+      "val": 4.5,
       "metrics": {
         "in_degree": 14,
         "mutual": 0
@@ -1182,7 +1182,7 @@
       "name": "焦凡凡",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 0
@@ -1193,7 +1193,7 @@
       "name": "令&一粒（壹加壹）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 3.8,
+      "val": 4.5,
       "metrics": {
         "in_degree": 14,
         "mutual": 0
@@ -1204,7 +1204,7 @@
       "name": "肥波",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1215,7 +1215,7 @@
       "name": "奎丁",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 5.0,
+      "val": 6.0,
       "metrics": {
         "in_degree": 20,
         "mutual": 0
@@ -1226,7 +1226,7 @@
       "name": "77老大",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.4,
+      "val": 2.75,
       "metrics": {
         "in_degree": 7,
         "mutual": 6
@@ -1237,7 +1237,7 @@
       "name": "Charlie-查理",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -1248,7 +1248,7 @@
       "name": "烏鴉DoKa",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.8,
+      "val": 3.25,
       "metrics": {
         "in_degree": 9,
         "mutual": 2
@@ -1259,7 +1259,7 @@
       "name": "咪蕾-미래",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -1270,7 +1270,7 @@
       "name": "蔡哥",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 6.6,
+      "val": 8.0,
       "metrics": {
         "in_degree": 28,
         "mutual": 0
@@ -1281,7 +1281,7 @@
       "name": "可可酒精",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -1292,7 +1292,7 @@
       "name": "小許",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 3
@@ -1303,7 +1303,7 @@
       "name": "Allen（Men's-Game-玩物誌）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 0
@@ -1314,7 +1314,7 @@
       "name": "大H",
       "group": "主要派系 5",
       "color": "#98D8C8",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -1325,7 +1325,7 @@
       "name": "谷阿莫",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1336,7 +1336,7 @@
       "name": "阿翰",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 5.2,
+      "val": 6.25,
       "metrics": {
         "in_degree": 21,
         "mutual": 0
@@ -1347,7 +1347,7 @@
       "name": "泡泡哥哥",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -1358,7 +1358,7 @@
       "name": "國動",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
         "in_degree": 5,
         "mutual": 2
@@ -1380,7 +1380,7 @@
       "name": "蒼藍鴿的醫學天地",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -1391,7 +1391,7 @@
       "name": "小哥哥艾理-陳玟里",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -1402,7 +1402,7 @@
       "name": "吳卓源-Julia-Wu",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.4,
+      "val": 2.75,
       "metrics": {
         "in_degree": 7,
         "mutual": 0
@@ -1413,7 +1413,7 @@
       "name": "韓國女生Judy",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 4
@@ -1424,7 +1424,7 @@
       "name": "中指通",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.0,
+      "val": 3.5,
       "metrics": {
         "in_degree": 10,
         "mutual": 0
@@ -1435,7 +1435,7 @@
       "name": "解婕翎",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 4.8,
+      "val": 5.75,
       "metrics": {
         "in_degree": 19,
         "mutual": 0
@@ -1446,7 +1446,7 @@
       "name": "草爺（含羞草日記）",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 4.2,
+      "val": 5.0,
       "metrics": {
         "in_degree": 16,
         "mutual": 0
@@ -1457,7 +1457,7 @@
       "name": "艾瑞絲-Aries",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 3.8,
+      "val": 4.5,
       "metrics": {
         "in_degree": 14,
         "mutual": 0
@@ -1468,7 +1468,7 @@
       "name": "展榮&展瑞",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 0
@@ -1479,7 +1479,7 @@
       "name": "微疼",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.6,
+      "val": 4.25,
       "metrics": {
         "in_degree": 13,
         "mutual": 0
@@ -1490,7 +1490,7 @@
       "name": "詹姆士",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -1501,7 +1501,7 @@
       "name": "茶里",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 2
@@ -1512,7 +1512,7 @@
       "name": "老高與小茉-Mr-&-Mrs-Gao",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1523,7 +1523,7 @@
       "name": "李勛-SHIN-LI",
       "group": "主要派系 4",
       "color": "#FF6B6B",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 1
@@ -1534,7 +1534,7 @@
       "name": "豹子腿-方昶詠",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 0
@@ -1556,7 +1556,7 @@
       "name": "羽毛",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1567,7 +1567,7 @@
       "name": "錫蘭-Ceylan",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 3.6,
+      "val": 4.25,
       "metrics": {
         "in_degree": 13,
         "mutual": 0
@@ -1578,7 +1578,7 @@
       "name": "鵝肉麵",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.2,
+      "val": 2.5,
       "metrics": {
         "in_degree": 6,
         "mutual": 0
@@ -1589,7 +1589,7 @@
       "name": "塞門-Psyman",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 1
@@ -1600,7 +1600,7 @@
       "name": "彼得爸與蘇珊媽",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 0
@@ -1622,7 +1622,7 @@
       "name": "試當真-Trial-&-Error",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1633,7 +1633,7 @@
       "name": "爆哥-Neal",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1644,7 +1644,7 @@
       "name": "營養健身葛格Peeta",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.6,
+      "val": 5.5,
       "metrics": {
         "in_degree": 18,
         "mutual": 0
@@ -1655,7 +1655,7 @@
       "name": "黑素斯（阿兜仔不教美語）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -1666,7 +1666,7 @@
       "name": "歐耶老師",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -1677,7 +1677,7 @@
       "name": "Bit-King比特王出任務",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1688,7 +1688,7 @@
       "name": "丹妮婊姐",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.6,
+      "val": 3.0,
       "metrics": {
         "in_degree": 8,
         "mutual": 0
@@ -1699,7 +1699,7 @@
       "name": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.0,
+      "val": 4.75,
       "metrics": {
         "in_degree": 15,
         "mutual": 10
@@ -1710,7 +1710,7 @@
       "name": "劉沛",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 5.2,
+      "val": 6.25,
       "metrics": {
         "in_degree": 21,
         "mutual": 0
@@ -1721,7 +1721,7 @@
       "name": "Celine-and-Cynthia---不只是旅行",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.4,
+      "val": 1.5,
       "metrics": {
         "in_degree": 2,
         "mutual": 0
@@ -1732,7 +1732,7 @@
       "name": "咪妃",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 3.0,
+      "val": 3.5,
       "metrics": {
         "in_degree": 10,
         "mutual": 7
@@ -1743,7 +1743,7 @@
       "name": "柴鼠兄弟",
       "group": "主要派系 4",
       "color": "#FF6B6B",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1754,7 +1754,7 @@
       "name": "尊-朱玉恩（人生肥宅x尊）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
         "in_degree": 5,
         "mutual": 0
@@ -1765,7 +1765,7 @@
       "name": "哲睿-Jerry",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.8,
+      "val": 2.0,
       "metrics": {
         "in_degree": 4,
         "mutual": 0
@@ -1787,7 +1787,7 @@
       "name": "孫建豪（孫安佐）",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.2,
+      "val": 1.25,
       "metrics": {
         "in_degree": 1,
         "mutual": 0
@@ -1798,7 +1798,7 @@
       "name": "泱泱-吳泱潾-LYNN",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 1.6,
+      "val": 1.75,
       "metrics": {
         "in_degree": 3,
         "mutual": 3

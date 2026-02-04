@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 # 1. 初始化與環境設定
 load_dotenv()
-SESSION_USER = os.getenv("SESSION_USER")
+SESSION_USER = os.getenv("SESSION_USER2")
 INPUT_FILE = "Top200_ig_20260126.csv"
 OUTPUT_FILE = "person_meta_baseline.csv"
 CHECKPOINT_FILE = "meta_finished.txt"

@@ -25,10 +25,12 @@ METRICS_PATH = os.path.join(INPUT_DIR, 'network_metrics_report.csv')
 CUSTOM_COLORS = ['#45B7D1', '#FFA07A', '#F7DC6F', '#FF6B6B', '#98D8C8', '#BB8FCE', '#4ECDC4', '#85929E']
 
 # ==========================================
-# 1. 關聯熱圖模組 (繼承 V4 視覺 + JSON)
+# 1. 關聯熱圖模組 (過濾孤島 + 聚類 JSON)
 # ==========================================
 def generate_clustered_heatmap_and_json(recip_df):
     print("正在執行：產生熱圖並捕捉聚類排序...")
+    
+    # 過濾 Degree = 0 的孤島
     adj_temp = (recip_df.fillna(0) > 0).astype(int)
     nodes_with_edges = adj_temp.index[(adj_temp.sum(axis=1) > 0) | (adj_temp.sum(axis=0) > 0)]
     clean_df = recip_df.loc[nodes_with_edges, nodes_with_edges].fillna(0)
@@ -42,7 +44,7 @@ def generate_clustered_heatmap_and_json(recip_df):
         cbar_pos=(0.02, 0.8, 0.03, 0.15) 
     )
     
-    # 捕捉聚類順序供網頁使用
+    # 捕捉聚類順序
     reordered_labels = [clean_df.index[i] for i in g.dendrogram_row.reordered_ind]
     reordered_matrix = clean_df.loc[reordered_labels, reordered_labels]
     
@@ -56,18 +58,26 @@ def generate_clustered_heatmap_and_json(recip_df):
     plt.close()
 
 # ==========================================
-# 2. 網路圖模組 (恢復 V4 視覺：有向箭頭、弧線、圖例、Subtitle)
+# 2. 網路圖模組 (過濾孤島 + 分離 zero_degree.json)
 # ==========================================
 def generate_social_network_analysis_and_json(adj_df, recip_df, metrics_df):
-    print("正在執行：產生有向網路勢力圖 (恢復 V4 視覺效果)...")
+    print("正在執行：產生有向網路勢力圖並分離零關聯清單...")
     
     G_full = nx.from_pandas_adjacency(adj_df, create_using=nx.DiGraph)
+    
+    # 嚴格區分核心與孤島
     core_nodes = [n for n, d in G_full.degree() if d > 0]
     isolated_nodes = [n for n in G_full.nodes() if n not in core_nodes]
+    
+    # --- [關鍵修改] 輸出 zero_degree.json ---
+    with open(os.path.join(OUTPUT_DIR, 'zero_degree.json'), 'w', encoding='utf-8') as f:
+        json.dump(isolated_nodes, f, ensure_ascii=False, indent=2)
+    print(f"成功：已匯出 {len(isolated_nodes)} 位零關聯網紅至 zero_degree.json")
+
     G_core = G_full.subgraph(core_nodes)
     metrics_lookup = metrics_df.set_index('Person_Name').to_dict('index')
 
-    # 分群運算
+    # 分群運算 (使用無向投影以獲得穩定社群)
     G_undirected = G_core.to_undirected()
     raw_comm = sorted(community.greedy_modularity_communities(G_undirected), key=len, reverse=True)
     MAX_COMM = 8
@@ -85,59 +95,49 @@ def generate_social_network_analysis_and_json(adj_df, recip_df, metrics_df):
     fig, ax = plt.subplots(figsize=(34, 34))
     pos = nx.spring_layout(G_core, k=0.35, iterations=120, seed=42)
     
-    # 分離連線：互粉 vs 單向
+    # 連線分類
     mutual_edges = [e for e in G_core.edges() if recip_df.at[e[0], e[1]] == 2]
     single_edges = [e for e in G_core.edges() if recip_df.at[e[0], e[1]] != 2]
 
-    # --- 繪製連線 (恢復 V4 箭頭與弧線) ---
+    # 繪製靜態圖連線 (箭頭 + 弧線)
     nx.draw_networkx_edges(G_core, pos, edgelist=single_edges, alpha=0.15, width=0.8, 
                            edge_color='#AAAAAA', ax=ax, arrows=True, arrowstyle='-|>', arrowsize=15)
-    
     nx.draw_networkx_edges(G_core, pos, edgelist=mutual_edges, alpha=0.5, width=2.8, 
                            edge_color='#222222', ax=ax, arrows=True, arrowstyle='-|>', arrowsize=20,
                            connectionstyle='arc3,rad=0.1')
     
-    # 繪製節點
+    # 繪製靜態圖節點
     node_sizes = [200 + metrics_lookup.get(n, {}).get('In_Degree (被追蹤數)', 0) * 450 for n in G_core.nodes()]
     node_colors = [community_map.get(n, 0) for n in G_core.nodes()]
     nx.draw_networkx_nodes(G_core, pos, node_size=node_sizes, node_color=node_colors, 
                            cmap=my_cmap, vmin=0, vmax=len(final_comm)-1, alpha=0.9, ax=ax)
     
-    # 標籤避讓
-    texts = []
-    for node, (x, y) in pos.items():
-        m = metrics_lookup.get(node, {})
-        if m.get('Mutual_Follow (互粉數)', 0) > 0 or m.get('In_Degree (被追蹤數)', 0) > 2:
-            texts.append(ax.text(x, y, node, fontsize=12, weight='bold'))
-    if texts:
-        adjust_text(texts, arrowprops=dict(arrowstyle='->', color='red', lw=0.5, alpha=0.4))
+    # 標籤與 Subtitle
+    texts = [ax.text(pos[n][0], pos[n][1], n, fontsize=12, weight='bold') for n in G_core.nodes() 
+             if metrics_lookup.get(n, {}).get('Mutual_Follow (互粉數)', 0) > 0 or metrics_lookup.get(n, {}).get('In_Degree (被追蹤數)', 0) > 2]
+    if texts: adjust_text(texts, arrowprops=dict(arrowstyle='->', color='red', lw=0.5, alpha=0.4))
 
-    # --- 標題與 Subtitle (恢復 V4 置右) ---
     ax.set_title(f"網紅社群勢力圖 (已移除 {len(isolated_nodes)} 位無連結網紅)", fontsize=36, pad=50, weight='bold', loc='center')
     plt.gcf().text(0.9, 0.92, "節點大小：被追蹤數 | 位置：社交親疏 | 連線：追蹤方向(箭頭)", ha='right', fontsize=18, color='#444444')
 
-    # --- 圖例 (恢復 V4 右上角) ---
-    legend_handles = []
-    group_leaders = []
-    for i, comm in enumerate(final_comm):
-        leader = max(list(comm), key=lambda m: metrics_lookup.get(m, {}).get('In_Degree (被追蹤數)', 0))
-        group_leaders.append(leader)
-        lbl = f"群 {i+1}：{leader}" if i < MAX_COMM - 1 else f"群 8 (混合)：{leader}"
-        legend_handles.append(mpatches.Patch(color=CUSTOM_COLORS[i], label=lbl))
+    # 圖例
+    legend_handles = [mpatches.Patch(color=CUSTOM_COLORS[i], label=f"群 {i+1}：{max(list(c), key=lambda m: metrics_lookup.get(m, {}).get('In_Degree (被追蹤數)', 0))}") 
+                      for i, c in enumerate(final_comm)]
     ax.legend(handles=legend_handles, title="社群領袖 (依圈內影響力)", loc='upper right', fontsize=16)
 
-    plt.axis('off') # 確保移除方形網格
+    plt.axis('off')
     plt.savefig(os.path.join(OUTPUT_DIR, 'social_network_graph_optimized.png'), bbox_inches='tight', dpi=300)
     plt.close()
 
-    # --- 輸出 JSON (供 index.html 使用) ---
+    # --- [關鍵修改] 產出 nodes_edges.json (僅含核心) ---
     nodes_json = []
     for node in G_core.nodes():
         g_idx = community_map.get(node, 0)
         m = metrics_lookup.get(node, {})
         nodes_json.append({
             "id": node, "name": node, "group": f"主要派系 {g_idx+1}", 
-            "color": CUSTOM_COLORS[g_idx], "val": 1 + m.get('In_Degree (被追蹤數)', 0) / 5,
+            "color": CUSTOM_COLORS[g_idx], 
+            "val": 1 + m.get('In_Degree (被追蹤數)', 0) / 4, # 網頁版節點大小
             "metrics": {"in_degree": int(m.get('In_Degree (被追蹤數)', 0)), "mutual": int(m.get('Mutual_Follow (互粉數)', 0))}
         })
     links_json = [{"source": u, "target": v, "type": "mutual" if recip_df.at[u, v] == 2 else "single"} for u, v in G_core.edges()]
@@ -154,4 +154,4 @@ if __name__ == "__main__":
     m_df = pd.read_csv(METRICS_PATH)
     generate_clustered_heatmap_and_json(recip_df)
     generate_social_network_analysis_and_json(adj_df, recip_df, m_df)
-    print("V5 修正版執行完畢：靜態圖品質已恢復，JSON 資料已同步更新。")
+    print("V5.1 執行完畢：已分離 0 關聯名單至 zero_degree.json，且 nodes_edges.json 已過濾。")

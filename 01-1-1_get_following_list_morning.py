@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # 1. 初始化環境變數
 load_dotenv()
 SESSION_USER = os.getenv("SESSION_USER1")
-INPUT_CSV = "網紅清單 - todo.csv"
+INPUT_CSV = "600_todo.csv"
 
 OUTPUT_DIR = 'Output'
 if not os.path.exists(OUTPUT_DIR):
@@ -116,7 +116,7 @@ def main_scraper():
         if target in done_users: continue
         
         # 動態生成檔案名稱
-        target_outputE = os.path.join(OUTPUT_DIR, f"{target}-Following-{datetime.now().strftime('%Y%m%d-%H-%M')}.csv")
+        target_output = os.path.join(OUTPUT_DIR, f"{target}-Following-{datetime.now().strftime('%Y%m%d-%H-%M')}.csv")
         start_time_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
         # 20% 機率觸發雜訊
