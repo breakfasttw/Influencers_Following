@@ -1,3 +1,7 @@
+# 產製圈內追蹤關係 edge 表格
+# input 1 = ignore/following_list 資料夾內的 {網紅id name}-Following.csv
+# input 2 = 中文名稱 與  {網紅id name} 對應表
+
 import pandas as pd
 import os
 import re

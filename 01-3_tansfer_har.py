@@ -1,3 +1,6 @@
+# 產出：可開始分析的個人追蹤清單
+# input = 網頁下載的 har 檔案
+
 import json
 import base64
 import os
@@ -6,8 +9,8 @@ from datetime import datetime
 
 # 1. 設定輸出路徑與環境
 
+influencer_name = "baxuan_ig" # ⭐⭐ 改這
 input_dir = r"D:\Code\Task\Influencers_Following\ignore\har"
-influencer_name = "baxuan_ig"
 input_filename = f"{influencer_name}.har"
 input_path = os.path.join(input_dir, input_filename) 
 

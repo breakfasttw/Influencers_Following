@@ -1,3 +1,6 @@
+# 產製2種矩陣 (Adjacency 0/1)、(Reciprocity 0/1/2)、入出度摘要報告 network_metrics
+# input = 02-1 的edge 表格
+
 import pandas as pd
 import numpy as np
 import os

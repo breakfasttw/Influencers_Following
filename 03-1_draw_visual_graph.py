@@ -1,3 +1,6 @@
+# 產製：階層關聯 heatmap 圖、社群網絡圖、分群表、網頁所需json
+# input = 02-2 的所有產物
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
