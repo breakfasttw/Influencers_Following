@@ -131,7 +131,7 @@ def main():
                         "full_namee": followee.full_name,
                         "scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     })
-                    if order % 49 == 0:
+                    if order % 50 == 0: # 每抓取50個追蹤清單物件就休息
                         f.flush(); delay = random.uniform(40, 70)
                         print(f"  - 抓取 {order} 人，冷卻 {delay:.1f}s..."); time.sleep(delay)
                     order += 1

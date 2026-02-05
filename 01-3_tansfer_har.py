@@ -1,25 +1,40 @@
 import json
 import base64
+import os
 import pandas as pd
 from datetime import datetime
 
-def extract_following_from_har(file_path, influencer_name):
-    with open(file_path, 'r', encoding='utf-8') as f:
+# 1. 設定輸出路徑與環境
+
+input_dir = r"D:\Code\Task\Influencers_Following\ignore\har"
+influencer_name = "baxuan_ig"
+input_filename = f"{influencer_name}.har"
+input_path = os.path.join(input_dir, input_filename) 
+
+
+def process_manual_har_to_csv_fixed(har_file_path, influencer_name):
+    print(f"開始執行轉換.....")
+    
+    output_dir = "ignore/following_list/manual"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    timestamp = datetime.now().strftime("%Y%m%d-%H-%M")
+    output_filename = f"{influencer_name}-Following-{timestamp}_m.csv"
+    output_path = os.path.join(output_dir, output_filename)
+
+    with open(har_file_path, 'r', encoding='utf-8') as f:
         har_data = json.load(f)
 
     all_users = []
     
     for entry in har_data['log']['entries']:
         url = entry['request']['url']
-        
-        # 篩選 Following API 請求
         if '/friendships/' in url and '/following/' in url:
             content = entry['response']['content']
             if 'text' in content:
                 raw_text = content['text']
-                
-                # 處理 Base64 編碼或是原始 JSON
                 try:
+                    # 處理 Base64 或原始 JSON
                     if content.get('encoding') == 'base64':
                         decoded_text = base64.b64decode(raw_text).decode('utf-8')
                         data = json.loads(decoded_text)
@@ -32,27 +47,28 @@ def extract_following_from_har(file_path, influencer_name):
                     print(f"解析單筆請求失敗: {e}")
 
     if not all_users:
-        print("找不到任何資料，請確認 HAR 檔案是否正確匯出。")
+        print("❌ 找不到資料。")
         return
 
-    # 轉換成 DataFrame 並去重 (以 pk 為準)
-    df = pd.DataFrame(all_users)
-    df = df.drop_duplicates(subset=['pk'])
+    # 轉為 DataFrame
+    raw_df = pd.DataFrame(all_users)
     
-    # 整理格式
-    result = pd.DataFrame({
-        "source_influencer": influencer_name,
-        "total_following": len(df),
-        "username": df['username'],
-        "ig_user_id": df['pk'],
-        "full_name": df['full_name'],
-        "scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    })
+    # 關鍵修正：去重後立即重設索引 (Reset Index)
+    clean_df = raw_df.drop_duplicates(subset=['pk']).reset_index(drop=True)
     
-    timestamp = datetime.now().strftime("%Y%m%d-%H-%M")
-    output_filename = f"{influencer_name}-Following-{timestamp}_m.csv"
-    result.to_csv(output_filename, index=False, encoding="utf-8-sig")
-    print(f"✅ 提取成功！已從 HAR 檔中產出 {len(result)} 筆資料至 {output_filename}")
+    # 建立最終結果
+    result_df = pd.DataFrame()
+    result_df['number'] = range(1, len(clean_df) + 1)
+    result_df['ig_user_id'] = clean_df['pk']
+    result_df['full_name'] = clean_df['full_name']
+    result_df['username'] = clean_df['username']
+    result_df['is_verified'] = clean_df['is_verified']
+    result_df['total_following'] = len(clean_df)
 
-# 使用方式：請輸入你剛才手動滾動的網紅 ig_id
-extract_following_from_har("www.instagram.com.har", "thedodomen")
+    result_df.to_csv(output_path, index=False, encoding="utf-8-sig")
+    print(f"✅ 修正完成！不再有空行。")
+    print(f"📊 獨特追蹤人數: {len(result_df)} (原始抓取人數: {len(raw_df)})")
+    print(f"📁 檔案存於: {output_path}")
+
+# 執行
+process_manual_har_to_csv_fixed(input_path, influencer_name)
