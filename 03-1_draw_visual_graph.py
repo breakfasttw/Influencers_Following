@@ -141,7 +141,10 @@ def generate_social_network_analysis_and_json(adj_df, recip_df, metrics_df):
             "id": node, "name": node, "group": f"主要派系 {g_idx+1}", 
             "color": CUSTOM_COLORS[g_idx], 
             "val": 1 + m.get('In_Degree (被追蹤數)', 0) / 4, # 網頁版節點大小
-            "metrics": {"in_degree": int(m.get('In_Degree (被追蹤數)', 0)), "mutual": int(m.get('Mutual_Follow (互粉數)', 0))}
+            "metrics": {
+                "in_degree": int(m.get('In_Degree (被追蹤數)', 0)), 
+                "out_degree": int(m.get('Out_Degree (主動追蹤數)', 0)),
+                "mutual": int(m.get('Mutual_Follow (互粉數)', 0))}
         })
     links_json = [{"source": u, "target": v, "type": "mutual" if recip_df.at[u, v] == 2 else "single"} for u, v in G_core.edges()]
     
