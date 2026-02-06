@@ -5,11 +5,11 @@ from datetime import datetime
 
 # ================= 配置區域 =================
 # 1. 手動輸入要轉換的 username 
-username = "khshu_"   # ⭐⭐ 改這
+username = "2uncle987_graphql"   # ⭐⭐ 改這
 
 # 2. 路徑設定 (使用 raw string 避免斜線轉義問題)
-input_dir = r"ignore\extend"
-output_dir = r"ignore\following_list\extend"
+input_dir = r"ignore\graphQL"
+output_dir = r"ignore\following_list\graphQL"
 
 # ================= 執行邏輯 =================
 
@@ -30,7 +30,7 @@ def convert_json_to_csv(username, input_dir, output_dir):
 
     # 處理時間戳記
     timestamp = datetime.now().strftime("%Y%m%d-%H-%M")
-    output_filename = f"{username}-Following-{timestamp}_e.csv"
+    output_filename = f"{username}-Following-{timestamp}_g.csv"
     output_path = os.path.join(output_dir, output_filename)
 
     # 解析資料
