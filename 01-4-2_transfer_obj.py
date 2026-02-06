@@ -5,7 +5,7 @@ from datetime import datetime
 
 # ================= 配置區域 =================
 # 1. 手動輸入要轉換的 username 
-username = "2uncle987_graphql"   # ⭐⭐ 改這
+username = "ruruspiano"   # ⭐⭐ 改這
 
 # 2. 路徑設定 (使用 raw string 避免斜線轉義問題)
 input_dir = r"ignore\graphQL"

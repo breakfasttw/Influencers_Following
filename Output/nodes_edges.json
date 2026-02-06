@@ -3,11 +3,11 @@
     {
       "id": "館長-陳之漢",
       "name": "館長-陳之漢",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 3.0,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 3.75,
       "metrics": {
-        "in_degree": 8,
+        "in_degree": 11,
         "out_degree": 3,
         "mutual": 0
       }
@@ -15,13 +15,13 @@
     {
       "id": "蔡阿嘎-蔡緯嘉",
       "name": "蔡阿嘎-蔡緯嘉",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 9.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 10.75,
       "metrics": {
-        "in_degree": 32,
+        "in_degree": 39,
         "out_degree": 51,
-        "mutual": 21
+        "mutual": 26
       }
     },
     {
@@ -29,11 +29,11 @@
       "name": "嘎嫂二伯&蔡波能",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.5,
+      "val": 6.75,
       "metrics": {
-        "in_degree": 18,
+        "in_degree": 23,
         "out_degree": 33,
-        "mutual": 13
+        "mutual": 18
       }
     },
     {
@@ -41,9 +41,9 @@
       "name": "蔡桃貴",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.75,
+      "val": 5.25,
       "metrics": {
-        "in_degree": 11,
+        "in_degree": 17,
         "out_degree": 2,
         "mutual": 2
       }
@@ -53,23 +53,23 @@
       "name": "Cheap-鄭才暐",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.25,
+      "val": 2.5,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 6,
         "out_degree": 26,
-        "mutual": 5
+        "mutual": 6
       }
     },
     {
       "id": "張志祺（志祺七七-X-圖文不符）",
       "name": "張志祺（志祺七七-X-圖文不符）",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 5.75,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 6.5,
       "metrics": {
-        "in_degree": 19,
+        "in_degree": 22,
         "out_degree": 33,
-        "mutual": 13
+        "mutual": 16
       }
     },
     {
@@ -77,9 +77,9 @@
       "name": "亞拉（貓貓蟲咖波）",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.5,
+      "val": 2.75,
       "metrics": {
-        "in_degree": 6,
+        "in_degree": 7,
         "out_degree": 15,
         "mutual": 4
       }
@@ -87,8 +87,8 @@
     {
       "id": "歷史哥-李易修",
       "name": "歷史哥-李易修",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
@@ -99,11 +99,11 @@
     {
       "id": "鍾明軒",
       "name": "鍾明軒",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 3.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 4.5,
       "metrics": {
-        "in_degree": 10,
+        "in_degree": 14,
         "out_degree": 0,
         "mutual": 0
       }
@@ -111,8 +111,8 @@
     {
       "id": "寒國人-張紹群",
       "name": "寒國人-張紹群",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -123,11 +123,11 @@
     {
       "id": "唐綺陽",
       "name": "唐綺陽",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 3.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.75,
       "metrics": {
-        "in_degree": 9,
+        "in_degree": 11,
         "out_degree": 15,
         "mutual": 6
       }
@@ -135,13 +135,13 @@
     {
       "id": "反骨男孩-WACKYBOYS",
       "name": "反骨男孩-WACKYBOYS",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 2.0,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 3.25,
       "metrics": {
-        "in_degree": 4,
+        "in_degree": 9,
         "out_degree": 29,
-        "mutual": 2
+        "mutual": 7
       }
     },
     {
@@ -159,8 +159,8 @@
     {
       "id": "有感筆電-Daptoper",
       "name": "有感筆電-Daptoper",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
@@ -171,47 +171,47 @@
     {
       "id": "恩恩老師EanTV",
       "name": "恩恩老師EanTV",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 1.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 1.75,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 3,
         "out_degree": 10,
-        "mutual": 2
+        "mutual": 3
       }
     },
     {
       "id": "Den",
       "name": "Den",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 1.5,
       "metrics": {
-        "in_degree": 1,
+        "in_degree": 2,
         "out_degree": 4,
-        "mutual": 1
+        "mutual": 2
       }
     },
     {
       "id": "居妮-Ginny",
       "name": "居妮-Ginny",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 2.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 2.75,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 7,
         "out_degree": 16,
-        "mutual": 5
+        "mutual": 6
       }
     },
     {
       "id": "黃明志",
       "name": "黃明志",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 2.25,
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
+      "val": 3.0,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 8,
         "out_degree": 0,
         "mutual": 0
       }
@@ -221,21 +221,21 @@
       "name": "Andy老師-王崇睿",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.5,
+      "val": 6.5,
       "metrics": {
-        "in_degree": 18,
+        "in_degree": 22,
         "out_degree": 8,
-        "mutual": 3
+        "mutual": 4
       }
     },
     {
       "id": "薔薔-林嘉凌",
       "name": "薔薔-林嘉凌",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 4.75,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 5.75,
       "metrics": {
-        "in_degree": 15,
+        "in_degree": 19,
         "out_degree": 7,
         "mutual": 4
       }
@@ -243,32 +243,32 @@
     {
       "id": "呱吉-邱威傑",
       "name": "呱吉-邱威傑",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 6.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 7.75,
       "metrics": {
-        "in_degree": 22,
+        "in_degree": 27,
         "out_degree": 33,
-        "mutual": 11
+        "mutual": 15
       }
     },
     {
       "id": "葳老闆-周品均",
       "name": "葳老闆-周品均",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 1.75,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 2.0,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 4,
         "out_degree": 12,
-        "mutual": 2
+        "mutual": 3
       }
     },
     {
       "id": "Inokawa-Hajime井川一",
       "name": "Inokawa-Hajime井川一",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
@@ -279,11 +279,11 @@
     {
       "id": "黃氏兄弟",
       "name": "黃氏兄弟",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 3.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 4.75,
       "metrics": {
-        "in_degree": 9,
+        "in_degree": 15,
         "out_degree": 2,
         "mutual": 1
       }
@@ -291,11 +291,11 @@
     {
       "id": "阿滴-都省瑞",
       "name": "阿滴-都省瑞",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 12.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 14.0,
       "metrics": {
-        "in_degree": 46,
+        "in_degree": 52,
         "out_degree": 6,
         "mutual": 3
       }
@@ -303,8 +303,8 @@
     {
       "id": "蹦闆-呂育銓",
       "name": "蹦闆-呂育銓",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -315,11 +315,11 @@
     {
       "id": "亞洲統神-張嘉航",
       "name": "亞洲統神-張嘉航",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 2.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 3.0,
       "metrics": {
-        "in_degree": 7,
+        "in_degree": 8,
         "out_degree": 11,
         "mutual": 4
       }
@@ -327,44 +327,44 @@
     {
       "id": "許伯&簡芝（倉鼠人）",
       "name": "許伯&簡芝（倉鼠人）",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 2.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 2.5,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 6,
         "out_degree": 13,
-        "mutual": 4
+        "mutual": 5
       }
     },
     {
       "id": "琳妲-林羿禎",
       "name": "琳妲-林羿禎",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 6.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 7.75,
       "metrics": {
-        "in_degree": 22,
-        "out_degree": 11,
-        "mutual": 6
+        "in_degree": 27,
+        "out_degree": 52,
+        "mutual": 19
       }
     },
     {
       "id": "曾博恩",
       "name": "曾博恩",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 5.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 6.25,
       "metrics": {
-        "in_degree": 19,
+        "in_degree": 21,
         "out_degree": 34,
-        "mutual": 12
+        "mutual": 14
       }
     },
     {
       "id": "儒哥",
       "name": "儒哥",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 2.5,
       "metrics": {
         "in_degree": 6,
@@ -377,47 +377,47 @@
       "name": "小吳（見習網美小吳）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 6.0,
+      "val": 7.25,
       "metrics": {
-        "in_degree": 20,
-        "out_degree": 41,
-        "mutual": 15
+        "in_degree": 25,
+        "out_degree": 44,
+        "mutual": 21
       }
     },
     {
       "id": "喬瑟夫-ChillSeph",
       "name": "喬瑟夫-ChillSeph",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 5.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 6.5,
       "metrics": {
-        "in_degree": 18,
+        "in_degree": 22,
         "out_degree": 5,
-        "mutual": 2
+        "mutual": 3
       }
     },
     {
       "id": "啾啾鞋",
       "name": "啾啾鞋",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 5.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 6.5,
       "metrics": {
-        "in_degree": 17,
+        "in_degree": 22,
         "out_degree": 24,
-        "mutual": 8
+        "mutual": 10
       }
     },
     {
       "id": "羅時豐",
       "name": "羅時豐",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 1.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 2.0,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 4,
         "out_degree": 7,
-        "mutual": 2
+        "mutual": 3
       }
     },
     {
@@ -425,9 +425,9 @@
       "name": "超強系列",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.25,
+      "val": 2.5,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 6,
         "out_degree": 2,
         "mutual": 0
       }
@@ -435,23 +435,23 @@
     {
       "id": "關關關兒",
       "name": "關關關兒",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 4.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 5.25,
       "metrics": {
-        "in_degree": 13,
+        "in_degree": 17,
         "out_degree": 41,
-        "mutual": 10
+        "mutual": 13
       }
     },
     {
       "id": "王思佳",
       "name": "王思佳",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
-      "val": 2.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 3.0,
       "metrics": {
-        "in_degree": 6,
+        "in_degree": 8,
         "out_degree": 0,
         "mutual": 0
       }
@@ -459,11 +459,11 @@
     {
       "id": "阿神",
       "name": "阿神",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 2.5,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 3.0,
       "metrics": {
-        "in_degree": 6,
+        "in_degree": 8,
         "out_degree": 18,
         "mutual": 4
       }
@@ -471,20 +471,20 @@
     {
       "id": "洋蔥（Onion-Man）",
       "name": "洋蔥（Onion-Man）",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 8.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 9.75,
       "metrics": {
-        "in_degree": 31,
-        "out_degree": 31,
-        "mutual": 9
+        "in_degree": 35,
+        "out_degree": 85,
+        "mutual": 33
       }
     },
     {
       "id": "Lobo-蘿蔔",
       "name": "Lobo-蘿蔔",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
@@ -495,13 +495,13 @@
     {
       "id": "瑋瑋-黃挺瑋",
       "name": "瑋瑋-黃挺瑋",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 6.75,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 8.25,
       "metrics": {
-        "in_degree": 23,
+        "in_degree": 29,
         "out_degree": 38,
-        "mutual": 15
+        "mutual": 18
       }
     },
     {
@@ -509,21 +509,21 @@
       "name": "孫沁岳",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 4.25,
+      "val": 4.5,
       "metrics": {
-        "in_degree": 13,
+        "in_degree": 14,
         "out_degree": 21,
-        "mutual": 12
+        "mutual": 13
       }
     },
     {
       "id": "Ryu",
       "name": "Ryu",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 2.25,
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
+      "val": 2.75,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 7,
         "out_degree": 0,
         "mutual": 0
       }
@@ -531,11 +531,11 @@
     {
       "id": "好味小姐-Lady-Flavor",
       "name": "好味小姐-Lady-Flavor",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 3.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.5,
       "metrics": {
-        "in_degree": 8,
+        "in_degree": 10,
         "out_degree": 12,
         "mutual": 1
       }
@@ -543,8 +543,8 @@
     {
       "id": "阿格力",
       "name": "阿格力",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -555,32 +555,32 @@
     {
       "id": "霸軒與小美-Baxuan-&-Mei",
       "name": "霸軒與小美-Baxuan-&-Mei",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 4.0,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 4.25,
       "metrics": {
-        "in_degree": 12,
+        "in_degree": 13,
         "out_degree": 37,
-        "mutual": 9
+        "mutual": 10
       }
     },
     {
       "id": "蓋彼-Gabi",
       "name": "蓋彼-Gabi",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.25,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 1.75,
       "metrics": {
-        "in_degree": 1,
+        "in_degree": 3,
         "out_degree": 9,
-        "mutual": 1
+        "mutual": 3
       }
     },
     {
       "id": "尼克星-潘律星",
       "name": "尼克星-潘律星",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -593,9 +593,9 @@
       "name": "志銘與狸貓",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.75,
+      "val": 3.25,
       "metrics": {
-        "in_degree": 7,
+        "in_degree": 9,
         "out_degree": 0,
         "mutual": 0
       }
@@ -603,13 +603,13 @@
     {
       "id": "蛇丸",
       "name": "蛇丸",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 6.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 8.25,
       "metrics": {
-        "in_degree": 23,
+        "in_degree": 29,
         "out_degree": 45,
-        "mutual": 16
+        "mutual": 21
       }
     },
     {
@@ -617,21 +617,21 @@
       "name": "千千-Chien-Chien",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 8.0,
+      "val": 9.75,
       "metrics": {
-        "in_degree": 28,
-        "out_degree": 39,
-        "mutual": 17
+        "in_degree": 35,
+        "out_degree": 54,
+        "mutual": 28
       }
     },
     {
       "id": "哲哲-黃雍哲",
       "name": "哲哲-黃雍哲",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 6.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 7.75,
       "metrics": {
-        "in_degree": 21,
+        "in_degree": 27,
         "out_degree": 1,
         "mutual": 1
       }
@@ -639,8 +639,8 @@
     {
       "id": "全民瘋車Bar",
       "name": "全民瘋車Bar",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
@@ -651,11 +651,11 @@
     {
       "id": "蛋哥",
       "name": "蛋哥",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 1.25,
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
+      "val": 1.5,
       "metrics": {
-        "in_degree": 1,
+        "in_degree": 2,
         "out_degree": 0,
         "mutual": 0
       }
@@ -665,9 +665,9 @@
       "name": "小賴-賴晏駒",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.5,
+      "val": 4.5,
       "metrics": {
-        "in_degree": 10,
+        "in_degree": 14,
         "out_degree": 0,
         "mutual": 0
       }
@@ -675,8 +675,8 @@
     {
       "id": "Our-TV",
       "name": "Our-TV",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
@@ -687,8 +687,8 @@
     {
       "id": "反正我很閒",
       "name": "反正我很閒",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 2.0,
       "metrics": {
         "in_degree": 4,
@@ -699,8 +699,8 @@
     {
       "id": "老王",
       "name": "老王",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
@@ -711,25 +711,25 @@
     {
       "id": "白癡公主",
       "name": "白癡公主",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 8.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 10.0,
       "metrics": {
-        "in_degree": 29,
+        "in_degree": 36,
         "out_degree": 40,
-        "mutual": 16
+        "mutual": 19
       }
     },
     {
       "id": "6tan",
       "name": "6tan",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 5.25,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 5.5,
       "metrics": {
-        "in_degree": 17,
+        "in_degree": 18,
         "out_degree": 33,
-        "mutual": 14
+        "mutual": 15
       }
     },
     {
@@ -737,9 +737,9 @@
       "name": "阿部瑪利亞",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.5,
+      "val": 6.25,
       "metrics": {
-        "in_degree": 18,
+        "in_degree": 21,
         "out_degree": 0,
         "mutual": 0
       }
@@ -749,9 +749,9 @@
       "name": "床編故事-Bad-Time-Stories",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 3.25,
+      "val": 3.5,
       "metrics": {
-        "in_degree": 9,
+        "in_degree": 10,
         "out_degree": 0,
         "mutual": 0
       }
@@ -771,13 +771,13 @@
     {
       "id": "賀瓏-Hello",
       "name": "賀瓏-Hello",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 2.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.25,
       "metrics": {
-        "in_degree": 6,
+        "in_degree": 9,
         "out_degree": 27,
-        "mutual": 3
+        "mutual": 5
       }
     },
     {
@@ -785,21 +785,21 @@
       "name": "一隻阿圓",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 7.75,
+      "val": 8.75,
       "metrics": {
-        "in_degree": 27,
-        "out_degree": 42,
-        "mutual": 18
+        "in_degree": 31,
+        "out_degree": 58,
+        "mutual": 29
       }
     },
     {
       "id": "西西歪",
       "name": "西西歪",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 2.5,
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
+      "val": 2.75,
       "metrics": {
-        "in_degree": 6,
+        "in_degree": 7,
         "out_degree": 0,
         "mutual": 0
       }
@@ -809,9 +809,9 @@
       "name": "超粒方",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.25,
+      "val": 2.75,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 7,
         "out_degree": 2,
         "mutual": 1
       }
@@ -819,13 +819,13 @@
     {
       "id": "許廷瑞（超認真少年Imserious）",
       "name": "許廷瑞（超認真少年Imserious）",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 5.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 5.75,
       "metrics": {
-        "in_degree": 18,
-        "out_degree": 0,
-        "mutual": 0
+        "in_degree": 19,
+        "out_degree": 43,
+        "mutual": 17
       }
     },
     {
@@ -833,9 +833,9 @@
       "name": "HowHow-陳孜昊",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 8.0,
+      "val": 9.5,
       "metrics": {
-        "in_degree": 28,
+        "in_degree": 34,
         "out_degree": 13,
         "mutual": 7
       }
@@ -843,11 +843,11 @@
     {
       "id": "希露弟弟啃雞腿",
       "name": "希露弟弟啃雞腿",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 1.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 1.75,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 3,
         "out_degree": 0,
         "mutual": 0
       }
@@ -857,11 +857,11 @@
       "name": "愛莉莎莎-Alisasa",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 7.25,
+      "val": 8.5,
       "metrics": {
-        "in_degree": 25,
-        "out_degree": 0,
-        "mutual": 0
+        "in_degree": 30,
+        "out_degree": 65,
+        "mutual": 23
       }
     },
     {
@@ -881,18 +881,18 @@
       "name": "Bobo&Kira（Bobo-TV）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
-        "in_degree": 4,
+        "in_degree": 5,
         "out_degree": 36,
-        "mutual": 4
+        "mutual": 5
       }
     },
     {
       "id": "欣西亞和Shane",
       "name": "欣西亞和Shane",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -905,21 +905,21 @@
       "name": "林進",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.75,
+      "val": 3.5,
       "metrics": {
-        "in_degree": 7,
-        "out_degree": 0,
-        "mutual": 0
+        "in_degree": 10,
+        "out_degree": 41,
+        "mutual": 9
       }
     },
     {
       "id": "Bump-黃煦傑",
       "name": "Bump-黃煦傑",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 1.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 1.75,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 3,
         "out_degree": 4,
         "mutual": 0
       }
@@ -927,8 +927,8 @@
     {
       "id": "윤도이-尹到怡",
       "name": "윤도이-尹到怡",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
@@ -941,9 +941,9 @@
       "name": "布萊克薛薛",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 2.25,
+      "val": 2.5,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 6,
         "out_degree": 2,
         "mutual": 2
       }
@@ -963,23 +963,23 @@
     {
       "id": "Ricky&Nina（我們倆）",
       "name": "Ricky&Nina（我們倆）",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 1.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 1.25,
       "metrics": {
-        "in_degree": 0,
+        "in_degree": 1,
         "out_degree": 3,
-        "mutual": 0
+        "mutual": 1
       }
     },
     {
       "id": "賤葆-J-Bao",
       "name": "賤葆-J-Bao",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 7.25,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 8.0,
       "metrics": {
-        "in_degree": 25,
+        "in_degree": 28,
         "out_degree": 0,
         "mutual": 0
       }
@@ -987,8 +987,8 @@
     {
       "id": "龜狗",
       "name": "龜狗",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
@@ -999,11 +999,11 @@
     {
       "id": "恩熙俊",
       "name": "恩熙俊",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 3.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 4.25,
       "metrics": {
-        "in_degree": 10,
+        "in_degree": 13,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1011,8 +1011,8 @@
     {
       "id": "多米多羅-Domidolo",
       "name": "多米多羅-Domidolo",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
@@ -1025,11 +1025,11 @@
       "name": "溫妮-黃于恩",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.75,
+      "val": 6.75,
       "metrics": {
-        "in_degree": 19,
+        "in_degree": 23,
         "out_degree": 29,
-        "mutual": 11
+        "mutual": 14
       }
     },
     {
@@ -1037,9 +1037,9 @@
       "name": "DE-JuN",
       "group": "主要派系 5",
       "color": "#98D8C8",
-      "val": 1.25,
+      "val": 1.5,
       "metrics": {
-        "in_degree": 1,
+        "in_degree": 2,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1049,9 +1049,9 @@
       "name": "滴妹-都冠伶",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 8.75,
+      "val": 10.25,
       "metrics": {
-        "in_degree": 31,
+        "in_degree": 37,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1061,18 +1061,18 @@
       "name": "HOOK",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 6.0,
+      "val": 7.25,
       "metrics": {
-        "in_degree": 20,
+        "in_degree": 25,
         "out_degree": 42,
-        "mutual": 15
+        "mutual": 18
       }
     },
     {
       "id": "游庭皓",
       "name": "游庭皓",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1083,8 +1083,8 @@
     {
       "id": "冏星人-余玥",
       "name": "冏星人-余玥",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
@@ -1095,8 +1095,8 @@
     {
       "id": "懶貓",
       "name": "懶貓",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
@@ -1107,11 +1107,11 @@
     {
       "id": "百靈果",
       "name": "百靈果",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 4.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 5.0,
       "metrics": {
-        "in_degree": 14,
+        "in_degree": 16,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1121,9 +1121,9 @@
       "name": "喬老師（MR.JOE-HOBBY.tv）",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.75,
+      "val": 2.0,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 4,
         "out_degree": 17,
         "mutual": 3
       }
@@ -1131,8 +1131,8 @@
     {
       "id": "波特王-陳加晉",
       "name": "波特王-陳加晉",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
@@ -1143,11 +1143,11 @@
     {
       "id": "鳥屎",
       "name": "鳥屎",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 4.25,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 4.5,
       "metrics": {
-        "in_degree": 13,
+        "in_degree": 14,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1155,8 +1155,8 @@
     {
       "id": "Zack（超級房仲學院）",
       "name": "Zack（超級房仲學院）",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
@@ -1167,11 +1167,11 @@
     {
       "id": "鐵牛-伍嘉緯",
       "name": "鐵牛-伍嘉緯",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 6.0,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 7.75,
       "metrics": {
-        "in_degree": 20,
+        "in_degree": 27,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1179,30 +1179,6 @@
     {
       "id": "黑男",
       "name": "黑男",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 2.75,
-      "metrics": {
-        "in_degree": 7,
-        "out_degree": 0,
-        "mutual": 0
-      }
-    },
-    {
-      "id": "李芷婷",
-      "name": "李芷婷",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 3.0,
-      "metrics": {
-        "in_degree": 8,
-        "out_degree": 0,
-        "mutual": 0
-      }
-    },
-    {
-      "id": "RuRu（Ru味春捲）",
-      "name": "RuRu（Ru味春捲）",
       "group": "主要派系 1",
       "color": "#45B7D1",
       "val": 3.25,
@@ -1213,15 +1189,39 @@
       }
     },
     {
-      "id": "阿啾",
-      "name": "阿啾",
+      "id": "李芷婷",
+      "name": "李芷婷",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 3.5,
+      "metrics": {
+        "in_degree": 10,
+        "out_degree": 0,
+        "mutual": 0
+      }
+    },
+    {
+      "id": "RuRu（Ru味春捲）",
+      "name": "RuRu（Ru味春捲）",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 2.0,
+      "val": 3.25,
       "metrics": {
-        "in_degree": 4,
+        "in_degree": 9,
+        "out_degree": 26,
+        "mutual": 8
+      }
+    },
+    {
+      "id": "阿啾",
+      "name": "阿啾",
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
+      "val": 2.25,
+      "metrics": {
+        "in_degree": 5,
         "out_degree": 8,
-        "mutual": 3
+        "mutual": 4
       }
     },
     {
@@ -1229,9 +1229,9 @@
       "name": "品筠&京燁（那對夫妻）",
       "group": "主要派系 2",
       "color": "#FFA07A",
-      "val": 1.5,
+      "val": 2.0,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 4,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1239,13 +1239,13 @@
     {
       "id": "鄭毓倫（台南Josh）",
       "name": "鄭毓倫（台南Josh）",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 2.75,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.0,
       "metrics": {
-        "in_degree": 7,
+        "in_degree": 8,
         "out_degree": 14,
-        "mutual": 4
+        "mutual": 5
       }
     },
     {
@@ -1253,21 +1253,21 @@
       "name": "那個女生-Kiki",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 4.25,
+      "val": 5.0,
       "metrics": {
-        "in_degree": 13,
+        "in_degree": 16,
         "out_degree": 45,
-        "mutual": 11
+        "mutual": 14
       }
     },
     {
       "id": "Zoebitalk肉比頭",
       "name": "Zoebitalk肉比頭",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 3.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.5,
       "metrics": {
-        "in_degree": 8,
+        "in_degree": 10,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1275,13 +1275,13 @@
     {
       "id": "理科太太-Li-Ke-Tai-Tai",
       "name": "理科太太-Li-Ke-Tai-Tai",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 5.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 6.5,
       "metrics": {
-        "in_degree": 17,
+        "in_degree": 22,
         "out_degree": 21,
-        "mutual": 9
+        "mutual": 11
       }
     },
     {
@@ -1289,9 +1289,9 @@
       "name": "本本",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.25,
+      "val": 6.5,
       "metrics": {
-        "in_degree": 17,
+        "in_degree": 22,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1301,9 +1301,9 @@
       "name": "焦凡凡",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.5,
+      "val": 6.5,
       "metrics": {
-        "in_degree": 18,
+        "in_degree": 22,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1311,11 +1311,11 @@
     {
       "id": "令&一粒（壹加壹）",
       "name": "令&一粒（壹加壹）",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 5.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 5.75,
       "metrics": {
-        "in_degree": 16,
+        "in_degree": 19,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1323,8 +1323,8 @@
     {
       "id": "肥波",
       "name": "肥波",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1337,9 +1337,9 @@
       "name": "奎丁",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 6.5,
+      "val": 7.75,
       "metrics": {
-        "in_degree": 22,
+        "in_degree": 27,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1349,11 +1349,11 @@
       "name": "77老大",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 3.25,
+      "val": 4.0,
       "metrics": {
-        "in_degree": 9,
+        "in_degree": 12,
         "out_degree": 39,
-        "mutual": 8
+        "mutual": 11
       }
     },
     {
@@ -1371,23 +1371,23 @@
     {
       "id": "烏鴉DoKa",
       "name": "烏鴉DoKa",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 3.25,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 3.75,
       "metrics": {
-        "in_degree": 9,
+        "in_degree": 11,
         "out_degree": 11,
-        "mutual": 2
+        "mutual": 4
       }
     },
     {
       "id": "咪蕾-미래",
       "name": "咪蕾-미래",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 1.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 2.0,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 4,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1395,11 +1395,11 @@
     {
       "id": "蔡哥",
       "name": "蔡哥",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 9.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 10.25,
       "metrics": {
-        "in_degree": 32,
+        "in_degree": 37,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1407,11 +1407,11 @@
     {
       "id": "可可酒精",
       "name": "可可酒精",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
-      "val": 1.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 1.75,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 3,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1419,23 +1419,23 @@
     {
       "id": "小許",
       "name": "小許",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
-      "val": 1.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 2.0,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 4,
         "out_degree": 9,
-        "mutual": 3
+        "mutual": 4
       }
     },
     {
       "id": "Allen（Men's-Game-玩物誌）",
       "name": "Allen（Men's-Game-玩物誌）",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 2.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 2.75,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 7,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1443,8 +1443,8 @@
     {
       "id": "大H",
       "name": "大H",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
@@ -1455,8 +1455,8 @@
     {
       "id": "谷阿莫",
       "name": "谷阿莫",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1467,11 +1467,11 @@
     {
       "id": "阿翰",
       "name": "阿翰",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 6.75,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 8.0,
       "metrics": {
-        "in_degree": 23,
+        "in_degree": 28,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1479,11 +1479,11 @@
     {
       "id": "泡泡哥哥",
       "name": "泡泡哥哥",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 2.5,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 6,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1491,8 +1491,8 @@
     {
       "id": "國動",
       "name": "國動",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
@@ -1503,11 +1503,11 @@
     {
       "id": "艾爾文",
       "name": "艾爾文",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 1.25,
       "metrics": {
-        "in_degree": 0,
+        "in_degree": 1,
         "out_degree": 4,
         "mutual": 0
       }
@@ -1515,11 +1515,11 @@
     {
       "id": "蒼藍鴿的醫學天地",
       "name": "蒼藍鴿的醫學天地",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 1.75,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 2.25,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 5,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1527,11 +1527,11 @@
     {
       "id": "小哥哥艾理-陳玟里",
       "name": "小哥哥艾理-陳玟里",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 2.5,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 6,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1539,11 +1539,11 @@
     {
       "id": "吳卓源-Julia-Wu",
       "name": "吳卓源-Julia-Wu",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 3.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.75,
       "metrics": {
-        "in_degree": 8,
+        "in_degree": 11,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1551,23 +1551,23 @@
     {
       "id": "韓國女生Judy",
       "name": "韓國女生Judy",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 2.25,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 2.5,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 6,
         "out_degree": 15,
-        "mutual": 5
+        "mutual": 6
       }
     },
     {
       "id": "中指通",
       "name": "中指通",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 3.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.75,
       "metrics": {
-        "in_degree": 10,
+        "in_degree": 11,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1575,11 +1575,11 @@
     {
       "id": "解婕翎",
       "name": "解婕翎",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 6.0,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 7.0,
       "metrics": {
-        "in_degree": 20,
+        "in_degree": 24,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1587,11 +1587,11 @@
     {
       "id": "草爺（含羞草日記）",
       "name": "草爺（含羞草日記）",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 5.5,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 7.0,
       "metrics": {
-        "in_degree": 18,
+        "in_degree": 24,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1599,13 +1599,13 @@
     {
       "id": "艾瑞絲-Aries",
       "name": "艾瑞絲-Aries",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 4.75,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 5.5,
       "metrics": {
-        "in_degree": 15,
-        "out_degree": 34,
-        "mutual": 11
+        "in_degree": 18,
+        "out_degree": 40,
+        "mutual": 14
       }
     },
     {
@@ -1613,9 +1613,9 @@
       "name": "展榮&展瑞",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 5.5,
+      "val": 7.0,
       "metrics": {
-        "in_degree": 18,
+        "in_degree": 24,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1623,11 +1623,11 @@
     {
       "id": "微疼",
       "name": "微疼",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 4.75,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 5.0,
       "metrics": {
-        "in_degree": 15,
+        "in_degree": 16,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1637,9 +1637,9 @@
       "name": "詹姆士",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 2.0,
+      "val": 2.25,
       "metrics": {
-        "in_degree": 4,
+        "in_degree": 5,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1647,8 +1647,8 @@
     {
       "id": "茶里",
       "name": "茶里",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
@@ -1659,8 +1659,8 @@
     {
       "id": "老高與小茉-Mr-&-Mrs-Gao",
       "name": "老高與小茉-Mr-&-Mrs-Gao",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1671,23 +1671,23 @@
     {
       "id": "李勛-SHIN-LI",
       "name": "李勛-SHIN-LI",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 1.75,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 3,
         "out_degree": 6,
-        "mutual": 2
+        "mutual": 3
       }
     },
     {
       "id": "豹子腿-方昶詠",
       "name": "豹子腿-方昶詠",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
-      "val": 1.75,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 2.0,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 4,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1695,8 +1695,8 @@
     {
       "id": "uzra",
       "name": "uzra",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
@@ -1719,8 +1719,8 @@
     {
       "id": "羽毛",
       "name": "羽毛",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1731,11 +1731,11 @@
     {
       "id": "錫蘭-Ceylan",
       "name": "錫蘭-Ceylan",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 4.5,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 4.75,
       "metrics": {
-        "in_degree": 14,
+        "in_degree": 15,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1743,11 +1743,11 @@
     {
       "id": "鵝肉麵",
       "name": "鵝肉麵",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
-      "val": 2.5,
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
+      "val": 2.75,
       "metrics": {
-        "in_degree": 6,
+        "in_degree": 7,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1767,20 +1767,20 @@
     {
       "id": "彼得爸與蘇珊媽",
       "name": "彼得爸與蘇珊媽",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 3.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.75,
       "metrics": {
-        "in_degree": 8,
-        "out_degree": 0,
-        "mutual": 0
+        "in_degree": 11,
+        "out_degree": 35,
+        "mutual": 11
       }
     },
     {
       "id": "權證小哥",
       "name": "權證小哥",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 4",
+      "color": "#FF6B6B",
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
@@ -1791,8 +1791,8 @@
     {
       "id": "試當真-Trial-&-Error",
       "name": "試當真-Trial-&-Error",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1803,8 +1803,8 @@
     {
       "id": "爆哥-Neal",
       "name": "爆哥-Neal",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 1",
+      "color": "#45B7D1",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1817,9 +1817,9 @@
       "name": "營養健身葛格Peeta",
       "group": "主要派系 3",
       "color": "#F7DC6F",
-      "val": 6.25,
+      "val": 6.75,
       "metrics": {
-        "in_degree": 21,
+        "in_degree": 23,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1827,8 +1827,8 @@
     {
       "id": "黑素斯（阿兜仔不教美語）",
       "name": "黑素斯（阿兜仔不教美語）",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
@@ -1839,11 +1839,11 @@
     {
       "id": "歐耶老師",
       "name": "歐耶老師",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 1.75,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 3,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1863,11 +1863,11 @@
     {
       "id": "丹妮婊姐",
       "name": "丹妮婊姐",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 3.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 3.75,
       "metrics": {
-        "in_degree": 8,
+        "in_degree": 11,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1875,13 +1875,13 @@
     {
       "id": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
       "name": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
-      "group": "主要派系 1",
-      "color": "#45B7D1",
-      "val": 5.0,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 5.5,
       "metrics": {
-        "in_degree": 16,
+        "in_degree": 18,
         "out_degree": 40,
-        "mutual": 11
+        "mutual": 13
       }
     },
     {
@@ -1889,9 +1889,9 @@
       "name": "劉沛",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 6.75,
+      "val": 8.0,
       "metrics": {
-        "in_degree": 23,
+        "in_degree": 28,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1899,11 +1899,11 @@
     {
       "id": "Celine-and-Cynthia---不只是旅行",
       "name": "Celine-and-Cynthia---不只是旅行",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 1.5,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 2.0,
       "metrics": {
-        "in_degree": 2,
+        "in_degree": 4,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1911,20 +1911,20 @@
     {
       "id": "咪妃",
       "name": "咪妃",
-      "group": "主要派系 4",
-      "color": "#FF6B6B",
-      "val": 4.0,
+      "group": "主要派系 1",
+      "color": "#45B7D1",
+      "val": 5.25,
       "metrics": {
-        "in_degree": 12,
+        "in_degree": 17,
         "out_degree": 22,
-        "mutual": 9
+        "mutual": 12
       }
     },
     {
       "id": "柴鼠兄弟",
       "name": "柴鼠兄弟",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1935,8 +1935,8 @@
     {
       "id": "尊-朱玉恩（人生肥宅x尊）",
       "name": "尊-朱玉恩（人生肥宅x尊）",
-      "group": "主要派系 2",
-      "color": "#FFA07A",
+      "group": "主要派系 3",
+      "color": "#F7DC6F",
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
@@ -1947,11 +1947,11 @@
     {
       "id": "哲睿-Jerry",
       "name": "哲睿-Jerry",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
-      "val": 2.25,
+      "group": "主要派系 2",
+      "color": "#FFA07A",
+      "val": 2.5,
       "metrics": {
-        "in_degree": 5,
+        "in_degree": 6,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1959,8 +1959,8 @@
     {
       "id": "夠維根Go-Vegan",
       "name": "夠維根Go-Vegan",
-      "group": "主要派系 3",
-      "color": "#F7DC6F",
+      "group": "主要派系 2",
+      "color": "#FFA07A",
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
@@ -1973,9 +1973,9 @@
       "name": "孫建豪（孫安佐）",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.25,
+      "val": 1.75,
       "metrics": {
-        "in_degree": 1,
+        "in_degree": 3,
         "out_degree": 0,
         "mutual": 0
       }
@@ -1985,11 +1985,11 @@
       "name": "泱泱-吳泱潾-LYNN",
       "group": "主要派系 1",
       "color": "#45B7D1",
-      "val": 1.75,
+      "val": 2.25,
       "metrics": {
-        "in_degree": 3,
+        "in_degree": 5,
         "out_degree": 31,
-        "mutual": 3
+        "mutual": 5
       }
     }
   ],
@@ -2072,7 +2072,7 @@
     {
       "source": "蔡阿嘎-蔡緯嘉",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蔡阿嘎-蔡緯嘉",
@@ -2132,7 +2132,7 @@
     {
       "source": "蔡阿嘎-蔡緯嘉",
       "target": "一隻阿圓",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蔡阿嘎-蔡緯嘉",
@@ -2147,12 +2147,12 @@
     {
       "source": "蔡阿嘎-蔡緯嘉",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蔡阿嘎-蔡緯嘉",
       "target": "林進",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蔡阿嘎-蔡緯嘉",
@@ -2252,7 +2252,7 @@
     {
       "source": "蔡阿嘎-蔡緯嘉",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蔡阿嘎-蔡緯嘉",
@@ -2297,7 +2297,7 @@
     {
       "source": "嘎嫂二伯&蔡波能",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "嘎嫂二伯&蔡波能",
@@ -2337,7 +2337,7 @@
     {
       "source": "嘎嫂二伯&蔡波能",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "嘎嫂二伯&蔡波能",
@@ -2347,12 +2347,12 @@
     {
       "source": "嘎嫂二伯&蔡波能",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "嘎嫂二伯&蔡波能",
       "target": "林進",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "嘎嫂二伯&蔡波能",
@@ -2417,7 +2417,7 @@
     {
       "source": "嘎嫂二伯&蔡波能",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "嘎嫂二伯&蔡波能",
@@ -2507,7 +2507,7 @@
     {
       "source": "Cheap-鄭才暐",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "Cheap-鄭才暐",
@@ -2617,7 +2617,7 @@
     {
       "source": "張志祺（志祺七七-X-圖文不符）",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "張志祺（志祺七七-X-圖文不符）",
@@ -2652,7 +2652,7 @@
     {
       "source": "張志祺（志祺七七-X-圖文不符）",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "張志祺（志祺七七-X-圖文不符）",
@@ -2682,7 +2682,7 @@
     {
       "source": "張志祺（志祺七七-X-圖文不符）",
       "target": "RuRu（Ru味春捲）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "張志祺（志祺七七-X-圖文不符）",
@@ -2922,7 +2922,7 @@
     {
       "source": "反骨男孩-WACKYBOYS",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "反骨男孩-WACKYBOYS",
@@ -2932,7 +2932,7 @@
     {
       "source": "反骨男孩-WACKYBOYS",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "反骨男孩-WACKYBOYS",
@@ -2957,17 +2957,17 @@
     {
       "source": "反骨男孩-WACKYBOYS",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "反骨男孩-WACKYBOYS",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "反骨男孩-WACKYBOYS",
       "target": "林進",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "反骨男孩-WACKYBOYS",
@@ -3142,7 +3142,7 @@
     {
       "source": "恩恩老師EanTV",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "Den",
@@ -3152,7 +3152,7 @@
     {
       "source": "Den",
       "target": "千千-Chien-Chien",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "Den",
@@ -3207,7 +3207,7 @@
     {
       "source": "居妮-Ginny",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "居妮-Ginny",
@@ -3272,7 +3272,7 @@
     {
       "source": "Andy老師-王崇睿",
       "target": "林進",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "Andy老師-王崇睿",
@@ -3347,7 +3347,7 @@
     {
       "source": "呱吉-邱威傑",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "呱吉-邱威傑",
@@ -3357,7 +3357,7 @@
     {
       "source": "呱吉-邱威傑",
       "target": "千千-Chien-Chien",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "呱吉-邱威傑",
@@ -3377,7 +3377,7 @@
     {
       "source": "呱吉-邱威傑",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "呱吉-邱威傑",
@@ -3387,7 +3387,7 @@
     {
       "source": "呱吉-邱威傑",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "呱吉-邱威傑",
@@ -3522,7 +3522,7 @@
     {
       "source": "葳老闆-周品均",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "葳老闆-周品均",
@@ -3702,7 +3702,7 @@
     {
       "source": "許伯&簡芝（倉鼠人）",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "許伯&簡芝（倉鼠人）",
@@ -3726,6 +3726,26 @@
     },
     {
       "source": "琳妲-林羿禎",
+      "target": "館長-陳之漢",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "蔡阿嘎-蔡緯嘉",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "嘎嫂二伯&蔡波能",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "蔡桃貴",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
       "target": "Cheap-鄭才暐",
       "type": "mutual"
     },
@@ -3741,12 +3761,102 @@
     },
     {
       "source": "琳妲-林羿禎",
+      "target": "唐綺陽",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "反骨男孩-WACKYBOYS",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "Andy老師-王崇睿",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "薔薔-林嘉凌",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "呱吉-邱威傑",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "阿滴-都省瑞",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "亞洲統神-張嘉航",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "小吳（見習網美小吳）",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
       "target": "喬瑟夫-ChillSeph",
       "type": "mutual"
     },
     {
       "source": "琳妲-林羿禎",
+      "target": "瑋瑋-黃挺瑋",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "孫沁岳",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
       "target": "蛇丸",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "千千-Chien-Chien",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "哲哲-黃雍哲",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "小賴-賴晏駒",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "白癡公主",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "一隻阿圓",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "希露弟弟啃雞腿",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "愛莉莎莎-Alisasa",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "Bump-黃煦傑",
       "type": "single"
     },
     {
@@ -3761,7 +3871,52 @@
     },
     {
       "source": "琳妲-林羿禎",
+      "target": "溫妮-黃于恩",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "滴妹-都冠伶",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "百靈果",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "鐵牛-伍嘉緯",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "黑男",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "李芷婷",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
       "target": "鄭毓倫（台南Josh）",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "本本",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "奎丁",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "77老大",
       "type": "mutual"
     },
     {
@@ -3771,13 +3926,63 @@
     },
     {
       "source": "琳妲-林羿禎",
+      "target": "蔡哥",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "阿翰",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "泡泡哥哥",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "小哥哥艾理-陳玟里",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "吳卓源-Julia-Wu",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
       "target": "韓國女生Judy",
+      "type": "mutual"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "草爺（含羞草日記）",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "展榮&展瑞",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "彼得爸與蘇珊媽",
       "type": "mutual"
     },
     {
       "source": "琳妲-林羿禎",
       "target": "營養健身葛格Peeta",
       "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "劉沛",
+      "type": "single"
+    },
+    {
+      "source": "琳妲-林羿禎",
+      "target": "咪妃",
+      "type": "mutual"
     },
     {
       "source": "曾博恩",
@@ -3822,7 +4027,7 @@
     {
       "source": "曾博恩",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "曾博恩",
@@ -3852,7 +4057,7 @@
     {
       "source": "曾博恩",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "曾博恩",
@@ -4062,7 +4267,7 @@
     {
       "source": "小吳（見習網美小吳）",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "小吳（見習網美小吳）",
@@ -4082,7 +4287,7 @@
     {
       "source": "小吳（見習網美小吳）",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "小吳（見習網美小吳）",
@@ -4111,6 +4316,11 @@
     },
     {
       "source": "小吳（見習網美小吳）",
+      "target": "白癡公主",
+      "type": "mutual"
+    },
+    {
+      "source": "小吳（見習網美小吳）",
       "target": "阿部瑪利亞",
       "type": "single"
     },
@@ -4122,7 +4332,7 @@
     {
       "source": "小吳（見習網美小吳）",
       "target": "一隻阿圓",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "小吳（見習網美小吳）",
@@ -4132,7 +4342,12 @@
     {
       "source": "小吳（見習網美小吳）",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
+    },
+    {
+      "source": "小吳（見習網美小吳）",
+      "target": "林進",
+      "type": "mutual"
     },
     {
       "source": "小吳（見習網美小吳）",
@@ -4196,6 +4411,11 @@
     },
     {
       "source": "小吳（見習網美小吳）",
+      "target": "阿翰",
+      "type": "single"
+    },
+    {
+      "source": "小吳（見習網美小吳）",
       "target": "解婕翎",
       "type": "single"
     },
@@ -4237,7 +4457,7 @@
     {
       "source": "喬瑟夫-ChillSeph",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "喬瑟夫-ChillSeph",
@@ -4307,7 +4527,7 @@
     {
       "source": "啾啾鞋",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "啾啾鞋",
@@ -4337,7 +4557,7 @@
     {
       "source": "啾啾鞋",
       "target": "RuRu（Ru味春捲）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "啾啾鞋",
@@ -4377,7 +4597,7 @@
     {
       "source": "羅時豐",
       "target": "千千-Chien-Chien",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "羅時豐",
@@ -4457,7 +4677,7 @@
     {
       "source": "關關關兒",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "關關關兒",
@@ -4497,12 +4717,12 @@
     {
       "source": "關關關兒",
       "target": "一隻阿圓",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "關關關兒",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "關關關兒",
@@ -4711,13 +4931,53 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "館長-陳之漢",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "蔡阿嘎-蔡緯嘉",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "嘎嫂二伯&蔡波能",
       "type": "single"
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "張志祺（志祺七七-X-圖文不符）",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "亞拉（貓貓蟲咖波）",
       "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "反骨男孩-WACKYBOYS",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "Andy老師-王崇睿",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "呱吉-邱威傑",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "黃氏兄弟",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "阿滴-都省瑞",
+      "type": "single"
     },
     {
       "source": "洋蔥（Onion-Man）",
@@ -4731,8 +4991,38 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "琳妲-林羿禎",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "曾博恩",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "儒哥",
       "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "小吳（見習網美小吳）",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "喬瑟夫-ChillSeph",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "啾啾鞋",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "關關關兒",
+      "type": "mutual"
     },
     {
       "source": "洋蔥（Onion-Man）",
@@ -4751,12 +5041,42 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "霸軒與小美-Baxuan-&-Mei",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "蓋彼-Gabi",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "志銘與狸貓",
       "type": "single"
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "蛇丸",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "千千-Chien-Chien",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "哲哲-黃雍哲",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "蛋哥",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "小賴-賴晏駒",
       "type": "single"
     },
     {
@@ -4766,13 +5086,33 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "白癡公主",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "6tan",
       "type": "mutual"
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "阿部瑪利亞",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "床編故事-Bad-Time-Stories",
       "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "賀瓏-Hello",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "一隻阿圓",
+      "type": "mutual"
     },
     {
       "source": "洋蔥（Onion-Man）",
@@ -4782,11 +5122,26 @@
     {
       "source": "洋蔥（Onion-Man）",
       "target": "許廷瑞（超認真少年Imserious）",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "HowHow-陳孜昊",
       "type": "single"
     },
     {
       "source": "洋蔥（Onion-Man）",
       "target": "希露弟弟啃雞腿",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "愛莉莎莎-Alisasa",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "林進",
       "type": "single"
     },
     {
@@ -4801,7 +5156,42 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "賤葆-J-Bao",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "恩熙俊",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "溫妮-黃于恩",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "DE-JuN",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "滴妹-都冠伶",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "HOOK",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "鳥屎",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "鐵牛-伍嘉緯",
       "type": "single"
     },
     {
@@ -4812,11 +5202,41 @@
     {
       "source": "洋蔥（Onion-Man）",
       "target": "RuRu（Ru味春捲）",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "阿啾",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "品筠&京燁（那對夫妻）",
       "type": "single"
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "那個女生-Kiki",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "Zoebitalk肉比頭",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "理科太太-Li-Ke-Tai-Tai",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "本本",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "焦凡凡",
       "type": "single"
     },
     {
@@ -4826,12 +5246,42 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "奎丁",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "烏鴉DoKa",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "咪蕾-미래",
       "type": "single"
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "蔡哥",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "小許",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "泡泡哥哥",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "小哥哥艾理-陳玟里",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "吳卓源-Julia-Wu",
       "type": "single"
     },
     {
@@ -4846,6 +5296,26 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "草爺（含羞草日記）",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "艾瑞絲-Aries",
+      "type": "mutual"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "展榮&展瑞",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "微疼",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "茶里",
       "type": "mutual"
     },
@@ -4856,13 +5326,33 @@
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "營養健身葛格Peeta",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
       "type": "mutual"
     },
     {
       "source": "洋蔥（Onion-Man）",
+      "target": "劉沛",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "咪妃",
+      "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
       "target": "尊-朱玉恩（人生肥宅x尊）",
       "type": "single"
+    },
+    {
+      "source": "洋蔥（Onion-Man）",
+      "target": "泱泱-吳泱潾-LYNN",
+      "type": "mutual"
     },
     {
       "source": "Lobo-蘿蔔",
@@ -4977,7 +5467,7 @@
     {
       "source": "瑋瑋-黃挺瑋",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "瑋瑋-黃挺瑋",
@@ -5007,7 +5497,7 @@
     {
       "source": "瑋瑋-黃挺瑋",
       "target": "RuRu（Ru味春捲）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "瑋瑋-黃挺瑋",
@@ -5057,7 +5547,7 @@
     {
       "source": "瑋瑋-黃挺瑋",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "瑋瑋-黃挺瑋",
@@ -5087,7 +5577,7 @@
     {
       "source": "孫沁岳",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "孫沁岳",
@@ -5287,7 +5777,7 @@
     {
       "source": "霸軒與小美-Baxuan-&-Mei",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "霸軒與小美-Baxuan-&-Mei",
@@ -5422,7 +5912,7 @@
     {
       "source": "蓋彼-Gabi",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蓋彼-Gabi",
@@ -5432,7 +5922,7 @@
     {
       "source": "蓋彼-Gabi",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蓋彼-Gabi",
@@ -5517,7 +6007,7 @@
     {
       "source": "蛇丸",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蛇丸",
@@ -5532,7 +6022,7 @@
     {
       "source": "蛇丸",
       "target": "千千-Chien-Chien",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蛇丸",
@@ -5562,12 +6052,12 @@
     {
       "source": "蛇丸",
       "target": "一隻阿圓",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蛇丸",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蛇丸",
@@ -5577,7 +6067,7 @@
     {
       "source": "蛇丸",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "蛇丸",
@@ -5696,6 +6186,11 @@
     },
     {
       "source": "千千-Chien-Chien",
+      "target": "蔡桃貴",
+      "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
       "target": "張志祺（志祺七七-X-圖文不符）",
       "type": "mutual"
     },
@@ -5703,6 +6198,16 @@
       "source": "千千-Chien-Chien",
       "target": "唐綺陽",
       "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "Den",
+      "type": "mutual"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "呱吉-邱威傑",
+      "type": "mutual"
     },
     {
       "source": "千千-Chien-Chien",
@@ -5717,7 +6222,7 @@
     {
       "source": "千千-Chien-Chien",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "千千-Chien-Chien",
@@ -5731,8 +6236,18 @@
     },
     {
       "source": "千千-Chien-Chien",
+      "target": "喬瑟夫-ChillSeph",
+      "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
       "target": "啾啾鞋",
       "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "羅時豐",
+      "type": "mutual"
     },
     {
       "source": "千千-Chien-Chien",
@@ -5742,7 +6257,7 @@
     {
       "source": "千千-Chien-Chien",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "千千-Chien-Chien",
@@ -5756,12 +6271,27 @@
     },
     {
       "source": "千千-Chien-Chien",
+      "target": "蛇丸",
+      "type": "mutual"
+    },
+    {
+      "source": "千千-Chien-Chien",
       "target": "哲哲-黃雍哲",
       "type": "single"
     },
     {
       "source": "千千-Chien-Chien",
+      "target": "小賴-賴晏駒",
+      "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
       "target": "白癡公主",
+      "type": "mutual"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "6tan",
       "type": "mutual"
     },
     {
@@ -5772,6 +6302,16 @@
     {
       "source": "千千-Chien-Chien",
       "target": "一隻阿圓",
+      "type": "mutual"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "許廷瑞（超認真少年Imserious）",
+      "type": "mutual"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "愛莉莎莎-Alisasa",
       "type": "mutual"
     },
     {
@@ -5806,8 +6346,13 @@
     },
     {
       "source": "千千-Chien-Chien",
-      "target": "RuRu（Ru味春捲）",
+      "target": "鐵牛-伍嘉緯",
       "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "RuRu（Ru味春捲）",
+      "type": "mutual"
     },
     {
       "source": "千千-Chien-Chien",
@@ -5866,7 +6411,22 @@
     },
     {
       "source": "千千-Chien-Chien",
+      "target": "草爺（含羞草日記）",
+      "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
       "target": "展榮&展瑞",
+      "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "彼得爸與蘇珊媽",
+      "type": "mutual"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "丹妮婊姐",
       "type": "single"
     },
     {
@@ -5877,6 +6437,11 @@
     {
       "source": "千千-Chien-Chien",
       "target": "劉沛",
+      "type": "single"
+    },
+    {
+      "source": "千千-Chien-Chien",
+      "target": "哲睿-Jerry",
       "type": "single"
     },
     {
@@ -6072,7 +6637,7 @@
     {
       "source": "白癡公主",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "白癡公主",
@@ -6082,7 +6647,7 @@
     {
       "source": "白癡公主",
       "target": "小吳（見習網美小吳）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "白癡公主",
@@ -6132,7 +6697,7 @@
     {
       "source": "白癡公主",
       "target": "一隻阿圓",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "白癡公主",
@@ -6302,7 +6867,7 @@
     {
       "source": "6tan",
       "target": "千千-Chien-Chien",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "6tan",
@@ -6442,7 +7007,7 @@
     {
       "source": "賀瓏-Hello",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "賀瓏-Hello",
@@ -6457,7 +7022,7 @@
     {
       "source": "賀瓏-Hello",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "賀瓏-Hello",
@@ -6536,13 +7101,33 @@
     },
     {
       "source": "一隻阿圓",
+      "target": "蔡阿嘎-蔡緯嘉",
+      "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
       "target": "嘎嫂二伯&蔡波能",
       "type": "mutual"
     },
     {
       "source": "一隻阿圓",
+      "target": "蔡桃貴",
+      "type": "single"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "鍾明軒",
+      "type": "single"
+    },
+    {
+      "source": "一隻阿圓",
       "target": "居妮-Ginny",
       "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "Andy老師-王崇睿",
+      "type": "single"
     },
     {
       "source": "一隻阿圓",
@@ -6556,7 +7141,17 @@
     },
     {
       "source": "一隻阿圓",
+      "target": "琳妲-林羿禎",
+      "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
       "target": "曾博恩",
+      "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "小吳（見習網美小吳）",
       "type": "mutual"
     },
     {
@@ -6576,8 +7171,18 @@
     },
     {
       "source": "一隻阿圓",
-      "target": "洋蔥（Onion-Man）",
+      "target": "關關關兒",
+      "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "阿神",
       "type": "single"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "洋蔥（Onion-Man）",
+      "type": "mutual"
     },
     {
       "source": "一隻阿圓",
@@ -6596,6 +7201,11 @@
     },
     {
       "source": "一隻阿圓",
+      "target": "蛇丸",
+      "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
       "target": "千千-Chien-Chien",
       "type": "mutual"
     },
@@ -6603,6 +7213,11 @@
       "source": "一隻阿圓",
       "target": "哲哲-黃雍哲",
       "type": "single"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "白癡公主",
+      "type": "mutual"
     },
     {
       "source": "一隻阿圓",
@@ -6621,18 +7236,23 @@
     },
     {
       "source": "一隻阿圓",
+      "target": "HowHow-陳孜昊",
+      "type": "single"
+    },
+    {
+      "source": "一隻阿圓",
       "target": "希露弟弟啃雞腿",
       "type": "single"
     },
     {
       "source": "一隻阿圓",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "一隻阿圓",
       "target": "林進",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "一隻阿圓",
@@ -6642,6 +7262,11 @@
     {
       "source": "一隻阿圓",
       "target": "賤葆-J-Bao",
+      "type": "single"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "恩熙俊",
       "type": "single"
     },
     {
@@ -6656,8 +7281,18 @@
     },
     {
       "source": "一隻阿圓",
+      "target": "HOOK",
+      "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
       "target": "喬老師（MR.JOE-HOBBY.tv）",
       "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "鐵牛-伍嘉緯",
+      "type": "single"
     },
     {
       "source": "一隻阿圓",
@@ -6672,6 +7307,11 @@
     {
       "source": "一隻阿圓",
       "target": "本本",
+      "type": "single"
+    },
+    {
+      "source": "一隻阿圓",
+      "target": "焦凡凡",
       "type": "single"
     },
     {
@@ -6726,6 +7366,11 @@
     },
     {
       "source": "一隻阿圓",
+      "target": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
+      "type": "mutual"
+    },
+    {
+      "source": "一隻阿圓",
       "target": "劉沛",
       "type": "single"
     },
@@ -6752,6 +7397,221 @@
     {
       "source": "超粒方",
       "target": "泡泡哥哥",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "蔡阿嘎-蔡緯嘉",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "嘎嫂二伯&蔡波能",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "Cheap-鄭才暐",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "張志祺（志祺七七-X-圖文不符）",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "反骨男孩-WACKYBOYS",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "黃明志",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "呱吉-邱威傑",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "黃氏兄弟",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "阿滴-都省瑞",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "許伯&簡芝（倉鼠人）",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "喬瑟夫-ChillSeph",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "啾啾鞋",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "羅時豐",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "關關關兒",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "洋蔥（Onion-Man）",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "瑋瑋-黃挺瑋",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "好味小姐-Lady-Flavor",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "志銘與狸貓",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "蛇丸",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "千千-Chien-Chien",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "哲哲-黃雍哲",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "白癡公主",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "賀瓏-Hello",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "HowHow-陳孜昊",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "賤葆-J-Bao",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "滴妹-都冠伶",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "HOOK",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "百靈果",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "鄭毓倫（台南Josh）",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "Zoebitalk肉比頭",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "理科太太-Li-Ke-Tai-Tai",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "令&一粒（壹加壹）",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "奎丁",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "蔡哥",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "Allen（Men's-Game-玩物誌）",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "韓國女生Judy",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "中指通",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "解婕翎",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "草爺（含羞草日記）",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "詹姆士",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "歐耶老師",
+      "type": "single"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
+      "type": "mutual"
+    },
+    {
+      "source": "許廷瑞（超認真少年Imserious）",
+      "target": "Celine-and-Cynthia---不只是旅行",
       "type": "single"
     },
     {
@@ -6818,6 +7678,331 @@
       "source": "HowHow-陳孜昊",
       "target": "劉沛",
       "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "蔡阿嘎-蔡緯嘉",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "嘎嫂二伯&蔡波能",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "蔡桃貴",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "鍾明軒",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "反骨男孩-WACKYBOYS",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "居妮-Ginny",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "黃明志",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "薔薔-林嘉凌",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "呱吉-邱威傑",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "葳老闆-周品均",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "黃氏兄弟",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "阿滴-都省瑞",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "琳妲-林羿禎",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "曾博恩",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "小吳（見習網美小吳）",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "喬瑟夫-ChillSeph",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "啾啾鞋",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "超強系列",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "王思佳",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "洋蔥（Onion-Man）",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "瑋瑋-黃挺瑋",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "Ryu",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "蓋彼-Gabi",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "蛇丸",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "千千-Chien-Chien",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "哲哲-黃雍哲",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "白癡公主",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "阿部瑪利亞",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "賀瓏-Hello",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "一隻阿圓",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "超粒方",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "HowHow-陳孜昊",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "林進",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "賤葆-J-Bao",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "恩熙俊",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "溫妮-黃于恩",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "滴妹-都冠伶",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "HOOK",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "李芷婷",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "那個女生-Kiki",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "理科太太-Li-Ke-Tai-Tai",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "本本",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "焦凡凡",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "令&一粒（壹加壹）",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "奎丁",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "77老大",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "烏鴉DoKa",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "咪蕾-미래",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "蔡哥",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "可可酒精",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "阿翰",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "泡泡哥哥",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "蒼藍鴿的醫學天地",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "吳卓源-Julia-Wu",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "解婕翎",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "草爺（含羞草日記）",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "艾瑞絲-Aries",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "展榮&展瑞",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "錫蘭-Ceylan",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "彼得爸與蘇珊媽",
+      "type": "mutual"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "營養健身葛格Peeta",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "丹妮婊姐",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "劉沛",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "Celine-and-Cynthia---不只是旅行",
+      "type": "single"
+    },
+    {
+      "source": "愛莉莎莎-Alisasa",
+      "target": "咪妃",
+      "type": "mutual"
     },
     {
       "source": "Bobo&Kira（Bobo-TV）",
@@ -6992,7 +8177,7 @@
     {
       "source": "Bobo&Kira（Bobo-TV）",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "Bobo&Kira（Bobo-TV）",
@@ -7012,6 +8197,211 @@
     {
       "source": "欣西亞和Shane",
       "target": "千千-Chien-Chien",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "蔡阿嘎-蔡緯嘉",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "嘎嫂二伯&蔡波能",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "蔡桃貴",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "鍾明軒",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "唐綺陽",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "反骨男孩-WACKYBOYS",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "黃明志",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "Andy老師-王崇睿",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "薔薔-林嘉凌",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "黃氏兄弟",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "阿滴-都省瑞",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "琳妲-林羿禎",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "小吳（見習網美小吳）",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "王思佳",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "瑋瑋-黃挺瑋",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "蛇丸",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "千千-Chien-Chien",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "哲哲-黃雍哲",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "小賴-賴晏駒",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "白癡公主",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "一隻阿圓",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "西西歪",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "愛莉莎莎-Alisasa",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "布萊克薛薛",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "溫妮-黃于恩",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "鐵牛-伍嘉緯",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "理科太太-Li-Ke-Tai-Tai",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "本本",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "焦凡凡",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "奎丁",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "77老大",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "阿翰",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "泡泡哥哥",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "小哥哥艾理-陳玟里",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "解婕翎",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "草爺（含羞草日記）",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "艾瑞絲-Aries",
+      "type": "mutual"
+    },
+    {
+      "source": "林進",
+      "target": "展榮&展瑞",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "丹妮婊姐",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "劉沛",
+      "type": "single"
+    },
+    {
+      "source": "林進",
+      "target": "孫建豪（孫安佐）",
       "type": "single"
     },
     {
@@ -7102,7 +8492,7 @@
     {
       "source": "Ricky&Nina（我們倆）",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "龜狗",
@@ -7147,7 +8537,7 @@
     {
       "source": "溫妮-黃于恩",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "溫妮-黃于恩",
@@ -7172,7 +8562,7 @@
     {
       "source": "溫妮-黃于恩",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "溫妮-黃于恩",
@@ -7222,7 +8612,7 @@
     {
       "source": "溫妮-黃于恩",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "溫妮-黃于恩",
@@ -7347,7 +8737,7 @@
     {
       "source": "HOOK",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "HOOK",
@@ -7392,7 +8782,7 @@
     {
       "source": "HOOK",
       "target": "一隻阿圓",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "HOOK",
@@ -7432,7 +8822,7 @@
     {
       "source": "HOOK",
       "target": "RuRu（Ru味春捲）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "HOOK",
@@ -7700,6 +9090,136 @@
       "type": "single"
     },
     {
+      "source": "RuRu（Ru味春捲）",
+      "target": "張志祺（志祺七七-X-圖文不符）",
+      "type": "mutual"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "亞拉（貓貓蟲咖波）",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "黃氏兄弟",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "阿滴-都省瑞",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "啾啾鞋",
+      "type": "mutual"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "關關關兒",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "洋蔥（Onion-Man）",
+      "type": "mutual"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "瑋瑋-黃挺瑋",
+      "type": "mutual"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "好味小姐-Lady-Flavor",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "千千-Chien-Chien",
+      "type": "mutual"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "哲哲-黃雍哲",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "阿部瑪利亞",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "床編故事-Bad-Time-Stories",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "超粒方",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "HowHow-陳孜昊",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "滴妹-都冠伶",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "HOOK",
+      "type": "mutual"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "喬老師（MR.JOE-HOBBY.tv）",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "鳥屎",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "鐵牛-伍嘉緯",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "那個女生-Kiki",
+      "type": "mutual"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "蔡哥",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "艾爾文",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "解婕翎",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "咪妃",
+      "type": "single"
+    },
+    {
+      "source": "RuRu（Ru味春捲）",
+      "target": "泱泱-吳泱潾-LYNN",
+      "type": "mutual"
+    },
+    {
       "source": "阿啾",
       "target": "亞拉（貓貓蟲咖波）",
       "type": "mutual"
@@ -7712,7 +9232,7 @@
     {
       "source": "阿啾",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "阿啾",
@@ -7767,7 +9287,7 @@
     {
       "source": "鄭毓倫（台南Josh）",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "鄭毓倫（台南Josh）",
@@ -7872,7 +9392,7 @@
     {
       "source": "那個女生-Kiki",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "那個女生-Kiki",
@@ -7922,7 +9442,7 @@
     {
       "source": "那個女生-Kiki",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "那個女生-Kiki",
@@ -7952,7 +9472,7 @@
     {
       "source": "那個女生-Kiki",
       "target": "RuRu（Ru味春捲）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "那個女生-Kiki",
@@ -8072,7 +9592,7 @@
     {
       "source": "理科太太-Li-Ke-Tai-Tai",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "理科太太-Li-Ke-Tai-Tai",
@@ -8092,7 +9612,7 @@
     {
       "source": "理科太太-Li-Ke-Tai-Tai",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "理科太太-Li-Ke-Tai-Tai",
@@ -8172,7 +9692,7 @@
     {
       "source": "77老大",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "77老大",
@@ -8227,12 +9747,12 @@
     {
       "source": "77老大",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "77老大",
       "target": "林進",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "77老大",
@@ -8357,12 +9877,12 @@
     {
       "source": "烏鴉DoKa",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "烏鴉DoKa",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "烏鴉DoKa",
@@ -8392,7 +9912,7 @@
     {
       "source": "小許",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "小許",
@@ -8517,7 +10037,7 @@
     {
       "source": "韓國女生Judy",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "韓國女生Judy",
@@ -8591,6 +10111,11 @@
     },
     {
       "source": "艾瑞絲-Aries",
+      "target": "洋蔥（Onion-Man）",
+      "type": "mutual"
+    },
+    {
+      "source": "艾瑞絲-Aries",
       "target": "瑋瑋-黃挺瑋",
       "type": "mutual"
     },
@@ -8637,12 +10162,12 @@
     {
       "source": "艾瑞絲-Aries",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "艾瑞絲-Aries",
       "target": "林進",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "艾瑞絲-Aries",
@@ -8656,8 +10181,18 @@
     },
     {
       "source": "艾瑞絲-Aries",
+      "target": "滴妹-都冠伶",
+      "type": "single"
+    },
+    {
+      "source": "艾瑞絲-Aries",
       "target": "HOOK",
       "type": "mutual"
+    },
+    {
+      "source": "艾瑞絲-Aries",
+      "target": "鐵牛-伍嘉緯",
+      "type": "single"
     },
     {
       "source": "艾瑞絲-Aries",
@@ -8672,6 +10207,11 @@
     {
       "source": "艾瑞絲-Aries",
       "target": "鄭毓倫（台南Josh）",
+      "type": "single"
+    },
+    {
+      "source": "艾瑞絲-Aries",
+      "target": "本本",
       "type": "single"
     },
     {
@@ -8701,6 +10241,11 @@
     },
     {
       "source": "艾瑞絲-Aries",
+      "target": "展榮&展瑞",
+      "type": "single"
+    },
+    {
+      "source": "艾瑞絲-Aries",
       "target": "微疼",
       "type": "single"
     },
@@ -8713,6 +10258,11 @@
       "source": "艾瑞絲-Aries",
       "target": "咪妃",
       "type": "mutual"
+    },
+    {
+      "source": "艾瑞絲-Aries",
+      "target": "孫建豪（孫安佐）",
+      "type": "single"
     },
     {
       "source": "茶里",
@@ -8757,7 +10307,7 @@
     {
       "source": "李勛-SHIN-LI",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "李勛-SHIN-LI",
@@ -8888,6 +10438,181 @@
       "source": "塞門-Psyman",
       "target": "劉沛",
       "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "館長-陳之漢",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "蔡阿嘎-蔡緯嘉",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "嘎嫂二伯&蔡波能",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "蔡桃貴",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "鍾明軒",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "恩恩老師EanTV",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "居妮-Ginny",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "薔薔-林嘉凌",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "黃氏兄弟",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "琳妲-林羿禎",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "啾啾鞋",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "阿神",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "瑋瑋-黃挺瑋",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "Ryu",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "志銘與狸貓",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "千千-Chien-Chien",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "哲哲-黃雍哲",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "HowHow-陳孜昊",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "愛莉莎莎-Alisasa",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "Bobo&Kira（Bobo-TV）",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "Ricky&Nina（我們倆）",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "黑男",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "品筠&京燁（那對夫妻）",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "Zoebitalk肉比頭",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "理科太太-Li-Ke-Tai-Tai",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "令&一粒（壹加壹）",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "Allen（Men's-Game-玩物誌）",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "阿翰",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "蒼藍鴿的醫學天地",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "展榮&展瑞",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "李勛-SHIN-LI",
+      "type": "mutual"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "豹子腿-方昶詠",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "鵝肉麵",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "劉沛",
+      "type": "single"
+    },
+    {
+      "source": "彼得爸與蘇珊媽",
+      "target": "咪妃",
+      "type": "mutual"
     },
     {
       "source": "權證小哥",
@@ -9052,12 +10777,12 @@
     {
       "source": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
       "target": "一隻阿圓",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
       "target": "許廷瑞（超認真少年Imserious）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "Ian與Eric（The-DoDo-Men---嘟嘟人）",
@@ -9167,7 +10892,7 @@
     {
       "source": "咪妃",
       "target": "琳妲-林羿禎",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "咪妃",
@@ -9202,7 +10927,7 @@
     {
       "source": "咪妃",
       "target": "愛莉莎莎-Alisasa",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "咪妃",
@@ -9262,7 +10987,7 @@
     {
       "source": "咪妃",
       "target": "彼得爸與蘇珊媽",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "柴鼠兄弟",
@@ -9392,7 +11117,7 @@
     {
       "source": "泱泱-吳泱潾-LYNN",
       "target": "洋蔥（Onion-Man）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "泱泱-吳泱潾-LYNN",
@@ -9462,7 +11187,7 @@
     {
       "source": "泱泱-吳泱潾-LYNN",
       "target": "RuRu（Ru味春捲）",
-      "type": "single"
+      "type": "mutual"
     },
     {
       "source": "泱泱-吳泱潾-LYNN",
