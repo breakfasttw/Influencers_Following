@@ -8,9 +8,11 @@ import os
 # ==========================================
 # 參數與路徑設定
 # ==========================================
-MASTER_LIST_PATH = 'Top200_ig_20260126.csv'
+MASTER_LIST_PATH = 'Aisa100_ig.csv'
 # 讀取第一階段產出的邊清單，請確保檔案位於 Output 資料夾或根目錄
 EDGE_LIST_PATH = 'Output/username_edge_list.csv' 
+TOTAL_FOLLOWING_PATH = 'Output/username_total_following.csv'
+
 if not os.path.exists(EDGE_LIST_PATH):
     EDGE_LIST_PATH = 'username_edge_list.csv'
 
@@ -26,6 +28,8 @@ def run_phase_2_updated():
     # ==========================================
     # 1. 讀取母體清單以決定固定順序 (Rank Order)
     # ==========================================
+
+    # 1. 讀取母體清單
     if not os.path.exists(MASTER_LIST_PATH):
         print(f"錯誤：找不到母體名單檔案 {MASTER_LIST_PATH}")
         return
@@ -35,30 +39,50 @@ def run_phase_2_updated():
     master_df.columns = master_df.columns.str.strip()
     
     # 提取姓名並將空格換成 "-"，使用 dict.fromkeys 維持原始排序並去重
-    raw_names = master_df['person_name'].astype(str).str.replace(' ', '-', regex=False)
-    ordered_influencers = list(dict.fromkeys(raw_names))
+    # raw_names = master_df['person_name'].astype(str).str.replace(r'[ ,，]+', '-', regex=True)
+    # ordered_influencers = list(dict.fromkeys(raw_names))
+
+    # --- [關鍵修正：先建立 clean_person_name 欄位] ---
+    # 這裡整合了你之前提到的需求：遇到 逗號(全/半形)和空白，就取代為 "-"
+    master_df['clean_person_name'] = master_df['person_name'].astype(str).str.strip().str.replace(r'[ ,，]+', '-', regex=True)
+
+    # [保留你原本的邏輯]：使用 dict.fromkeys 維持原始排序並去重
+    # 這裡改用剛剛產生的 clean_person_name 確保後續矩陣 key 值一致
+    ordered_influencers = list(dict.fromkeys(master_df['clean_person_name'].tolist()))
     
+    # --- [修正後的去重邏輯] ---
+    # 現在欄位已經存在了，可以安全執行 drop_duplicates
+    unique_master = master_df.drop_duplicates(subset=['clean_person_name'], keep='first')
+    
+    # 建立 Mapping 字典 (從去重後的資料中提取)
+    url_map = dict(zip(unique_master['clean_person_name'], unique_master['ig_url']))
+    rank_map = dict(zip(unique_master['clean_person_name'], unique_master['order']))
+
+
+
+    # 讀取 Edge List
+    if not os.path.exists(EDGE_LIST_PATH):
+        print(f"錯誤：找不到邊清單檔案 {EDGE_LIST_PATH}")
+        return
+
+    edge_df = pd.read_csv(EDGE_LIST_PATH)
+
+
     # 建立排名映射表 (1 為排行榜第一名)
     rank_map = {name: i + 1 for i, name in enumerate(ordered_influencers)}
     
-    node_count = len(ordered_influencers)
-    print(f"成功加載 {node_count} 位網紅，矩陣將依照原始熱搜排行榜順序排列。")
-
     # ==========================================
     # 2. 初始化鄰接矩陣 (Adjacency Matrix 0/1)
     # ==========================================
     # Row 代表發起追蹤者，Column 代表被追蹤者
+
+    # 2. 建立矩陣
+    node_count = len(ordered_influencers)
+    print(f"成功加載 {node_count} 位網紅，矩陣將依照原始熱搜排行榜順序排列。")
     adj_matrix = pd.DataFrame(0, index=ordered_influencers, columns=ordered_influencers)
     
-    # 讀取邊清單
-    if not os.path.exists(EDGE_LIST_PATH):
-        print(f"錯誤：找不到邊清單檔案 {EDGE_LIST_PATH}")
-        return
-            
-    edges_df = pd.read_csv(EDGE_LIST_PATH)
-    
     # 將追蹤關係填入矩陣
-    for _, row in edges_df.iterrows():
+    for _, row in edge_df.iterrows():
         src, tgt = str(row['source']), str(row['target'])
         if src in adj_matrix.index and tgt in adj_matrix.columns:
             adj_matrix.at[src, tgt] = 1
@@ -82,15 +106,38 @@ def run_phase_2_updated():
     # 互粉數：在互惠矩陣中數值等於 2 的次數
     mutual_count = (recip_matrix == 2).sum(axis=1)
     
-    # 彙整摘要報告
+    # 1. 建立名稱與 URL 的映射字典
+    # 先對 master_df 進行去重，只保留每位網紅的第一筆資料 (預設 keep='first' 就會依據 order 順序取第一個)
+    unique_master = master_df.drop_duplicates(subset=['clean_person_name'], keep='first')
+
+    # 2. 建立 Mapping 字典
+    url_map = dict(zip(unique_master['clean_person_name'], unique_master['ig_url']))
+    rank_map = dict(zip(unique_master['clean_person_name'], unique_master['order']))
+
+    # 3. 彙整摘要報告 (這時長度就會完全對齊 ordered_influencers 的 100 筆)
     metrics_report = pd.DataFrame({
-        'Original_Rank': [rank_map[name] for name in ordered_influencers],
+        'Original_Rank': [rank_map.get(name, 999) for name in ordered_influencers],
         'Person_Name': ordered_influencers,
         'In_Degree (被追蹤數)': in_degree.values,
         'Out_Degree (主動追蹤數)': out_degree.values,
         'Mutual_Follow (互粉數)': mutual_count.values,
-        'Network_Influence_Score': (in_degree.values / (node_count - 1) * 100).round(2)
+        'Network_Influence_Score': (in_degree.values / (node_count - 1) * 100).round(2),
+        
+        # 根據去重後的字典抓取 URL
+        'ig_url': [url_map.get(name, '') for name in ordered_influencers]
     })
+
+    # ==========================================
+    # 4-1. 整合 distinct_following 欄位
+    # ==========================================
+    if os.path.exists(TOTAL_FOLLOWING_PATH):
+        total_df = pd.read_csv(TOTAL_FOLLOWING_PATH)
+        # 建立 source -> distinct_following 的映射字典，注意這裡也要處理空格換成 "-" 的一致性
+        total_df['source'] = total_df['source'].str.strip().str.replace(' ', '-')
+        follow_map = dict(zip(total_df['source'], total_df['distinct_following']))
+        
+        # 新增欄位，使用 map 對應 Person_Name
+        metrics_report['distinct_following'] = metrics_report['Person_Name'].map(follow_map).fillna(0).astype(int)
 
     # ==========================================
     # 5. 輸出結果檔案
