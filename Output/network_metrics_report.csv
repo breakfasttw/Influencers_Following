@@ -1,101 +1,101 @@
-﻿Original_Rank,Person_Name,In_Degree (被追蹤數),Out_Degree (主動追蹤數),Mutual_Follow (互粉數),Network_Influence_Score,ig_url,distinct_following
-1,蔡阿嘎,48,30,28,48.48,https://www.instagram.com/yga0721/,500
-2,PanSci-泛科學,5,12,2,5.05,https://www.instagram.com/pansci/,397
-3,黃阿瑪的後宮生活,15,9,5,15.15,https://www.instagram.com/fumeancat/,159
-4,小象愛出門,9,12,7,9.09,https://www.instagram.com/elephant_gogo/,1127
-5,那對夫妻,9,1,1,9.09,https://www.instagram.com/1006nk/,42
-6,大蛇丸,33,30,26,33.33,https://www.instagram.com/jam_cutepig/,378
-7,Aries艾瑞絲,30,32,29,30.3,https://www.instagram.com/aries_8248/,940
-8,陳彥婷,29,29,25,29.29,https://www.instagram.com/thetiffanychen/,352
-9,Joeman,45,48,42,45.45,https://www.instagram.com/joemanweng/,985
-10,一隻阿圓,37,24,23,37.37,https://www.instagram.com/nanaciaociao/,590
-11,豆漿--Soybean-Milk,5,5,3,5.05,https://www.instagram.com/soybeanmilk_cat/,34
-12,貓貓蟲-咖波,10,15,8,10.1,https://www.instagram.com/bugcat_capoo/,291
-13,人類超有病-Baxuan,19,27,17,19.19,https://www.instagram.com/baxuan_ig/,2828
-14,蕾菈-Lyla,34,46,32,34.34,https://www.instagram.com/la.112814/,1600
-15,好味小姐,14,12,7,14.14,https://www.instagram.com/ladyflavor/,217
-16,小A辣,14,16,13,14.14,https://www.instagram.com/ala780705/,1481
-17,泱泱-LYNN,6,18,4,6.06,https://www.instagram.com/lynnwu0219_2/,93
-18,千千進食中,43,39,35,43.43,https://www.instagram.com/khshu_/,962
-19,Sandy-珊迪,19,24,15,19.19,https://www.instagram.com/sandykaka_/,477
-20,飆悍,10,0,0,10.1,https://www.instagram.com/power3067830678/,150
-21,Yun-Chou,20,17,15,20.2,https://www.instagram.com/riceandshine.co/,991
-22,琳妲-林羿禎,36,47,34,36.36,https://www.instagram.com/linda831212/,2400
-23,How-Fun-如何爽,41,7,5,41.41,https://www.instagram.com/howhowhasfriends,103
-24,魔術Channel---Davio,9,10,9,9.09,https://www.instagram.com/davio_magic/,674
-25,HOOK,32,29,21,32.32,https://www.instagram.com/helloiamhook/,446
-26,lan&Eric,22,24,17,22.22,https://www.instagram.com/thedodomen/,481
-27,嘎嫂二伯,33,28,25,33.33,https://www.instagram.com/2uncle987/,700
-28,Peter-Su,8,3,3,8.08,https://www.instagram.com/peter825/,931
-29,Sandy-&-Mandy,2,1,1,2.02,https://www.instagram.com/sandymandy_official/,262
-30,愛莉莎莎-Alisasa,35,36,28,35.35,https://www.instagram.com/goodalicia/,1266
-31,彼得爸與蘇珊媽,9,20,8,9.09,https://www.instagram.com/peter_and_susan/,1251
-32,江老師,13,9,6,13.13,https://www.instagram.com/teacherchiang,621
-33,元元,19,20,18,19.19,https://www.instagram.com/1105ya/,558
-34,林進-飛醺卑鄙-fashion-baby,22,34,19,22.22,https://www.instagram.com/lingin1209/,2245
-35,我是老爸-我不要當爸!,9,11,9,9.09,https://www.instagram.com/daddy.iam/,300
-36,小葵-XiaoKui,13,23,13,13.13,https://www.instagram.com/miao11255/,762
-37,星期天,13,27,11,13.13,https://www.instagram.com/sundayright_dub/,1569
-38,蔡桃貴,22,2,2,22.22,https://www.instagram.com/tsaigray2018/,59
-39,鹿人,13,21,11,13.13,https://www.instagram.com/twodeerman/,207
-40,丹妮婊姐,19,0,0,19.19,https://www.instagram.com/dannybeeech/,2
-41,麻糬爸,5,5,2,5.05,https://www.instagram.com/mochi_dad/,116
-42,這群人TGOP,18,0,0,18.18,https://www.instagram.com/thisgroupofpeople/,15
-43,黃氏兄弟,19,0,0,19.19,https://www.instagram.com/huangbrotherss/,2
-44,KEOKI-BLACK布萊克薛薛,13,4,4,13.13,https://www.instagram.com/k3okii/,398
-45,廉傑克曼,40,42,30,40.4,https://www.instagram.com/jaychang0127/,4006
-46,關韶文,22,19,17,22.22,https://www.instagram.com/ethan_kuan_kuan/,500
-47,Andy老師,29,5,5,29.29,https://www.instagram.com/andy1994x/,57
-48,愛里,17,46,16,17.17,https://www.instagram.com/allie.liao/,1318
-49,台灣吧,5,15,3,5.05,https://www.instagram.com/taiwan_bar/,176
-50,那些電影教我的事,6,1,0,6.06,https://www.instagram.com/lessonsfrommovies/,87
-51,PopDaily,6,0,0,6.06,https://www.instagram.com/popdaily/,20
-52,三原慧悟-Sanyuan_JAPAN,10,13,8,10.1,https://www.instagram.com/sanyuan_japan/,596
-53,Jason-Chen-陳以桐,1,0,0,1.01,https://www.instagram.com/jasondchen/,69
-54,Onion-man-洋蔥先生與阿文,36,51,35,36.36,https://www.instagram.com/onionman__/,921
-55,阿啾繪圖同萌,6,5,5,6.06,https://www.instagram.com/achusan0817/,639
-56,閃電狼Flash-Wolves,1,0,0,1.01,https://www.instagram.com/flashwolves2013/,96
-57,白癡公主,43,25,21,43.43,https://www.instagram.com/87acup/,501
-58,健人蓋仇,9,17,9,9.09,https://www.instagram.com/gu_yuze/,820
-59,Patrick-派翠克,25,14,14,25.25,https://www.instagram.com/patrickliu0721/,563
-60,莊酷炫,46,70,45,46.46,https://www.instagram.com/kevin0204660/,4230
-61,Six-Wang,19,21,18,19.19,https://www.instagram.com/6tan/,445
-62,蘿潔塔的廚房,0,0,0,0.0,https://www.instagram.com/rosalina.kitchen/,36
-63,孫生,29,28,20,29.29,https://www.instagram.com/soon6669/,1104
-64,超認真少年-I'm-Serious,18,25,16,18.18,https://www.instagram.com/imseriou/,744
-65,辣媽Shania,2,3,0,2.02,https://www.instagram.com/lamashania/,412
-66,Lilyflute長笛姐姐,1,2,1,1.01,https://www.instagram.com/lilyflute/,433
-67,Bonjour-Louis!-我是路易,10,11,7,10.1,https://www.instagram.com/bonjour.louis/,385
-68,李恩菲x菲菲,11,12,7,11.11,https://www.instagram.com/aviva_1028/,974
-69,羚小鹿,10,8,7,10.1,https://www.instagram.com/daiying0/,625
-70,虎麗笑嗨嗨,2,2,2,2.02,https://www.instagram.com/hooleefun/,76
-71,林淑芬2.0,2,16,2,2.02,https://www.instagram.com/0_shufen/,542
-72,紫玥桃,0,2,0,0.0,https://www.instagram.com/skauramomo/,1689
-73,黃山料,3,0,0,3.03,https://www.instagram.com/iam_3636/,1
-74,木曜4超玩,16,12,6,16.16,https://www.instagram.com/muyao4/,70
-75,妮妮-Nini,22,35,15,22.22,https://www.instagram.com/nini_food0822/,2823
-76,魚乾,36,40,31,36.36,https://www.instagram.com/annie72127/,496
-77,見習網美小吳,34,34,29,34.34,https://www.instagram.com/beauty___wu/,769
-78,艾爾文,3,1,0,3.03,https://www.instagram.com/alvin701/,141
-79,志祺七七,26,16,13,26.26,https://www.instagram.com/shasha77.daily/,537
-80,欸你這週要幹嘛,22,30,20,22.22,https://www.instagram.com/arielsvlog_816/,472
-81,PEETA葛格,24,28,24,24.24,https://www.instagram.com/peeta.gege/,1820
-82,咪妃Julia,26,21,21,26.26,https://www.instagram.com/juliamisakii/,572
-83,呱吉,31,21,20,31.31,https://www.instagram.com/froggychiu/,719
-84,莊政威-Cliff-Chuang,3,2,2,3.03,https://www.instagram.com/cliffchuang3/,198
-85,漢娜在翻譯,1,0,0,1.01,https://www.instagram.com/hannainjp/,242
-86,Ru's-Piano-Ru味春捲,10,22,10,10.1,https://www.instagram.com/ruruspiano/,693
-87,P.LEAGUE,3,0,0,3.03,https://www.instagram.com/p.league.official/,16
-88,HahaTai-哈哈台,14,29,12,14.14,https://www.instagram.com/hahatai_official/,1092
-89,A力地方媽媽,0,0,0,0.0,https://www.instagram.com/local_mom_ellie/,18
-90,Ines-Wang,3,3,2,3.03,https://www.instagram.com/inesinesw/,810
-91,豪吃來吃,3,3,3,3.03,https://www.instagram.com/howeat219/,219
-92,依梨,2,3,2,2.02,https://www.instagram.com/lebaby0v0/,195
-93,周小葳,3,14,1,3.03,https://www.instagram.com/mayukichou/,1746
-94,Irene-林艾融,10,14,9,10.1,https://www.instagram.com/irenelin0413/,1279
-95,BBpPro-Lin-Ching-Chieh-林敬傑,11,4,4,11.11,https://www.instagram.com/ackj0301_ifbbpro/,328
-96,Emma艾瑪,9,11,8,9.09,https://www.instagram.com/xollox121/,943
-97,電瀨少女-女孩的科技日常,8,11,6,8.08,https://www.instagram.com/aottergirls/,87
-98,喬喬兒Sylvia,5,5,4,5.05,https://www.instagram.com/qqe_52772/,927
-99,柴犬Nana和阿楞的一天,6,0,0,6.06,https://www.instagram.com/nana_aleng/,0
-100,瑀熙-Yuci,22,22,15,22.22,https://www.instagram.com/uccu0323/,612
+﻿Original_Rank,Person_Name,In_Degree (被追蹤數),Out_Degree (主動追蹤數),Mutual_Follow (互粉數),Network_Influence_Score,Betweenness_Centrality,ig_url,,followers,distinct_following,category
+1,蔡阿嘎,48,30,28,48.48,0.031814,https://www.instagram.com/yga0721/,,5893557 ,500,趣味搞笑
+2,PanSci-泛科學,5,12,2,5.05,0.001163,https://www.instagram.com/pansci/,,1830902 ,397,知識教育
+3,黃阿瑪的後宮生活,15,9,5,15.15,0.002719,https://www.instagram.com/fumeancat/,,4117370 ,159,寵物
+4,小象愛出門,9,12,7,9.09,0.004636,https://www.instagram.com/elephant_gogo/,,1158083 ,1127,"美食料理,旅遊"
+5,那對夫妻,9,1,1,9.09,0.000117,https://www.instagram.com/1006nk/,,4576655 ,42,"趣味搞笑,家庭母嬰,表演藝術"
+6,大蛇丸,33,30,26,33.33,0.008047,https://www.instagram.com/jam_cutepig/,,2042767 ,378,趣味搞笑
+7,Aries艾瑞絲,30,32,29,30.3,0.011456,https://www.instagram.com/aries_8248/,,4774089 ,940,"美食料理,表演藝術,趣味搞笑"
+8,陳彥婷,29,29,25,29.29,0.008905,https://www.instagram.com/thetiffanychen/,,1585007 ,352,趣味搞笑
+9,Joeman,45,48,42,45.45,0.046467,https://www.instagram.com/joemanweng/,,3981236 ,985,"美食料理,3C科技,趣味搞笑"
+10,一隻阿圓,37,24,23,37.37,0.022631,https://www.instagram.com/nanaciaociao/,,1725846 ,590,"美妝保養,時尚潮流,旅遊"
+11,豆漿--Soybean-Milk,5,5,3,5.05,0.000259,https://www.instagram.com/soybeanmilk_cat/,,1834682 ,34,寵物
+12,貓貓蟲-咖波,10,15,8,10.1,0.003331,https://www.instagram.com/bugcat_capoo/,,6526761 ,291,表演藝術
+13,人類超有病-Baxuan,19,27,17,19.19,0.010611,https://www.instagram.com/baxuan_ig/,,2784459 ,2828,"表演藝術,趣味搞笑"
+14,蕾菈-Lyla,34,46,32,34.34,0.022878,https://www.instagram.com/la.112814/,,2924293 ,1600,趣味搞笑
+15,好味小姐,14,12,7,14.14,0.002319,https://www.instagram.com/ladyflavor/,,1591823 ,217,"美食料理,寵物"
+16,小A辣,14,16,13,14.14,0.007205,https://www.instagram.com/ala780705/,,2844787 ,1481,趣味搞笑
+17,泱泱-LYNN,6,18,4,6.06,0.000577,https://www.instagram.com/lynnwu0219_2/,,1966599 ,93,帶貨分潤
+18,千千進食中,43,39,35,43.43,0.029612,https://www.instagram.com/khshu_/,,3603862 ,962,美食料理
+19,Sandy-珊迪,19,24,15,19.19,0.01211,https://www.instagram.com/sandykaka_/,,892734 ,477,"美食料理,寵物,遊戲電玩"
+20,飆悍,10,0,0,10.1,0,https://www.instagram.com/power3067830678/,,3377635 ,150,"運動健身,遊戲電玩,時事討論"
+21,Yun-Chou,20,17,15,20.2,0.005798,https://www.instagram.com/riceandshine.co/,,1591069 ,991,家庭母嬰
+22,琳妲-林羿禎,36,47,34,36.36,0.040252,https://www.instagram.com/linda831212/,,2676124 ,2400,"表演藝術,趣味搞笑"
+23,How-Fun-如何爽,41,7,5,41.41,0.012243,https://www.instagram.com/howhowhasfriends,,2759513 ,103,趣味搞笑
+24,魔術Channel---Davio,9,10,9,9.09,0.012075,https://www.instagram.com/davio_magic/,,1018319 ,674,表演藝術
+25,HOOK,32,29,21,32.32,0.011663,https://www.instagram.com/helloiamhook/,,2870332 ,446,"寵物,旅遊,美食料理"
+26,lan&Eric,22,24,17,22.22,0.005044,https://www.instagram.com/thedodomen/,,2209418 ,481,"旅遊,趣味搞笑"
+27,嘎嫂二伯,33,28,25,33.33,0.016039,https://www.instagram.com/2uncle987/,,1197000 ,700,"旅遊,家庭母嬰"
+28,Peter-Su,8,3,3,8.08,8.00E-05,https://www.instagram.com/peter825/,,1439199 ,931,"旅遊,知識教育"
+29,Sandy-&-Mandy,2,1,1,2.02,0,https://www.instagram.com/sandymandy_official/,,4341726 ,262,表演藝術
+30,愛莉莎莎-Alisasa,35,36,28,35.35,0.020846,https://www.instagram.com/goodalicia/,,2280213 ,1266,"美妝保養,時尚潮流"
+31,彼得爸與蘇珊媽,9,20,8,9.09,0.005029,https://www.instagram.com/peter_and_susan/,,740997 ,1251,"旅遊,家庭母嬰,帶貨分潤"
+32,江老師,13,9,6,13.13,0.004282,https://www.instagram.com/teacherchiang,,1325283 ,621,"表演藝術,時尚潮流,家庭母嬰"
+33,元元,19,20,18,19.19,0.004148,https://www.instagram.com/1105ya/,,2063109 ,558,時尚潮流
+34,林進-飛醺卑鄙-fashion-baby,22,34,19,22.22,0.010817,https://www.instagram.com/lingin1209/,,2525842 ,2245,趣味搞笑
+35,我是老爸-我不要當爸!,9,11,9,9.09,0.000702,https://www.instagram.com/daddy.iam/,,1212086 ,300,"旅遊,美食料理"
+36,小葵-XiaoKui,13,23,13,13.13,0.0124,https://www.instagram.com/miao11255/,,732923 ,762,遊戲電玩
+37,星期天,13,27,11,13.13,0.007126,https://www.instagram.com/sundayright_dub/,,1267313 ,1569,綜合其他
+38,蔡桃貴,22,2,2,22.22,5.10E-05,https://www.instagram.com/tsaigray2018/,,2635309 ,59,"家庭母嬰,趣味搞笑"
+39,鹿人,13,21,11,13.13,0.004921,https://www.instagram.com/twodeerman/,,2142976 ,207,"表演藝術,趣味搞笑"
+40,丹妮婊姐,19,0,0,19.19,0,https://www.instagram.com/dannybeeech/,,1175154 ,2,"美妝保養,時尚潮流,趣味搞笑"
+41,麻糬爸,5,5,2,5.05,0.000215,https://www.instagram.com/mochi_dad/,,969539 ,116,表演藝術
+42,這群人TGOP,18,0,0,18.18,0,https://www.instagram.com/thisgroupofpeople/,,6443381 ,15,趣味搞笑
+43,黃氏兄弟,19,0,0,19.19,0,https://www.instagram.com/huangbrotherss/,,3050475 ,2,"趣味搞笑,表演藝術"
+44,KEOKI-BLACK布萊克薛薛,13,4,4,13.13,0.000516,https://www.instagram.com/k3okii/,,1200180 ,398,"旅遊,美食料理"
+45,廉傑克曼,40,42,30,40.4,0.035839,https://www.instagram.com/jaychang0127/,,1161455 ,4006,遊戲電玩
+46,關韶文,22,19,17,22.22,0.004916,https://www.instagram.com/ethan_kuan_kuan/,,1105298 ,500,"美妝保養,趣味搞笑,表演藝術"
+47,Andy老師,29,5,5,29.29,0.002013,https://www.instagram.com/andy1994x/,,4477727 ,57,"趣味搞笑,表演藝術"
+48,愛里,17,46,16,17.17,0.009393,https://www.instagram.com/allie.liao/,,1114973 ,1318,"知識教育,趣味搞笑"
+49,台灣吧,5,15,3,5.05,0.000897,https://www.instagram.com/taiwan_bar/,,1771947 ,176,"知識教育,理財創業"
+50,那些電影教我的事,6,1,0,6.06,8.90E-05,https://www.instagram.com/lessonsfrommovies/,,3868339 ,87,影視評論
+51,PopDaily,6,0,0,6.06,0,https://www.instagram.com/popdaily/,,2000074 ,20,趣味搞笑
+52,三原慧悟-Sanyuan_JAPAN,10,13,8,10.1,0.000186,https://www.instagram.com/sanyuan_japan/,,2189599 ,596,"旅遊,趣味搞笑"
+53,Jason-Chen-陳以桐,1,0,0,1.01,0,https://www.instagram.com/jasondchen/,,5761767 ,69,表演藝術
+54,Onion-man-洋蔥先生與阿文,36,51,35,36.36,0.04908,https://www.instagram.com/onionman__/,,3134649 ,921,"表演藝術,趣味搞笑"
+55,阿啾繪圖同萌,6,5,5,6.06,8.50E-05,https://www.instagram.com/achusan0817/,,2062039 ,639,"表演藝術,趣味搞笑"
+56,閃電狼Flash-Wolves,1,0,0,1.01,0,https://www.instagram.com/flashwolves2013/,,508753 ,96,遊戲電玩
+57,白癡公主,43,25,21,43.43,0.024021,https://www.instagram.com/87acup/,,3798534 ,501,趣味搞笑
+58,健人蓋仇,9,17,9,9.09,0.002414,https://www.instagram.com/gu_yuze/,,1495592 ,820,運動健身
+59,Patrick-派翠克,25,14,14,25.25,0.017433,https://www.instagram.com/patrickliu0721/,,771016 ,563,趣味搞笑
+60,莊酷炫,46,70,45,46.46,0.089863,https://www.instagram.com/kevin0204660/,,1476451 ,4230,趣味搞笑
+61,Six-Wang,19,21,18,19.19,0.00907,https://www.instagram.com/6tan/,,718179 ,445,遊戲電玩
+62,蘿潔塔的廚房,0,0,0,0,0,https://www.instagram.com/rosalina.kitchen/,,3120115 ,36,"美食料理,帶貨分潤"
+63,孫生,29,28,20,29.29,0.016642,https://www.instagram.com/soon6669/,,966105 ,1104,趣味搞笑
+64,超認真少年-I'm-Serious,18,25,16,18.18,0.008737,https://www.instagram.com/imseriou/,,1218277 ,744,知識教育
+65,辣媽Shania,2,3,0,2.02,5.80E-05,https://www.instagram.com/lamashania/,,699785 ,412,美食料理
+66,Lilyflute長笛姐姐,1,2,1,1.01,0,https://www.instagram.com/lilyflute/,,567551 ,433,表演藝術
+67,Bonjour-Louis!-我是路易,10,11,7,10.1,0.001058,https://www.instagram.com/bonjour.louis/,,893167 ,385,旅遊
+68,李恩菲x菲菲,11,12,7,11.11,0.007801,https://www.instagram.com/aviva_1028/,,710364 ,974,"運動健身,表演藝術"
+69,羚小鹿,10,8,7,10.1,0.000997,https://www.instagram.com/daiying0/,,835962 ,625,"美妝保養,旅遊,表演藝術"
+70,虎麗笑嗨嗨,2,2,2,2.02,0,https://www.instagram.com/hooleefun/,,597490 ,76,美食料理
+71,林淑芬2.0,2,16,2,2.02,0.000533,https://www.instagram.com/0_shufen/,,1305884 ,542,綜合其他
+72,紫玥桃,0,2,0,0,0,https://www.instagram.com/skauramomo/,,669630 ,1689,"時尚潮流,表演藝術"
+73,黃山料,3,0,0,3.03,0,https://www.instagram.com/iam_3636/,,815690 ,1,時事討論
+74,木曜4超玩,16,12,6,16.16,0.000792,https://www.instagram.com/muyao4/,,3232620 ,70,旅遊
+75,妮妮-Nini,22,35,15,22.22,0.055387,https://www.instagram.com/nini_food0822/,,742426 ,2823,"時尚潮流,美食料理"
+76,魚乾,36,40,31,36.36,0.029991,https://www.instagram.com/annie72127/,,2021046 ,496,"寵物,遊戲電玩,趣味搞笑"
+77,見習網美小吳,34,34,29,34.34,0.016257,https://www.instagram.com/beauty___wu/,,2449361 ,769,"美妝保養,趣味搞笑"
+78,艾爾文,3,1,0,3.03,0,https://www.instagram.com/alvin701/,,1564384 ,141,知識教育
+79,志祺七七,26,16,13,26.26,0.004808,https://www.instagram.com/shasha77.daily/,,1930515 ,537,"知識教育,時事討論,高階經理人"
+80,欸你這週要幹嘛,22,30,20,22.22,0.009713,https://www.instagram.com/arielsvlog_816/,,2337506 ,472,趣味搞笑
+81,PEETA葛格,24,28,24,24.24,0.007009,https://www.instagram.com/peeta.gege/,,1227284 ,1820,運動健身
+82,咪妃Julia,26,21,21,26.26,0.022079,https://www.instagram.com/juliamisakii/,,1409063 ,572,"遊戲電玩,表演藝術,趣味搞笑"
+83,呱吉,31,21,20,31.31,0.009695,https://www.instagram.com/froggychiu/,,1402647 ,719,"趣味搞笑,時事討論"
+84,莊政威-Cliff-Chuang,3,2,2,3.03,4.00E-06,https://www.instagram.com/cliffchuang3/,,478690 ,198,汽機車
+85,漢娜在翻譯,1,0,0,1.01,0,https://www.instagram.com/hannainjp/,,500526 ,242,旅遊
+86,Ru's-Piano-Ru味春捲,10,22,10,10.1,0.019633,https://www.instagram.com/ruruspiano/,,3019262 ,693,表演藝術
+87,P.LEAGUE,3,0,0,3.03,0,https://www.instagram.com/p.league.official/,,593134 ,16,運動健身
+88,HahaTai-哈哈台,14,29,12,14.14,0.006395,https://www.instagram.com/hahatai_official/,,2011525 ,1092,趣味搞笑
+89,A力地方媽媽,0,0,0,0,0,https://www.instagram.com/local_mom_ellie/,,683065 ,18,"運動健身,美食料理"
+90,Ines-Wang,3,3,2,3.03,0.00044,https://www.instagram.com/inesinesw/,,1024337 ,810,"美妝保養,時尚潮流,帶貨分潤"
+91,豪吃來吃,3,3,3,3.03,0.000173,https://www.instagram.com/howeat219/,,428196 ,219,美食料理
+92,依梨,2,3,2,2.02,0,https://www.instagram.com/lebaby0v0/,,3025968 ,195,"時尚潮流,遊戲電玩"
+93,周小葳,3,14,1,3.03,0.001924,https://www.instagram.com/mayukichou/,,635420 ,1746,"時尚潮流,高階經理人"
+94,Irene-林艾融,10,14,9,10.1,0.004884,https://www.instagram.com/irenelin0413/,,1088905 ,1279,"美妝保養,時尚潮流"
+95,BBpPro-Lin-Ching-Chieh-林敬傑,11,4,4,11.11,0.000229,https://www.instagram.com/ackj0301_ifbbpro/,,561967 ,328,運動健身
+96,Emma艾瑪,9,11,8,9.09,0.006673,https://www.instagram.com/xollox121/,,2020054 ,943,運動健身
+97,電瀨少女-女孩的科技日常,8,11,6,8.08,0.000294,https://www.instagram.com/aottergirls/,,1693313 ,87,3C科技
+98,喬喬兒Sylvia,5,5,4,5.05,0.000254,https://www.instagram.com/qqe_52772/,,1519153 ,927,"美妝保養,旅遊,表演藝術"
+99,柴犬Nana和阿楞的一天,6,0,0,6.06,0,https://www.instagram.com/nana_aleng/,,1115342 ,0,寵物
+100,瑀熙-Yuci,22,22,15,22.22,0.018064,https://www.instagram.com/uccu0323/,,3380376 ,612,"旅遊,遊戲電玩"

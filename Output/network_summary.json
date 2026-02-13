@@ -1,0 +1,36 @@
+{
+    "母體數": 100,
+    "密度(Density)": 0.165758,
+    "互惠率(Reciprocity)": 0.687386,
+    "傳遞性(Transitivity)": 0.409345,
+    "團體凝聚力(Avg Clustering)": 0.472067,
+    "Greedy": {
+        "Group_Count": 6,
+        "Group_Size": [
+            41,
+            37,
+            16,
+            4,
+            1,
+            1
+        ],
+        "Modularity_Score_Q": 0.156972
+    },
+    "Louvain": {
+        "Group_Count": 6,
+        "Group_Size": [
+            18,
+            38,
+            17,
+            25,
+            1,
+            1
+        ],
+        "Modularity_Score_Q": 0.155135
+    },
+    "Walktrap": {
+        "Group_Count": 0,
+        "Group_Size": [],
+        "Modularity_Score_Q": 0
+    }
+}

@@ -1,9 +1,10 @@
-# 產製2種矩陣 (Adjacency 0/1)、(Reciprocity 0/1/2)、入出度摘要報告 network_metrics
+# 產製2種矩陣 (Adjacency 0/1)、(Reciprocity 0/1/2)、入出度與中介摘要報告 network_metrics_reports
 # input = 02-1 的edge 表格
 
 import pandas as pd
 import numpy as np
 import os
+import networkx as nx
 
 # ==========================================
 # 參數與路徑設定
@@ -12,11 +13,12 @@ MASTER_LIST_PATH = 'Aisa100_ig.csv'
 # 讀取第一階段產出的邊清單，請確保檔案位於 Output 資料夾或根目錄
 EDGE_LIST_PATH = 'Output/username_edge_list.csv' 
 TOTAL_FOLLOWING_PATH = 'Output/username_total_following.csv'
+OUTPUT_DIR = 'Output'
 
 if not os.path.exists(EDGE_LIST_PATH):
     EDGE_LIST_PATH = 'username_edge_list.csv'
 
-OUTPUT_DIR = 'Output'
+
 
 # 確保輸出目錄存在
 if not os.path.exists(OUTPUT_DIR):
@@ -38,15 +40,10 @@ def run_phase_2_updated():
     # 清除欄位名稱可能存在的空格
     master_df.columns = master_df.columns.str.strip()
     
-    # 提取姓名並將空格換成 "-"，使用 dict.fromkeys 維持原始排序並去重
-    # raw_names = master_df['person_name'].astype(str).str.replace(r'[ ,，]+', '-', regex=True)
-    # ordered_influencers = list(dict.fromkeys(raw_names))
-
-    # --- [關鍵修正：先建立 clean_person_name 欄位] ---
-    # 這裡整合了你之前提到的需求：遇到 逗號(全/半形)和空白，就取代為 "-"
+    # 確保名稱一致性 (處理空格與字串) "-"
     master_df['clean_person_name'] = master_df['person_name'].astype(str).str.strip().str.replace(r'[ ,，]+', '-', regex=True)
 
-    # [保留你原本的邏輯]：使用 dict.fromkeys 維持原始排序並去重
+    # 使用 dict.fromkeys 維持原始排序並去重
     # 這裡改用剛剛產生的 clean_person_name 確保後續矩陣 key 值一致
     ordered_influencers = list(dict.fromkeys(master_df['clean_person_name'].tolist()))
     
@@ -58,14 +55,12 @@ def run_phase_2_updated():
     url_map = dict(zip(unique_master['clean_person_name'], unique_master['ig_url']))
     rank_map = dict(zip(unique_master['clean_person_name'], unique_master['order']))
 
-
-
     # 讀取 Edge List
     if not os.path.exists(EDGE_LIST_PATH):
         print(f"錯誤：找不到邊清單檔案 {EDGE_LIST_PATH}")
         return
 
-    edge_df = pd.read_csv(EDGE_LIST_PATH)
+    df_edges = pd.read_csv(EDGE_LIST_PATH)
 
 
     # 建立排名映射表 (1 為排行榜第一名)
@@ -76,13 +71,26 @@ def run_phase_2_updated():
     # ==========================================
     # Row 代表發起追蹤者，Column 代表被追蹤者
 
+    # 2. 建立圖形並計算個人影響力指標 (中介中心性)
+    # 建立 NetworkX 有向圖
+    G = nx.from_pandas_edgelist(df_edges, source='source', target='target', create_using=nx.DiGraph())
+    
+    # 確保 100 位網紅都在圖中 (含沒有連線的孤立者)
+    for person in ordered_influencers:
+        if person not in G:
+            G.add_node(person)
+            
+    # [關鍵計算] 中介中心性 (Betweenness Centrality)
+    # 代表該網紅在多少條「最短路徑」上，數值越高轉運能力越強
+    betweenness = nx.betweenness_centrality(G, normalized=True)
+
     # 2. 建立矩陣
     node_count = len(ordered_influencers)
     print(f"成功加載 {node_count} 位網紅，矩陣將依照原始熱搜排行榜順序排列。")
     adj_matrix = pd.DataFrame(0, index=ordered_influencers, columns=ordered_influencers)
     
     # 將追蹤關係填入矩陣
-    for _, row in edge_df.iterrows():
+    for _, row in df_edges.iterrows():
         src, tgt = str(row['source']), str(row['target'])
         if src in adj_matrix.index and tgt in adj_matrix.columns:
             adj_matrix.at[src, tgt] = 1
@@ -122,7 +130,7 @@ def run_phase_2_updated():
         'Out_Degree (主動追蹤數)': out_degree.values,
         'Mutual_Follow (互粉數)': mutual_count.values,
         'Network_Influence_Score': (in_degree.values / (node_count - 1) * 100).round(2),
-        
+        'Betweenness_Centrality': [round(betweenness.get(name, 0), 6) for name in ordered_influencers],
         # 根據去重後的字典抓取 URL
         'ig_url': [url_map.get(name, '') for name in ordered_influencers]
     })
