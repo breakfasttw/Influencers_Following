@@ -1,3 +1,9 @@
+# input
+# influencer_adjacency_matrix.csv、influencer_reciprocity_matrix.csv、
+
+# output 熱力圖相關
+# influencer_clustered_heatmap.png、matrix.json
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -15,7 +21,7 @@ def generate_clustered_heatmap_and_json():
     """
     print("--- 執行 03-2：產生關聯熱圖並捕捉聚類排序 ---")
     
-    # 讀取由 02-2 產出的互惠矩陣
+    # 讀取由 05-1 產出的互惠矩陣
     recip_path = os.path.join(INPUT_DIR, 'influencer_reciprocity_matrix.csv')
     if not os.path.exists(recip_path):
         print(f"錯誤：找不到互惠矩陣 {recip_path}，請先執行 02-2。")

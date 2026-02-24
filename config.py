@@ -5,7 +5,7 @@ import os
 # ==========================================
 TOTAL_INFLUENCERS = 100
 RANDOM_SEED = 42
-CUSTOM_COLORS = ['#45B7D1', '#FFA07A', '#F7DC6F', "#58E751", '#BB8FCE', '#FF6B6B', "#5968EE", "#78724F"]
+CUSTOM_COLORS = ['#45B7D1', '#FFA07A', '#F7DC6F', "#58E751", '#BB8FCE', '#FF6B6B', "#5968EE", "#78724F", "#F7A0C0", "#B6B5AE"]
 
 # 字體設定
 FONT_SETTING = ['Iansui', 'Microsoft JhengHei', 'Arial Unicode MS', 'sans-serif']

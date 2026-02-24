@@ -1,3 +1,13 @@
+# 產製演算法所需網頁數據
+
+# input 
+# network_metrics_report.csv、influencer_reciprocity_matrix.csv、zero_degree.json
+
+# output 
+# 三種演算法的 social_network_graph_optimized{suffix}.png
+# 三種演算法的 nodes_edges{suffix}.json
+# 三種演算法的 community_grouping_report_final{suffix}.csv
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,7 +20,7 @@ from adjustText import adjust_text
 from config import *
 
 def generate_visuals():
-    # 1. 載入基礎數據 (由 02-2 產出的全域報表與矩陣)
+    # 1. 載入基礎數據 (由 05-1、05-2 產出的全域報表與矩陣)
     metrics_path = os.path.join(INPUT_DIR, 'network_metrics_report.csv')
     recip_path = os.path.join(INPUT_DIR, 'influencer_reciprocity_matrix.csv')
     zero_degree_path = os.path.join(INPUT_DIR, 'zero_degree.json') # 讀取全域孤立點清單
@@ -135,7 +145,10 @@ def generate_visuals():
                     "in_degree": int(m.get('In_Degree (被追蹤數)', 0)), 
                     "out_degree": int(m.get('Out_Degree (主動追蹤數)', 0)),
                     "mutual": int(m.get('Mutual_Follow (互粉數)', 0)),
-                    "distinct_following": int(m.get('distinct_following', 0))}
+                    "distinct_following": int(m.get('distinct_following', 0))},
+                    "between_centrality":float(m.get('Betweenness_Centrality', 0)),
+                    "category": str(m.get('category', 0))
+
             })
         links_json = [{"source": u, "target": v, "type": "mutual" if recip_df.at[u, v] == 2 else "single"} for u, v in G_core.edges()]
         with open(os.path.join(out_dir, f'nodes_edges{suffix}.json'), 'w', encoding='utf-8') as f:

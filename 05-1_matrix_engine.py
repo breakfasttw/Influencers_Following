@@ -1,3 +1,13 @@
+# input
+# Aisa100_ig.csv、EDGE_LIST_PATH
+
+# output
+# zero_degree.json
+# influencer_adjacency_matrix.csv、influencer_reciprocity_matrix.csv (雙矩陣)
+# network_metrics_report.csv (網紅為物件的各項統計、類別)
+# global_stats_temp.json (母體統計結果)
+
+
 import pandas as pd
 import numpy as np
 import os
@@ -44,6 +54,9 @@ def run_matrix_engine():
 
     # 建立 NetworkX 有向圖
     G = nx.from_pandas_edgelist(df_edges, source='source', target='target', create_using=nx.DiGraph())
+    # 此指令會建立一個有向圖（在 NetworkX 中使用名為 `<head>` 的 pandas DataFrame 中的邊資料df_edges。
+    # 透過指定 `<head> ` create_using=nx.DiGraph()，您可以確保產生的物件支援有向邊（來源邊和目標邊的順序很重要），而不是預設的無向邊nx.Graph。 
+    # `<head>` 中的每一行都df_edges成為圖中的一條邊，名為「source」和「target」的列定義了關係的方向。
     
     # 確保所有母體成員都在圖中 (含孤立點)
     for person in ordered_influencers:

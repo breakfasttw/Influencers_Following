@@ -2,6 +2,11 @@
 # input 1 = ignore/following_list 資料夾內的 {網紅id name}-Following.csv
 # input 2 = 中文名稱 與  {網紅id name} 對應表
 
+# output edge表、總追蹤數
+# username_edge_list.csv
+# username_total_following.csv
+
+
 import pandas as pd
 import os
 import re

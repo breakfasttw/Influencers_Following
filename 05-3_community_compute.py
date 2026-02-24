@@ -1,3 +1,12 @@
+# 執行演算法、參數設定
+
+# input
+# EDGE_LIST_PATH
+# influencer_reciprocity_matrix.csv  (Walktrap 加權需要)
+
+# output
+# community_master.json 每個演算法內有誰、Q度
+
 import pandas as pd
 import networkx as nx
 from networkx.algorithms import community
