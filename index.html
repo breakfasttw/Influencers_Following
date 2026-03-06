@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8" />
+        <title>🙌 Followings Batch</title>
+        <style>
+            /* 深色模式樣式 - 加入 Iansui 字體 */
+            body {
+                font-family:
+                    "Iansui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                padding: 30px;
+                background-color: #18191a;
+                color: #e4e6eb;
+                line-height: 1.6;
+            }
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                background: #242526;
+                padding: 25px;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            }
+            h1 {
+                font-size: 22px;
+                color: #2e89ff;
+                margin-top: 0;
+            }
+            .input-group {
+                margin-bottom: 15px;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-size: 14px;
+                color: #b0b3b8;
+            }
+
+            input[type="text"],
+            textarea {
+                width: 100%;
+                background-color: #3a3b3c;
+                border: 1px solid #4e4f50;
+                border-radius: 6px;
+                padding: 10px;
+                color: #e4e6eb;
+                font-family: "Consolas", monospace;
+                box-sizing: border-box;
+            }
+            input[type="text"]:focus,
+            textarea:focus {
+                outline: 2px solid #2e89ff;
+                border-color: transparent;
+            }
+
+            textarea {
+                height: 150px;
+                resize: vertical;
+            }
+
+            .controls {
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                flex-wrap: wrap;
+            }
+
+            button {
+                border: none;
+                padding: 12px 24px;
+                border-radius: 6px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            #startBtn {
+                background-color: #2e89ff;
+                color: white;
+            }
+            #stopBtn {
+                background-color: #f02849;
+                color: white;
+                display: none;
+            }
+            button:hover {
+                opacity: 0.9;
+            }
+            button:disabled {
+                background-color: #4e4f50;
+                cursor: not-allowed;
+            }
+
+            #statusDisplay {
+                font-weight: bold;
+                font-size: 15px;
+                color: #45bd62;
+            }
+
+            #log {
+                margin-top: 20px;
+                height: 300px;
+                border: 1px solid #3e4042;
+                background: #1c1e21;
+                padding: 15px;
+                overflow-y: auto;
+                font-size: 13px;
+                border-radius: 8px;
+            }
+            .log-entry {
+                padding: 4px 0;
+                border-bottom: 1px solid #2f3031;
+                display: flex;
+                gap: 10px;
+            }
+            .time-stamp {
+                color: #b0b3b8;
+                min-width: 85px;
+            }
+            .log-info {
+                color: #e4e6eb;
+            }
+            .log-error {
+                color: #f02849;
+                font-weight: bold;
+            }
+            .log-success {
+                color: #45bd62;
+            }
+            .log-warn {
+                color: #f7b928;
+            }
+            p {
+                font-size: 13px;
+                color: #bdbec0;
+            }
+            .text-indent2 {
+                text-indent: 2em;
+            }
+            .text-indent1 {
+                text-indent: 1em;
+            }
+            .parameters-zone {
+                background-color: #19344f;
+                padding: 12px;
+                margin: 8px 0;
+                border-radius: 6px;
+            }
+            li {
+                font-size: 13px;
+            }
+            .text-warning {
+                color: #e6a23c;
+            }
+            .text-information {
+                color: #338afc;
+                font-weight: bold;
+            }
+
+            .flex-row {
+                display: flex;
+                gap: 15px;
+            }
+            .flex-half {
+                flex: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Followings Batch</h1>
+
+            <div class="setting-info">
+                <p>⚙️ 執行環境設定</p>
+                <p class="text-indent1">
+                    1. 請使用<span class="text-information"
+                        >已登入 Instagram 的瀏覽器開啟此 HTML</span
+                    >。
+                </p>
+                <p class="text-indent1">
+                    2. 請確認瀏覽器已允許此頁面的<span class="text-information"
+                        >彈出式視窗與自動下載</span
+                    >，否則批次下載檔案時會被攔截。
+                </p>
+                <p class="text-indent1 text-warning">
+                    ⚠️ 建議：為避免頻繁請求觸發 IG
+                    封鎖，請確實遵守下方的等待時間參數。
+                </p>
+            </div>
+
+            <div class="parameters-zone">
+                <p class="text-indent1" style="margin-top: 0">
+                    當前排程參數設定
+                </p>
+                <ul id="sleepParameters" style="margin-bottom: 0"></ul>
+            </div>
+
+            <div class="input-group">
+                <label for="queryHash"
+                    >Query Hash (若失效請至 IG Network Payload 重新取得)</label
+                >
+                <input
+                    type="text"
+                    id="queryHash"
+                    value="58712303d941c6855d4e888c5f0cd22f"
+                />
+            </div>
+
+            <div class="flex-row">
+                <div class="input-group flex-half">
+                    <label for="idInput">Target User IDs (每行一個)</label>
+                    <textarea
+                        id="idInput"
+                        placeholder="288968436&#10;11941118848&#10;..."
+                    ></textarea>
+                </div>
+                <div class="input-group flex-half">
+                    <label for="usernameInput"
+                        >Usernames (每行一個，對應左側 ID)</label
+                    >
+                    <textarea
+                        id="usernameInput"
+                        placeholder="rayduenglish&#10;energydessert2019&#10;..."
+                    ></textarea>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn">開始批次執行</button>
+                <button id="stopBtn">停止</button>
+                <button id="downloadGlobalLogBtn">下載完整全局 Log</button>
+                <span id="statusDisplay">待機中</span>
+            </div>
+
+            <div id="log">
+                <div class="log-entry">
+                    <span class="time-stamp">系統</span
+                    ><span class="log-info">等待指令中...</span>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // ==================== 延遲參數設定區 =========================
+            const smallSleepStart = 8; // 內層小休息起始秒數 (翻頁等待)
+            const smallSleepEnd = 12; // 內層小休息結束秒數
+            const bigSleepStart = 60; // 外層大休息起始秒數 (換人等待)
+            const bigSleepEnd = 120; // 外層大休息結束秒數
+            // =============================================================
+
+            document.getElementById("sleepParameters").innerHTML = `
+                <li>分頁請求延遲 (內層): <span class="text-information">${smallSleepStart} - ${smallSleepEnd}</span> 秒</li>
+                <li>帳號切換延遲 (外層): <span class="text-information">${bigSleepStart} - ${bigSleepEnd}</span> 秒</li>
+            `;
+
+            const idInput = document.getElementById("idInput");
+            const usernameInput = document.getElementById("usernameInput");
+            const queryHashInput = document.getElementById("queryHash");
+            const startBtn = document.getElementById("startBtn");
+            const stopBtn = document.getElementById("stopBtn");
+            const downloadGlobalLogBtn = document.getElementById(
+                "downloadGlobalLogBtn",
+            );
+            const statusDisplay = document.getElementById("statusDisplay");
+            const logArea = document.getElementById("log");
+
+            let isRunning = false;
+
+            // 工具函式
+            const sleep = (ms) =>
+                new Promise((resolve) => setTimeout(resolve, ms));
+            const getRandom = (min, max) =>
+                Math.floor(Math.random() * (max - min + 1) + min);
+
+            function getTimeStr() {
+                const now = new Date();
+                return (
+                    now.getHours().toString().padStart(2, "0") +
+                    ":" +
+                    now.getMinutes().toString().padStart(2, "0") +
+                    ":" +
+                    now.getSeconds().toString().padStart(2, "0")
+                );
+            }
+
+            function getFullTimestamp() {
+                const now = new Date();
+                return (
+                    now.getFullYear() +
+                    (now.getMonth() + 1).toString().padStart(2, "0") +
+                    now.getDate().toString().padStart(2, "0") +
+                    now.getHours().toString().padStart(2, "0") +
+                    now.getMinutes().toString().padStart(2, "0") +
+                    now.getSeconds().toString().padStart(2, "0")
+                );
+            }
+
+            function addLog(message, type = "info") {
+                const div = document.createElement("div");
+                div.className = `log-entry log-${type}`;
+                const timeStr = getTimeStr();
+                div.innerHTML = `<span class="time-stamp">[${timeStr}]</span><span class="log-text">${message}</span>`;
+                logArea.appendChild(div);
+                logArea.scrollTop = logArea.scrollHeight;
+            }
+
+            // 匯出目前畫面上的 Log
+            function exportLog(fileNamePrefix, clearAfter = false) {
+                const timestamp = getFullTimestamp();
+                const fileName = `${fileNamePrefix}_${timestamp}.txt`;
+                const entries = logArea.querySelectorAll(".log-entry");
+                let fullText = `任務目標: ${fileNamePrefix}\n產生時間: ${new Date().toLocaleString()}\n-----------------------------------\n`;
+
+                entries.forEach((entry) => {
+                    const time = entry.querySelector(".time-stamp").innerText;
+                    const text = entry.querySelector(".log-text")
+                        ? entry.querySelector(".log-text").innerText
+                        : entry.innerText;
+                    fullText += `${time} ${text}\n`;
+                });
+
+                const blob = new Blob([fullText], { type: "text/plain" });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = fileName;
+                a.click();
+                URL.revokeObjectURL(url);
+
+                addLog(`📄 Log 已儲存為: ${fileName}`, "success");
+
+                if (clearAfter) {
+                    logArea.innerHTML = ""; // 清空 Log 準備迎接下一個目標
+                    addLog(`🧹 已清空 Log 區塊，準備執行下一個任務`);
+                }
+            }
+
+            downloadGlobalLogBtn.onclick = () => exportLog("Global_Log");
+
+            stopBtn.onclick = () => {
+                isRunning = false;
+                addLog(
+                    "🛑 收到終止指令！將在目前步驟結束後完全停止。",
+                    "error",
+                );
+                statusDisplay.innerText = "目前狀態：正在終止...";
+                stopBtn.disabled = true;
+            };
+
+            startBtn.onclick = async () => {
+                const ids = idInput.value
+                    .trim()
+                    .split("\n")
+                    .map((s) => s.trim())
+                    .filter(Boolean);
+                const usernames = usernameInput.value
+                    .trim()
+                    .split("\n")
+                    .map((s) => s.trim())
+                    .filter(Boolean);
+                const queryHash = queryHashInput.value.trim();
+
+                if (ids.length !== usernames.length) {
+                    alert(
+                        `資料筆數不對稱！ IDs: ${ids.length} 筆，Usernames: ${usernames.length} 筆`,
+                    );
+                    return;
+                }
+                if (ids.length === 0 || !queryHash) {
+                    alert("請確實填寫 IDs, Usernames 與 Query Hash！");
+                    return;
+                }
+
+                isRunning = true;
+                startBtn.disabled = true;
+                stopBtn.style.display = "inline-block";
+                stopBtn.disabled = false;
+
+                addLog(`🚀 批次任務啟動，總計 ${ids.length} 個目標`, "success");
+
+                // 外層迴圈：遍歷所有目標
+                for (let i = 0; i < ids.length; i++) {
+                    if (!isRunning) break;
+
+                    const targetUserId = ids[i];
+                    const username = usernames[i];
+
+                    addLog(
+                        `\n=============================================`,
+                        "info",
+                    );
+                    addLog(
+                        `▶️ 開始處理 [${i + 1}/${ids.length}] - 帳號: ${username} (ID: ${targetUserId})`,
+                        "warn",
+                    );
+                    statusDisplay.innerText = `處理中: ${username} (${i + 1}/${ids.length})`;
+
+                    let allUsers = [];
+                    let endCursor = "";
+                    let hasNextPage = true;
+                    let loopCount = 1;
+                    const seenIds = new Set();
+
+                    // 內層迴圈：GraphQL 分頁抓取
+                    while (hasNextPage && isRunning) {
+                        const variables = JSON.stringify({
+                            id: targetUserId,
+                            first: 50,
+                            after: endCursor,
+                        });
+
+                        const url = `https://www.instagram.com/graphql/query/?query_hash=${queryHash}&variables=${encodeURIComponent(variables)}`;
+
+                        try {
+                            const res = await fetch(url, {
+                                method: "GET",
+                                headers: {
+                                    "X-Requested-With": "XMLHttpRequest",
+                                    "X-IG-App-ID": "936619743392459",
+                                },
+                                credentials: "include", // <--- 關鍵！必須加上這一行才能帶上登入狀態
+                            });
+
+                            if (res.status === 429) {
+                                addLog(
+                                    "🛑 遭遇到 429 Too Many Requests，暫時中斷此帳號抓取。",
+                                    "error",
+                                );
+                                break;
+                            }
+
+                            const json = await res.json();
+
+                            console.log("IG API Response:", json); // 讓妳在 F12 Console 看到完整的錯誤訊息
+
+                            if (json.errors || !json.data?.user?.edge_follow) {
+                                const errorMsg =
+                                    json.errors?.[0]?.message ||
+                                    (json.data?.user
+                                        ? "找不到 edge_follow 欄位"
+                                        : "找不到 User 資料");
+                                addLog(`🛑 抓取異常: ${errorMsg}`, "error");
+                                break;
+                            }
+
+                            const data = json.data.user.edge_follow;
+                            const edges = data.edges;
+
+                            edges.forEach((edge) => {
+                                const node = edge.node;
+                                if (!seenIds.has(node.id)) {
+                                    seenIds.add(node.id);
+                                    allUsers.push({
+                                        strong_id__: node.id,
+                                        username: node.username,
+                                        full_name: node.full_name,
+                                        is_verified:
+                                            node.is_verified ?? "FieldMissing",
+                                        is_private:
+                                            node.is_private ?? "FieldMissing",
+                                    });
+                                }
+                            });
+
+                            addLog(
+                                `[${username}] 第 ${loopCount} 輪 | 累計人數: ${allUsers.length}`,
+                            );
+
+                            hasNextPage = data.page_info.has_next_page;
+                            endCursor = data.page_info.end_cursor;
+                            loopCount++;
+
+                            if (hasNextPage && isRunning) {
+                                const innerDelay = getRandom(
+                                    smallSleepStart * 1000,
+                                    smallSleepEnd * 1000,
+                                );
+                                addLog(
+                                    `⏳ 分頁等待中... ${Math.round(innerDelay / 1000)} 秒`,
+                                    "info",
+                                );
+                                await sleep(innerDelay);
+                            }
+                        } catch (e) {
+                            addLog(`💥 網路或執行失敗: ${e.message}`, "error");
+                            break;
+                        }
+                    } // 內層迴圈結束
+
+                    // 單一帳號抓取完畢，匯出 JSON
+                    if (allUsers.length > 0) {
+                        const jsonString = JSON.stringify(allUsers, null, 2);
+                        const blob = new Blob([jsonString], {
+                            type: "application/json",
+                        });
+                        const a = document.createElement("a");
+                        a.href = URL.createObjectURL(blob);
+                        a.download = `${username}.json`;
+                        a.click();
+                        addLog(
+                            `✅ [${username}] 抓取完成！已下載 JSON (共 ${allUsers.length} 筆)。`,
+                            "success",
+                        );
+                    } else {
+                        addLog(`⚠️ [${username}] 未抓取到任何資料。`, "warn");
+                    }
+
+                    // 獨立匯出此帳號的專屬 Log，並清空 Log 面板 (保留記憶體與畫面整潔)
+                    exportLog(username, true);
+
+                    // 若還有下一個帳號，執行外層大休息
+                    if (i < ids.length - 1 && isRunning) {
+                        const outerDelay = getRandom(
+                            bigSleepStart,
+                            bigSleepEnd,
+                        );
+                        addLog(
+                            `💤 帳號切換大休息：準備等待 ${outerDelay} 秒...`,
+                            "warn",
+                        );
+
+                        for (let s = outerDelay; s > 0; s--) {
+                            if (!isRunning) break;
+                            statusDisplay.innerText = `切換冷卻中...剩餘 ${s} 秒 (下一位：${usernames[i + 1]})`;
+                            await sleep(1000);
+                        }
+                    }
+                } // 外層迴圈結束
+
+                addLog(`🏁 批次任務全數結束！`, "success");
+                statusDisplay.innerText = isRunning
+                    ? "目前狀態：所有任務完成"
+                    : "目前狀態：手動中止";
+                isRunning = false;
+                startBtn.disabled = false;
+                stopBtn.style.display = "none";
+            };
+        </script>
+    </body>
+</html>
