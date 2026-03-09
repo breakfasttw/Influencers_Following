@@ -41,10 +41,10 @@ def run_matrix_engine():
     url_map = dict(zip(unique_master['clean_person_name'], unique_master['ig_url']))
     # [修正]：對應小寫欄位 'order' 作為 Original_Rank
     rank_map = dict(zip(unique_master['clean_person_name'], unique_master['order']))
-    # 類別表
-    category_map = dict(zip(unique_master['clean_person_name'], unique_master['category']))
-    # 總粉絲樹表
-    followers_map = dict(zip(unique_master['clean_person_name'], unique_master['followers']))
+    followers_map = dict(zip(master_df['person_name'], master_df.get('Followers', '')))
+    following_map = dict(zip(master_df['person_name'], master_df.get('Following', '')))
+    posts_map = dict(zip(master_df['person_name'], master_df.get('posts', ''))) 
+    category_map = dict(zip(master_df['person_name'], master_df.get('category', '')))
 
     # 2. 建立圖形並計算個人中介中心性
     if not os.path.exists(EDGE_LIST_PATH):
@@ -111,8 +111,10 @@ def run_matrix_engine():
         'Network_Influence_Score': (in_degree.values / (node_count - 1) * 100).round(2),
         'Betweenness_Centrality': [round(betweenness.get(name, 0), 6) for name in ordered_influencers],
         'ig_url': [url_map.get(name, '') for name in ordered_influencers],
-        'category': [category_map.get(name, '') for name in ordered_influencers],
-        'followers': [followers_map.get(name, '') for name in ordered_influencers]
+        'posts': [posts_map.get(n, '') for n in ordered_influencers],
+        'Followers': [followers_map.get(n, '') for n in ordered_influencers],
+        'Following': [following_map.get(n, '') for n in ordered_influencers],
+        'category': [category_map.get(n, '') for n in ordered_influencers]
     })
 
     # 整合外部追蹤數 (distinct_following)

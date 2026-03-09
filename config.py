@@ -3,9 +3,9 @@ import os
 # ==========================================
 # 0. 全域參數設定
 # ==========================================
-TOTAL_INFLUENCERS = 100
+TOTAL_INFLUENCERS = 200
 RANDOM_SEED = 42
-CUSTOM_COLORS = ['#45B7D1', '#FFA07A', '#F7DC6F', "#58E751", '#BB8FCE', '#FF6B6B', "#5968EE", "#78724F", "#F7A0C0", "#B6B5AE"]
+CUSTOM_COLORS = ['#45B7D1', '#FFA07A', '#F7DC6F', "#58E751", '#BB8FCE', '#FF6B6B', "#5968EE", "#837B4D", "#F7A0C0", "#B5BCB2", "#8984CF", "#D9CB9B", "#5F5F5F"]
 
 # 字體設定
 FONT_SETTING = ['Iansui', 'Microsoft JhengHei', 'Arial Unicode MS', 'sans-serif']
@@ -14,7 +14,7 @@ FONT_SETTING = ['Iansui', 'Microsoft JhengHei', 'Arial Unicode MS', 'sans-serif'
 # 1. 路徑設定
 # ==========================================
 INPUT_DIR = 'Output'
-MASTER_LIST_PATH = 'Aisa100_ig.csv'
+MASTER_LIST_PATH = 'Aisa200_ig.csv'
 EDGE_LIST_PATH = os.path.join(INPUT_DIR, 'username_edge_list.csv')
 TOTAL_FOLLOWING_PATH = os.path.join(INPUT_DIR, 'username_total_following.csv')
 RECIP_MATRIX_PATH = os.path.join(INPUT_DIR, 'influencer_reciprocity_matrix.csv')

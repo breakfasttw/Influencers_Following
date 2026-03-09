@@ -14,8 +14,8 @@ import re
 # ==========================================
 # 1. 參數設定
 # ==========================================
-MASTER_LIST_PATH = 'Aisa100_ig.csv'
-INPUT_DIR = 'ignore/following_list'
+MASTER_LIST_PATH = 'Aisa200_ig.csv'
+INPUT_DIR = 'ignore/following_list/top200'
 OUTPUT_DIR = 'Output'
 OUTPUT_FILENAME = 'username_edge_list.csv'
 TOTAL_FOLLOWING_FILENAME = 'username_total_following.csv'

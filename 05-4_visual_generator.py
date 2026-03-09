@@ -145,9 +145,12 @@ def generate_visuals():
                     "in_degree": int(m.get('In_Degree (被追蹤數)', 0)), 
                     "out_degree": int(m.get('Out_Degree (主動追蹤數)', 0)),
                     "mutual": int(m.get('Mutual_Follow (互粉數)', 0)),
-                    "distinct_following": int(m.get('distinct_following', 0))},
-                    "between_centrality":float(m.get('Betweenness_Centrality', 0)),
-                    "category": str(m.get('category', 0))
+                    "Following": int(m.get('Following', 0)),
+                    "Followers":int(m.get('Followers', 0)),
+                    "posts":int(m.get('posts', 0)),
+                    },
+                "between_centrality":float(m.get('Betweenness_Centrality', 0)),
+                "category": str(m.get('category', 0))
 
             })
         links_json = [{"source": u, "target": v, "type": "mutual" if recip_df.at[u, v] == 2 else "single"} for u, v in G_core.edges()]
