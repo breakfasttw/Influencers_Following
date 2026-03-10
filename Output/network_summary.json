@@ -20,13 +20,13 @@
     "Louvain": {
         "Group_Count": 5,
         "Group_Size": [
-            32,
-            59,
-            19,
-            72,
-            10
+            60,
+            56,
+            39,
+            21,
+            16
         ],
-        "Modularity_Score_Q": 0.167079
+        "Modularity_Score_Q": 0.170096
     },
     "Walktrap": {
         "Group_Count": 12,

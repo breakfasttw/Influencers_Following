@@ -36,15 +36,18 @@ def run_matrix_engine():
     ordered_influencers = list(dict.fromkeys(master_df['clean_person_name'].tolist()))
     
     # 去重以建立映射表 (ig_url 與 Original Rank)
+    # 29-35行已有 unique_master，利用它來建立 Map
     unique_master = master_df.drop_duplicates(subset=['clean_person_name'], keep='first')
-    # 網址表
+    
+    # 建立映射字典 (改用 unique_master 以免被後方的空列覆蓋)
     url_map = dict(zip(unique_master['clean_person_name'], unique_master['ig_url']))
-    # [修正]：對應小寫欄位 'order' 作為 Original_Rank
     rank_map = dict(zip(unique_master['clean_person_name'], unique_master['order']))
-    followers_map = dict(zip(master_df['person_name'], master_df.get('Followers', '')))
-    following_map = dict(zip(master_df['person_name'], master_df.get('Following', '')))
-    posts_map = dict(zip(master_df['person_name'], master_df.get('posts', ''))) 
-    category_map = dict(zip(master_df['person_name'], master_df.get('category', '')))
+    
+    # 修正：確保其餘資訊也從 unique_master 取得
+    followers_map = dict(zip(unique_master['clean_person_name'], unique_master.get('Followers', '')))
+    following_map = dict(zip(unique_master['clean_person_name'], unique_master.get('Following', '')))
+    posts_map = dict(zip(unique_master['clean_person_name'], unique_master.get('posts', ''))) 
+    category_map = dict(zip(unique_master['clean_person_name'], unique_master.get('category', '')))
 
     # 2. 建立圖形並計算個人中介中心性
     if not os.path.exists(EDGE_LIST_PATH):

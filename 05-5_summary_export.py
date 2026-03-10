@@ -29,9 +29,9 @@ def run_final_summary():
     # 3. 整合演算法指標
     for algo in ['Greedy', 'Louvain', 'Walktrap']:
         summary[algo] = {
-            "Group_Count": len(comm_data[algo]['communities']),
-            "Group_Size": [len(c) for c in comm_data[algo]['communities']],
-            "Modularity_Score_Q": round(comm_data[algo]['Q'], 6)
+            "Group_Count": len(comm_data[algo]['membership']),
+            "Group_Size": [len(c) for c in comm_data[algo]['membership']],
+            "Modularity_Score_Q": round(comm_data[algo]['modularity'], 6)
         }
     
     # 4. 輸出最終結果
