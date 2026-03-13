@@ -114,7 +114,7 @@ def step3_compute_metrics(G_full_dir, G_full_undir, G_filtered_dir, G_filtered_u
         micro_metrics[n]['in_degree'] = in_degree_dict.get(n, 0)
         micro_metrics[n]['out_degree'] = out_degree_dict.get(n, 0)
         micro_metrics[n]['mutual'] = mutual_dict.get(n, 0)
-        micro_metrics[n]['network_influence_score'] = round((in_degree_dict.get(n, 0) / (node_count - 1)) * 100, 2)
+        micro_metrics[n]['network_influence_score'] = round((in_degree_dict.get(n, 0) / (node_count - 1)) , 2)
         
     # [Y：剔除 0-Degree] (針對 G_filtered 計算，0-Degree 者預設補 0)
     betweenness_dict = nx.betweenness_centrality(G_filtered_dir)
