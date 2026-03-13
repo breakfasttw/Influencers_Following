@@ -1,6 +1,205 @@
 {
   "Walktrap": {
     "modularity": 0.13809876846254474,
+    "Cluster_Density": {
+      "Group_0": 0.18192918192918192,
+      "Group_1": 0.19822161422708617,
+      "Group_2": 0.4166666666666667,
+      "Group_3": 1.0,
+      "Group_4": 0.5,
+      "Group_5": 0.0,
+      "Group_6": 0.0,
+      "Group_7": 0.0,
+      "Group_8": 0.0,
+      "Group_9": 0.0,
+      "Group_10": 0.0,
+      "Group_11": 0.0,
+      "Group_12": 0.0
+    },
+    "Inter_cluster_Edge_Density": {
+      "Group_0": {
+        "Group_1": 0.10426782519805776,
+        "Group_2": 0.0,
+        "Group_3": 0.027472527472527472,
+        "Group_4": 0.0,
+        "Group_5": 0.01098901098901099,
+        "Group_6": 0.01098901098901099,
+        "Group_7": 0.01098901098901099,
+        "Group_8": 0.01098901098901099,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_1": {
+        "Group_0": 0.10925121390237669,
+        "Group_2": 0.03197674418604651,
+        "Group_3": 0.01744186046511628,
+        "Group_4": 0.01744186046511628,
+        "Group_5": 0.0,
+        "Group_6": 0.011627906976744186,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_2": {
+        "Group_0": 0.0,
+        "Group_1": 0.040697674418604654,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_3": {
+        "Group_0": 0.01098901098901099,
+        "Group_1": 0.01744186046511628,
+        "Group_2": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_4": {
+        "Group_0": 0.0,
+        "Group_1": 0.023255813953488372,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_5": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_6": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_7": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_8": {
+        "Group_0": 0.02197802197802198,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_9": {
+        "Group_0": 0.03296703296703297,
+        "Group_1": 0.046511627906976744,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_10": 1.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_10": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_11": {
+        "Group_0": 0.01098901098901099,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_12": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      }
+    },
     "membership": [
       [
         "林淑芬2.0",
@@ -217,430 +416,3261 @@
       ],
       [
         "王宏哲教養、育兒寶典"
+      ],
+      [
+        "丁特-Dinter",
+        "雨揚樂活家族",
+        "星光奈奈",
+        "Wecook123-料理123",
+        "史丹利視角的體育世界",
+        "胡采蘋-Emmy-Hu",
+        "維思維",
+        "老王-oldwang"
       ]
     ],
+    "node_metrics": {
+      "林淑芬2.0": {
+        "Within_module_Degree": -0.8492,
+        "Participation_Coefficient": 0.4654
+      },
+      "愛里": {
+        "Within_module_Degree": 1.0411,
+        "Participation_Coefficient": 0.4941
+      },
+      "77老大": {
+        "Within_module_Degree": 0.8143,
+        "Participation_Coefficient": 0.4277
+      },
+      "Joeman": {
+        "Within_module_Degree": 2.0241,
+        "Participation_Coefficient": 0.5029
+      },
+      "魔術Channel---Davio": {
+        "Within_module_Degree": -1.2273,
+        "Participation_Coefficient": 0.5
+      },
+      "Ian&Eric": {
+        "Within_module_Degree": 0.7387,
+        "Participation_Coefficient": 0.4865
+      },
+      "阿翰po影片": {
+        "Within_module_Degree": 2.3266,
+        "Participation_Coefficient": 0.4668
+      },
+      "這群人-董仔": {
+        "Within_module_Degree": 1.7973,
+        "Participation_Coefficient": 0.4834
+      },
+      "那對夫妻": {
+        "Within_module_Degree": -0.9248,
+        "Participation_Coefficient": 0.5078
+      },
+      "小A辣": {
+        "Within_module_Degree": -0.698,
+        "Participation_Coefficient": 0.4734
+      },
+      "林進-飛醺卑鄙-fashion-baby": {
+        "Within_module_Degree": 1.4192,
+        "Participation_Coefficient": 0.426
+      },
+      "元-元": {
+        "Within_module_Degree": -0.1687,
+        "Participation_Coefficient": 0.4444
+      },
+      "PEETA葛格": {
+        "Within_module_Degree": 0.4362,
+        "Participation_Coefficient": 0.4986
+      },
+      "陳彥婷": {
+        "Within_module_Degree": 1.0411,
+        "Participation_Coefficient": 0.4556
+      },
+      "Charlene-Liu-查理": {
+        "Within_module_Degree": 0.1338,
+        "Participation_Coefficient": 0.3432
+      },
+      "GINA-HELLO!": {
+        "Within_module_Degree": 0.6631,
+        "Participation_Coefficient": 0.4515
+      },
+      "Natalie吳斐莉": {
+        "Within_module_Degree": 0.8143,
+        "Participation_Coefficient": 0.2518
+      },
+      "一隻阿圓": {
+        "Within_module_Degree": 1.8729,
+        "Participation_Coefficient": 0.4884
+      },
+      "卡特-Kart": {
+        "Within_module_Degree": 0.8143,
+        "Participation_Coefficient": 0.4124
+      },
+      "愛莉莎莎-Alisasa": {
+        "Within_module_Degree": 2.0997,
+        "Participation_Coefficient": 0.4688
+      },
+      "見習網美小吳": {
+        "Within_module_Degree": 1.7973,
+        "Participation_Coefficient": 0.4387
+      },
+      "籃靖玟": {
+        "Within_module_Degree": -0.698,
+        "Participation_Coefficient": 0.5
+      },
+      "關韶文": {
+        "Within_module_Degree": 0.8143,
+        "Participation_Coefficient": 0.3068
+      },
+      "紀卜心-Kimi": {
+        "Within_module_Degree": 1.0411,
+        "Participation_Coefficient": 0.3051
+      },
+      "Candy-孟潔": {
+        "Within_module_Degree": -0.3199,
+        "Participation_Coefficient": 0.4669
+      },
+      "羚小鹿": {
+        "Within_module_Degree": -1.1517,
+        "Participation_Coefficient": 0.4989
+      },
+      "林萱-Shiuan": {
+        "Within_module_Degree": 0.9655,
+        "Participation_Coefficient": 0.4036
+      },
+      "黃大謙": {
+        "Within_module_Degree": 1.1168,
+        "Participation_Coefficient": 0.479
+      },
+      "我是老爸-我不要當爸!": {
+        "Within_module_Degree": -0.6224,
+        "Participation_Coefficient": 0.5208
+      },
+      "Peter-Su": {
+        "Within_module_Degree": -0.3199,
+        "Participation_Coefficient": 0.0
+      },
+      "嘎嫂二伯": {
+        "Within_module_Degree": 0.285,
+        "Participation_Coefficient": 0.4989
+      },
+      "滴妹": {
+        "Within_module_Degree": 1.9485,
+        "Participation_Coefficient": 0.5
+      },
+      "飽妮": {
+        "Within_module_Degree": 0.2094,
+        "Participation_Coefficient": 0.4996
+      },
+      "Yun-Chou": {
+        "Within_module_Degree": 0.9655,
+        "Participation_Coefficient": 0.3367
+      },
+      "三原慧悟-Sanyuan_JAPAN": {
+        "Within_module_Degree": -0.3955,
+        "Participation_Coefficient": 0.4817
+      },
+      "找蔬食-Traveggo": {
+        "Within_module_Degree": -0.3955,
+        "Participation_Coefficient": 0.1975
+      },
+      "HOOK": {
+        "Within_module_Degree": 0.9655,
+        "Participation_Coefficient": 0.4998
+      },
+      "Sandy-&-Mandy": {
+        "Within_module_Degree": -1.1517,
+        "Participation_Coefficient": 0.1528
+      },
+      "BlaireChen-左撇子": {
+        "Within_module_Degree": 1.0411,
+        "Participation_Coefficient": 0.1528
+      },
+      "千千進食中": {
+        "Within_module_Degree": 2.4022,
+        "Participation_Coefficient": 0.489
+      },
+      "那些電影教我的事": {
+        "Within_module_Degree": -0.6224,
+        "Participation_Coefficient": 0.4835
+      },
+      "Meg-今天穿什麼": {
+        "Within_module_Degree": 0.1338,
+        "Participation_Coefficient": 0.3702
+      },
+      "High咖-邱志恒": {
+        "Within_module_Degree": -0.2443,
+        "Participation_Coefficient": 0.4991
+      },
+      "許允樂的老兵魂": {
+        "Within_module_Degree": 0.7387,
+        "Participation_Coefficient": 0.2975
+      },
+      "彼得爸與蘇珊媽": {
+        "Within_module_Degree": -0.0931,
+        "Participation_Coefficient": 0.4844
+      },
+      "Evelyn-Chen-理科太太": {
+        "Within_module_Degree": 0.5875,
+        "Participation_Coefficient": 0.4444
+      },
+      "欸你這週要幹嘛": {
+        "Within_module_Degree": 0.9655,
+        "Participation_Coefficient": 0.4601
+      },
+      "蔡桃貴": {
+        "Within_module_Degree": -0.5467,
+        "Participation_Coefficient": 0.5
+      },
+      "白癡公主": {
+        "Within_module_Degree": 1.8729,
+        "Participation_Coefficient": 0.5032
+      },
+      "有璟妍精요찡옌찡": {
+        "Within_module_Degree": -1.1517,
+        "Participation_Coefficient": 0.4152
+      },
+      "台灣妞韓國媳": {
+        "Within_module_Degree": -0.9248,
+        "Participation_Coefficient": 0.4444
+      },
+      "小凱老師": {
+        "Within_module_Degree": -0.5467,
+        "Participation_Coefficient": 0.0
+      },
+      "江老師": {
+        "Within_module_Degree": 0.2094,
+        "Participation_Coefficient": 0.3482
+      },
+      "丹妮婊姐": {
+        "Within_module_Degree": 0.4362,
+        "Participation_Coefficient": 0.375
+      },
+      "這群人-尼克": {
+        "Within_module_Degree": 0.2094,
+        "Participation_Coefficient": 0.4925
+      },
+      "LoganDBeck-小貝": {
+        "Within_module_Degree": -1.0004,
+        "Participation_Coefficient": 0.4922
+      },
+      "上發條俱樂部": {
+        "Within_module_Degree": -1.1517,
+        "Participation_Coefficient": 0.5568
+      },
+      "崔&雪莉&Jon": {
+        "Within_module_Degree": -0.698,
+        "Participation_Coefficient": 0.42
+      },
+      "崔咪Tramy": {
+        "Within_module_Degree": 0.4362,
+        "Participation_Coefficient": 0.3153
+      },
+      "三個麻瓜": {
+        "Within_module_Degree": -0.8492,
+        "Participation_Coefficient": 0.4954
+      },
+      "兔女狼": {
+        "Within_module_Degree": -0.698,
+        "Participation_Coefficient": 0.2907
+      },
+      "黃小米-Mii": {
+        "Within_module_Degree": 0.5118,
+        "Participation_Coefficient": 0.0
+      },
+      "莫彩曦Hailey": {
+        "Within_module_Degree": -0.6224,
+        "Participation_Coefficient": 0.2975
+      },
+      "小象愛出門": {
+        "Within_module_Degree": -0.8492,
+        "Participation_Coefficient": 0.4598
+      },
+      "強運少女日本日記RU-in-Japan/": {
+        "Within_module_Degree": -0.0931,
+        "Participation_Coefficient": 0.2637
+      },
+      "那那大師": {
+        "Within_module_Degree": 0.5118,
+        "Participation_Coefficient": 0.4477
+      },
+      "Mom-&-Dad": {
+        "Within_module_Degree": 0.0582,
+        "Participation_Coefficient": 0.3006
+      },
+      "厭世甜點店": {
+        "Within_module_Degree": -0.2443,
+        "Participation_Coefficient": 0.5
+      },
+      "KEOKI-BLACK布萊克薛薛": {
+        "Within_module_Degree": -0.4711,
+        "Participation_Coefficient": 0.3367
+      },
+      "百變沛莉-Peri": {
+        "Within_module_Degree": -0.7736,
+        "Participation_Coefficient": 0.3628
+      },
+      "日本藥妝失心瘋": {
+        "Within_module_Degree": -1.2273,
+        "Participation_Coefficient": 0.0
+      },
+      "黃山料": {
+        "Within_module_Degree": -1.3785,
+        "Participation_Coefficient": 0.375
+      },
+      "痘疤醫生---莊盈彥醫師": {
+        "Within_module_Degree": -1.076,
+        "Participation_Coefficient": 0.0
+      },
+      "周小葳": {
+        "Within_module_Degree": -0.0931,
+        "Participation_Coefficient": 0.3578
+      },
+      "村子裡的凱莉哥": {
+        "Within_module_Degree": -1.0004,
+        "Participation_Coefficient": 0.1653
+      },
+      "Goris-Sky": {
+        "Within_module_Degree": -1.076,
+        "Participation_Coefficient": 0.18
+      },
+      "Cindy-H": {
+        "Within_module_Degree": -0.7736,
+        "Participation_Coefficient": 0.255
+      },
+      "融融歷險記-Ben’s-Adventure": {
+        "Within_module_Degree": -0.7736,
+        "Participation_Coefficient": 0.3084
+      },
+      "Bobo-TV": {
+        "Within_module_Degree": -0.1687,
+        "Participation_Coefficient": 0.4926
+      },
+      "MaoMaoTV": {
+        "Within_module_Degree": -0.3955,
+        "Participation_Coefficient": 0.3018
+      },
+      "處女座媽媽的瑣碎日常": {
+        "Within_module_Degree": 0.5118,
+        "Participation_Coefficient": 0.1653
+      },
+      "Patti-Huang": {
+        "Within_module_Degree": -0.7736,
+        "Participation_Coefficient": 0.4989
+      },
+      "可可酒精": {
+        "Within_module_Degree": -0.6224,
+        "Participation_Coefficient": 0.477
+      },
+      "Jason-Chen-陳以桐": {
+        "Within_module_Degree": -1.3029,
+        "Participation_Coefficient": 0.32
+      },
+      "Sunnie-陸筱晴": {
+        "Within_module_Degree": -0.4711,
+        "Participation_Coefficient": 0.4308
+      },
+      "邱沁宜": {
+        "Within_module_Degree": -1.5297,
+        "Participation_Coefficient": 0.5
+      },
+      "Emma艾瑪": {
+        "Within_module_Degree": -1.076,
+        "Participation_Coefficient": 0.4753
+      },
+      "羅小白": {
+        "Within_module_Degree": -1.1517,
+        "Participation_Coefficient": 0.4592
+      },
+      "Ines-Wang": {
+        "Within_module_Degree": -1.1517,
+        "Participation_Coefficient": 0.1975
+      },
+      "辣媽Shania": {
+        "Within_module_Degree": -1.2273,
+        "Participation_Coefficient": 0.48
+      },
+      "鬧著玩娛樂": {
+        "Within_module_Degree": -1.0004,
+        "Participation_Coefficient": 0.4734
+      },
+      "Aries艾瑞絲": {
+        "Within_module_Degree": 0.2912,
+        "Participation_Coefficient": 0.5
+      },
+      "Andy老師": {
+        "Within_module_Degree": 0.0728,
+        "Participation_Coefficient": 0.5073
+      },
+      "琳妲-林羿禎": {
+        "Within_module_Degree": 0.8009,
+        "Participation_Coefficient": 0.4928
+      },
+      "這群人TGOP": {
+        "Within_module_Degree": -0.3641,
+        "Participation_Coefficient": 0.5222
+      },
+      "HahaTai-哈哈台": {
+        "Within_module_Degree": 0.0728,
+        "Participation_Coefficient": 0.4999
+      },
+      "蕭志瑋": {
+        "Within_module_Degree": -0.2912,
+        "Participation_Coefficient": 0.497
+      },
+      "大蛇丸": {
+        "Within_module_Degree": 1.3834,
+        "Participation_Coefficient": 0.5
+      },
+      "含羞草日記": {
+        "Within_module_Degree": 0.4369,
+        "Participation_Coefficient": 0.4985
+      },
+      "阿滴英文": {
+        "Within_module_Degree": 3.5677,
+        "Participation_Coefficient": 0.4962
+      },
+      "我是阿樂-林妤臻": {
+        "Within_module_Degree": 1.3106,
+        "Participation_Coefficient": 0.5074
+      },
+      "廉傑克曼": {
+        "Within_module_Degree": 1.8931,
+        "Participation_Coefficient": 0.5101
+      },
+      "魚乾": {
+        "Within_module_Degree": 2.4028,
+        "Participation_Coefficient": 0.4674
+      },
+      "J-Bao賤葆": {
+        "Within_module_Degree": 0.8737,
+        "Participation_Coefficient": 0.4397
+      },
+      "安啾咪": {
+        "Within_module_Degree": 0.7281,
+        "Participation_Coefficient": 0.4941
+      },
+      "Onion-man-洋蔥先生與阿文": {
+        "Within_module_Degree": 2.7668,
+        "Participation_Coefficient": 0.4364
+      },
+      "廚佛瑞德Fred": {
+        "Within_module_Degree": 0.5097,
+        "Participation_Coefficient": 0.4974
+      },
+      "蔡阿嘎": {
+        "Within_module_Degree": 1.6018,
+        "Participation_Coefficient": 0.4964
+      },
+      "蔡哥": {
+        "Within_module_Degree": 2.0387,
+        "Participation_Coefficient": 0.4881
+      },
+      "英雄日常Heroisme": {
+        "Within_module_Degree": -1.165,
+        "Participation_Coefficient": 0.2778
+      },
+      "肉比頭Zoebitalk": {
+        "Within_module_Degree": 0.2184,
+        "Participation_Coefficient": 0.4957
+      },
+      "我得了一種吃菜就會死的病-微疼": {
+        "Within_module_Degree": 0.9465,
+        "Participation_Coefficient": 0.2061
+      },
+      "胡子Huz": {
+        "Within_module_Degree": 0.4369,
+        "Participation_Coefficient": 0.2645
+      },
+      "Six-Wang": {
+        "Within_module_Degree": 0.8737,
+        "Participation_Coefficient": 0.279
+      },
+      "超認真少年-I'm-Serious": {
+        "Within_module_Degree": 0.3641,
+        "Participation_Coefficient": 0.465
+      },
+      "好味小姐": {
+        "Within_module_Degree": -0.2912,
+        "Participation_Coefficient": 0.5093
+      },
+      "那個女生-Kiki": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.5127
+      },
+      "How-Fun-如何爽": {
+        "Within_module_Degree": 1.529,
+        "Participation_Coefficient": 0.5069
+      },
+      "鐵牛-Ironbull": {
+        "Within_module_Degree": 1.9659,
+        "Participation_Coefficient": 0.475
+      },
+      "3cTim哥生活的日常": {
+        "Within_module_Degree": -0.6553,
+        "Participation_Coefficient": 0.4444
+      },
+      "Men's-Game-玩物誌": {
+        "Within_module_Degree": -0.8737,
+        "Participation_Coefficient": 0.5059
+      },
+      "小熊-Yuniko": {
+        "Within_module_Degree": -0.4369,
+        "Participation_Coefficient": 0.2659
+      },
+      "小葵-XiaoKui": {
+        "Within_module_Degree": 0.7281,
+        "Participation_Coefficient": 0.4114
+      },
+      "電瀨少女-女孩的科技日常": {
+        "Within_module_Degree": -0.4369,
+        "Participation_Coefficient": 0.3496
+      },
+      "瑀熙-Yuci": {
+        "Within_module_Degree": 0.1456,
+        "Participation_Coefficient": 0.5134
+      },
+      "志祺七七": {
+        "Within_module_Degree": 0.9465,
+        "Participation_Coefficient": 0.475
+      },
+      "黃氏兄弟": {
+        "Within_module_Degree": 0.1456,
+        "Participation_Coefficient": 0.4932
+      },
+      "PanSci-泛科學": {
+        "Within_module_Degree": -0.1456,
+        "Participation_Coefficient": 0.2934
+      },
+      "IFBB-Pro-Lin-Ching-Chieh-林敬傑": {
+        "Within_module_Degree": -0.4369,
+        "Participation_Coefficient": 0.3578
+      },
+      "星期天": {
+        "Within_module_Degree": 0.5825,
+        "Participation_Coefficient": 0.4005
+      },
+      "囂搞-Shaogao": {
+        "Within_module_Degree": 0.1456,
+        "Participation_Coefficient": 0.2491
+      },
+      "泱泱LYNN": {
+        "Within_module_Degree": -0.2184,
+        "Participation_Coefficient": 0.4915
+      },
+      "鼻妹的廢話亂畫": {
+        "Within_module_Degree": -0.2912,
+        "Participation_Coefficient": 0.3298
+      },
+      "MR.JOE-HOBBY.tv": {
+        "Within_module_Degree": -0.2912,
+        "Participation_Coefficient": 0.3418
+      },
+      "恩熙俊-aka-MC-Jeng": {
+        "Within_module_Degree": -0.2912,
+        "Participation_Coefficient": 0.4829
+      },
+      "貝莉莓": {
+        "Within_module_Degree": 0.2912,
+        "Participation_Coefficient": 0.3396
+      },
+      "現在宅知道": {
+        "Within_module_Degree": -0.3641,
+        "Participation_Coefficient": 0.0713
+      },
+      "咪妃Julia": {
+        "Within_module_Degree": 0.1456,
+        "Participation_Coefficient": 0.5171
+      },
+      "泥泥汝niniru": {
+        "Within_module_Degree": 0.3641,
+        "Participation_Coefficient": 0.4696
+      },
+      "魯蛋的頻道": {
+        "Within_module_Degree": -0.7281,
+        "Participation_Coefficient": 0.1107
+      },
+      "Sandy-珊迪": {
+        "Within_module_Degree": 0.2912,
+        "Participation_Coefficient": 0.4706
+      },
+      "牛排": {
+        "Within_module_Degree": 0.4369,
+        "Participation_Coefficient": 0.4518
+      },
+      "柴犬Nana和阿楞的一天": {
+        "Within_module_Degree": -1.3106,
+        "Participation_Coefficient": 0.58
+      },
+      "阿啾繪圖同萌": {
+        "Within_module_Degree": -0.8737,
+        "Participation_Coefficient": 0.4234
+      },
+      "人類超有病-Baxuan": {
+        "Within_module_Degree": 0.7281,
+        "Participation_Coefficient": 0.3804
+      },
+      "貓貓蟲-咖波": {
+        "Within_module_Degree": -0.1456,
+        "Participation_Coefficient": 0.32
+      },
+      "啾啾妹-by-LIIN": {
+        "Within_module_Degree": -0.2184,
+        "Participation_Coefficient": 0.2509
+      },
+      "蛋事超有事EggThings": {
+        "Within_module_Degree": -1.0194,
+        "Participation_Coefficient": 0.0
+      },
+      "鹿人": {
+        "Within_module_Degree": 0.2912,
+        "Participation_Coefficient": 0.3786
+      },
+      "健人蓋伊": {
+        "Within_module_Degree": -0.2184,
+        "Participation_Coefficient": 0.331
+      },
+      "大H-陳建昕": {
+        "Within_module_Degree": -0.9465,
+        "Participation_Coefficient": 0.5267
+      },
+      "木曜4超玩": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.4331
+      },
+      "豆漿--Soybean-Milk": {
+        "Within_module_Degree": -0.9465,
+        "Participation_Coefficient": 0.3047
+      },
+      "黃阿瑪的後宮生活": {
+        "Within_module_Degree": -0.1456,
+        "Participation_Coefficient": 0.4943
+      },
+      "超粒方": {
+        "Within_module_Degree": -0.9465,
+        "Participation_Coefficient": 0.426
+      },
+      "吃貨豪豪": {
+        "Within_module_Degree": -0.8737,
+        "Participation_Coefficient": 0.4898
+      },
+      "艾爾文": {
+        "Within_module_Degree": -1.3834,
+        "Participation_Coefficient": 0.5
+      },
+      "人生肥宅x尊": {
+        "Within_module_Degree": -0.6553,
+        "Participation_Coefficient": 0.0
+      },
+      "cheap-鄭才暐": {
+        "Within_module_Degree": -0.2912,
+        "Participation_Coefficient": 0.3389
+      },
+      "Campfire營火部落": {
+        "Within_module_Degree": -0.8737,
+        "Participation_Coefficient": 0.4911
+      },
+      "Ru's-Piano-Ru味春捲": {
+        "Within_module_Degree": 0.1456,
+        "Participation_Coefficient": 0.3694
+      },
+      "台灣吧": {
+        "Within_module_Degree": -0.3641,
+        "Participation_Coefficient": 0.3995
+      },
+      "喪屍老爸": {
+        "Within_module_Degree": -0.5825,
+        "Participation_Coefficient": 0.4592
+      },
+      "麻糬爸": {
+        "Within_module_Degree": -0.7281,
+        "Participation_Coefficient": 0.1107
+      },
+      "小尾巴": {
+        "Within_module_Degree": -0.1456,
+        "Participation_Coefficient": 0.4561
+      },
+      "傲嬌爸的養貓日常": {
+        "Within_module_Degree": -1.165,
+        "Participation_Coefficient": 0.375
+      },
+      "尤汐伯夷": {
+        "Within_module_Degree": -0.9465,
+        "Participation_Coefficient": 0.1653
+      },
+      "Ciao!-Kitchen": {
+        "Within_module_Degree": -1.3106,
+        "Participation_Coefficient": 0.5
+      },
+      "豹子腿方昶詠": {
+        "Within_module_Degree": -0.8009,
+        "Participation_Coefficient": 0.5277
+      },
+      "阿淇博士-Dr.Achi": {
+        "Within_module_Degree": -1.4562,
+        "Participation_Coefficient": 0.375
+      },
+      "希露弟弟啃雞腿": {
+        "Within_module_Degree": 0.5825,
+        "Participation_Coefficient": 0.4994
+      },
+      "阿慈車庫-Dream-garage": {
+        "Within_module_Degree": -0.9465,
+        "Participation_Coefficient": 0.0
+      },
+      "DE-JuN": {
+        "Within_module_Degree": -1.4562,
+        "Participation_Coefficient": 0.0
+      },
+      "依梨": {
+        "Within_module_Degree": -1.165,
+        "Participation_Coefficient": 0.1653
+      },
+      "Lilyflute長笛姐姐": {
+        "Within_module_Degree": -1.4562,
+        "Participation_Coefficient": 0.32
+      },
+      "黃帝筱清Virus": {
+        "Within_module_Degree": -1.0922,
+        "Participation_Coefficient": 0.1653
+      },
+      "Linzin-阿哲": {
+        "Within_module_Degree": -1.3106,
+        "Participation_Coefficient": 0.0
+      },
+      "SMG-Sirenia海牛": {
+        "Within_module_Degree": 1.7321,
+        "Participation_Coefficient": 0.375
+      },
+      "閃電狼Flash-Wolves": {
+        "Within_module_Degree": -0.5774,
+        "Participation_Coefficient": 0.4444
+      },
+      "Gary蓋瑞": {
+        "Within_module_Degree": -0.5774,
+        "Participation_Coefficient": 0.375
+      },
+      "Lobo-蘿蔔": {
+        "Within_module_Degree": -0.5774,
+        "Participation_Coefficient": 0.5
+      },
+      "連環泡有芒果": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.5714
+      },
+      "Coffee-Time": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.62
+      },
+      "莊政威-Cliff-Chuang": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.375
+      },
+      "鵝鵝就是鵝鵝": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.32
+      },
+      "蘿潔塔的廚房": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "虎麗笑嗨嗨": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.5
+      },
+      "老王愛說笑": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "波蘭女孩x台灣男孩-在家環遊世界": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "紫玥桃": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.5938
+      },
+      "肉肉Neneko": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "王宏哲教養、育兒寶典": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "丁特-Dinter": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "雨揚樂活家族": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "星光奈奈": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "Wecook123-料理123": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "史丹利視角的體育世界": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "胡采蘋-Emmy-Hu": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "維思維": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "老王-oldwang": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      }
+    },
     "params": {
       "steps": 4
     }
   },
   "Louvain": {
-    "modularity": 0.17009613762860515,
+    "modularity": 0.1680456759149941,
+    "Cluster_Density": {
+      "Group_0": 0.18712702472293266,
+      "Group_1": 0.2214541730670763,
+      "Group_2": 0.20833333333333334,
+      "Group_3": 0.2789473684210526,
+      "Group_4": 0.0,
+      "Group_5": 0.0,
+      "Group_6": 0.0,
+      "Group_7": 0.0,
+      "Group_8": 0.0,
+      "Group_9": 0.0,
+      "Group_10": 0.0,
+      "Group_11": 0.0
+    },
+    "Inter_cluster_Edge_Density": {
+      "Group_0": {
+        "Group_1": 0.08695652173913043,
+        "Group_2": 0.10036231884057971,
+        "Group_3": 0.11666666666666667,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_1": {
+        "Group_0": 0.07775477340694732,
+        "Group_2": 0.09126984126984126,
+        "Group_3": 0.12698412698412698,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_2": {
+        "Group_0": 0.0931159420289855,
+        "Group_1": 0.10555555555555556,
+        "Group_3": 0.08375,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_3": {
+        "Group_0": 0.0963768115942029,
+        "Group_1": 0.1357142857142857,
+        "Group_2": 0.08375,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_4": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_5": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_6": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_7": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_8": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_9": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_10": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_11": 0.0
+      },
+      "Group_11": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0
+      }
+    },
     "membership": [
       [
-        "Meg-今天穿什麼",
-        "GINA-HELLO!",
-        "關韶文",
-        "Goris-Sky",
-        "日本藥妝失心瘋",
-        "小凱老師",
-        "Ines-Wang",
-        "可可酒精",
-        "阿淇博士-Dr.Achi",
-        "有璟妍精요찡옌찡",
-        "Sandy-&-Mandy",
-        "Mom-&-Dad",
-        "蘿潔塔的廚房",
-        "愛莉莎莎-Alisasa",
-        "許允樂的老兵魂",
-        "江老師",
-        "林進-飛醺卑鄙-fashion-baby",
-        "元-元",
-        "Natalie吳斐莉",
-        "村子裡的凱莉哥",
-        "見習網美小吳",
-        "艾爾文",
-        "BlaireChen-左撇子",
-        "Cindy-H",
-        "黃大謙",
-        "處女座媽媽的瑣碎日常",
-        "丹妮婊姐",
-        "一隻阿圓",
-        "Evelyn-Chen-理科太太",
-        "Peter-Su",
-        "百變沛莉-Peri",
-        "千千進食中",
-        "強運少女日本日記RU-in-Japan/",
-        "周小葳",
-        "MaoMaoTV",
-        "黃山料",
-        "厭世甜點店",
-        "Ciao!-Kitchen",
-        "林萱-Shiuan",
-        "兔女狼",
-        "三原慧悟-Sanyuan_JAPAN",
-        "滴妹",
-        "這群人-董仔",
-        "Charlene-Liu-查理",
-        "KEOKI-BLACK布萊克薛薛",
-        "紀卜心-Kimi",
-        "阿翰po影片",
-        "Yun-Chou",
-        "Ian&Eric",
-        "鬧著玩娛樂",
-        "崔咪Tramy",
-        "找蔬食-Traveggo",
-        "卡特-Kart",
-        "痘疤醫生---莊盈彥醫師",
-        "欸你這週要幹嘛",
-        "台灣妞韓國媳",
-        "莫彩曦Hailey",
-        "黃小米-Mii",
-        "陳彥婷",
-        "77老大"
-      ],
-      [
-        "鼻妹的廢話亂畫",
-        "希露弟弟啃雞腿",
-        "cheap-鄭才暐",
-        "這群人-尼克",
-        "How-Fun-如何爽",
-        "台灣吧",
-        "尤汐伯夷",
-        "木曜4超玩",
-        "上發條俱樂部",
-        "麻糬爸",
-        "鹿人",
-        "廚佛瑞德Fred",
-        "牛排",
-        "阿啾繪圖同萌",
-        "三個麻瓜",
-        "這群人TGOP",
-        "魚乾",
-        "豆漿--Soybean-Milk",
-        "HOOK",
-        "蛋事超有事EggThings",
-        "我得了一種吃菜就會死的病-微疼",
-        "HahaTai-哈哈台",
-        "那對夫妻",
-        "囂搞-Shaogao",
-        "星期天",
-        "Onion-man-洋蔥先生與阿文",
-        "PanSci-泛科學",
-        "小尾巴",
-        "Jason-Chen-陳以桐",
-        "辣媽Shania",
-        "啾啾妹-by-LIIN",
-        "蔡阿嘎",
-        "人生肥宅x尊",
-        "Coffee-Time",
-        "人類超有病-Baxuan",
-        "J-Bao賤葆",
-        "泱泱LYNN",
-        "超認真少年-I'm-Serious",
-        "好味小姐",
-        "傲嬌爸的養貓日常",
-        "鵝鵝就是鵝鵝",
-        "王宏哲教養、育兒寶典",
-        "大蛇丸",
-        "廉傑克曼",
-        "白癡公主",
-        "羅小白",
-        "High咖-邱志恒",
-        "貓貓蟲-咖波",
-        "胡子Huz",
-        "蕭志瑋",
-        "Gary蓋瑞",
-        "安啾咪",
-        "DE-JuN",
-        "連環泡有芒果",
-        "柴犬Nana和阿楞的一天",
-        "黃阿瑪的後宮生活"
-      ],
-      [
-        "我是阿樂-林妤臻",
-        "肉肉Neneko",
-        "Ru's-Piano-Ru味春捲",
-        "魔術Channel---Davio",
-        "含羞草日記",
-        "小葵-XiaoKui",
-        "恩熙俊-aka-MC-Jeng",
-        "Andy老師",
-        "依梨",
-        "鐵牛-Ironbull",
-        "Sandy-珊迪",
-        "小熊-Yuniko",
-        "Six-Wang",
-        "蔡哥",
-        "Lobo-蘿蔔",
-        "黃帝筱清Virus",
-        "魯蛋的頻道",
-        "飽妮",
-        "愛里",
-        "志祺七七",
-        "Emma艾瑪",
-        "Lilyflute長笛姐姐",
-        "阿慈車庫-Dream-garage",
-        "貝莉莓",
-        "MR.JOE-HOBBY.tv",
-        "咪妃Julia",
-        "SMG-Sirenia海牛",
-        "琳妲-林羿禎",
-        "閃電狼Flash-Wolves",
-        "泥泥汝niniru",
-        "那個女生-Kiki",
-        "小A辣",
-        "林淑芬2.0",
-        "瑀熙-Yuci",
-        "邱沁宜",
-        "紫玥桃",
-        "超粒方",
-        "Aries艾瑞絲",
-        "現在宅知道"
-      ],
-      [
-        "蔡桃貴",
         "Campfire營火部落",
-        "Linzin-阿哲",
+        "How-Fun-如何爽",
+        "辣媽Shania",
         "電瀨少女-女孩的科技日常",
-        "我是老爸-我不要當爸!",
-        "黃氏兄弟",
-        "3cTim哥生活的日常",
-        "Men's-Game-玩物誌",
-        "小象愛出門",
-        "喪屍老爸",
-        "波蘭女孩x台灣男孩-在家環遊世界",
-        "嘎嫂二伯",
-        "Joeman",
-        "肉比頭Zoebitalk",
-        "Bobo-TV",
-        "英雄日常Heroisme",
-        "老王愛說笑",
         "阿滴英文",
-        "豹子腿方昶詠",
+        "DE-JuN",
+        "尤汐伯夷",
+        "PanSci-泛科學",
+        "厭世甜點店",
+        "鵝鵝就是鵝鵝",
+        "希露弟弟啃雞腿",
+        "人類超有病-Baxuan",
+        "蛋事超有事EggThings",
+        "超粒方",
         "莊政威-Cliff-Chuang",
-        "彼得爸與蘇珊媽"
+        "Lilyflute長笛姐姐",
+        "三個麻瓜",
+        "Onion-man-洋蔥先生與阿文",
+        "Coffee-Time",
+        "貝莉莓",
+        "廉傑克曼",
+        "牛排",
+        "Six-Wang",
+        "台灣妞韓國媳",
+        "那那大師",
+        "魔術Channel---Davio",
+        "木曜4超玩",
+        "鐵牛-Ironbull",
+        "吃貨豪豪",
+        "麻糬爸",
+        "Gary蓋瑞",
+        "囂搞-Shaogao",
+        "上發條俱樂部",
+        "廚佛瑞德Fred",
+        "Ru's-Piano-Ru味春捲",
+        "J-Bao賤葆",
+        "魯蛋的頻道",
+        "黃氏兄弟",
+        "IFBB-Pro-Lin-Ching-Chieh-林敬傑",
+        "台灣吧",
+        "人生肥宅x尊",
+        "魚乾",
+        "蔡哥",
+        "我得了一種吃菜就會死的病-微疼",
+        "艾爾文",
+        "Linzin-阿哲",
+        "志祺七七",
+        "小尾巴",
+        "超認真少年-I'm-Serious",
+        "胡子Huz",
+        "LoganDBeck-小貝",
+        "現在宅知道",
+        "阿啾繪圖同萌",
+        "High咖-邱志恒",
+        "大蛇丸",
+        "健人蓋伊",
+        "Jason-Chen-陳以桐",
+        "貓貓蟲-咖波",
+        "蕭志瑋",
+        "KEOKI-BLACK布萊克薛薛",
+        "MR.JOE-HOBBY.tv",
+        "鼻妹的廢話亂畫",
+        "HahaTai-哈哈台",
+        "SMG-Sirenia海牛",
+        "cheap-鄭才暐",
+        "啾啾妹-by-LIIN",
+        "星期天",
+        "鹿人",
+        "連環泡有芒果"
       ],
       [
-        "融融歷險記-Ben’s-Adventure",
-        "羚小鹿",
-        "Candy-孟潔",
-        "那些電影教我的事",
-        "吃貨豪豪",
-        "大H-陳建昕",
+        "可可酒精",
+        "卡特-Kart",
+        "愛里",
+        "邱沁宜",
+        "Ian&Eric",
+        "日本藥妝失心瘋",
+        "Yun-Chou",
+        "欸你這週要幹嘛",
+        "肉肉Neneko",
+        "丹妮婊姐",
+        "Goris-Sky",
+        "MaoMaoTV",
+        "BlaireChen-左撇子",
+        "許允樂的老兵魂",
+        "GINA-HELLO!",
+        "處女座媽媽的瑣碎日常",
+        "小A辣",
+        "Sandy-&-Mandy",
+        "百變沛莉-Peri",
+        "三原慧悟-Sanyuan_JAPAN",
+        "陳彥婷",
+        "安啾咪",
         "PEETA葛格",
-        "虎麗笑嗨嗨",
-        "IFBB-Pro-Lin-Ching-Chieh-林敬傑",
-        "籃靖玟",
-        "Sunnie-陸筱晴",
-        "健人蓋伊",
-        "崔&雪莉&Jon",
-        "LoganDBeck-小貝",
+        "飽妮",
+        "HOOK",
+        "強運少女日本日記RU-in-Japan/",
+        "愛莉莎莎-Alisasa",
+        "崔咪Tramy",
+        "Evelyn-Chen-理科太太",
+        "江老師",
+        "77老大",
+        "Emma艾瑪",
+        "林萱-Shiuan",
+        "小象愛出門",
+        "蘿潔塔的廚房",
+        "白癡公主",
+        "肉比頭Zoebitalk",
+        "找蔬食-Traveggo",
+        "莫彩曦Hailey",
+        "Peter-Su",
+        "兔女狼",
+        "痘疤醫生---莊盈彥醫師",
+        "阿翰po影片",
+        "Ines-Wang",
+        "黃山料",
+        "林進-飛醺卑鄙-fashion-baby",
+        "周小葳",
+        "融融歷險記-Ben’s-Adventure",
+        "小凱老師",
         "Patti-Huang",
-        "那那大師"
+        "Cindy-H",
+        "那個女生-Kiki",
+        "Meg-今天穿什麼",
+        "Charlene-Liu-查理",
+        "關韶文",
+        "紫玥桃",
+        "見習網美小吳",
+        "村子裡的凱莉哥",
+        "Natalie吳斐莉",
+        "一隻阿圓",
+        "黃小米-Mii",
+        "紀卜心-Kimi",
+        "黃大謙"
+      ],
+      [
+        "Men's-Game-玩物誌",
+        "虎麗笑嗨嗨",
+        "林淑芬2.0",
+        "含羞草日記",
+        "泥泥汝niniru",
+        "咪妃Julia",
+        "那對夫妻",
+        "元-元",
+        "Sunnie-陸筱晴",
+        "我是阿樂-林妤臻",
+        "小葵-XiaoKui",
+        "閃電狼Flash-Wolves",
+        "阿慈車庫-Dream-garage",
+        "羚小鹿",
+        "小熊-Yuniko",
+        "Sandy-珊迪",
+        "琳妲-林羿禎",
+        "羅小白",
+        "Lobo-蘿蔔",
+        "Joeman",
+        "這群人TGOP",
+        "3cTim哥生活的日常",
+        "豹子腿方昶詠",
+        "老王愛說笑",
+        "那些電影教我的事",
+        "籃靖玟",
+        "英雄日常Heroisme",
+        "崔&雪莉&Jon",
+        "黃帝筱清Virus",
+        "Aries艾瑞絲",
+        "大H-陳建昕",
+        "瑀熙-Yuci",
+        "依梨",
+        "Andy老師",
+        "Candy-孟潔",
+        "恩熙俊-aka-MC-Jeng",
+        "這群人-董仔",
+        "這群人-尼克",
+        "王宏哲教養、育兒寶典",
+        "有璟妍精요찡옌찡"
+      ],
+      [
+        "鬧著玩娛樂",
+        "黃阿瑪的後宮生活",
+        "波蘭女孩x台灣男孩-在家環遊世界",
+        "我是老爸-我不要當爸!",
+        "千千進食中",
+        "柴犬Nana和阿楞的一天",
+        "好味小姐",
+        "Mom-&-Dad",
+        "泱泱LYNN",
+        "嘎嫂二伯",
+        "彼得爸與蘇珊媽",
+        "喪屍老爸",
+        "Ciao!-Kitchen",
+        "Bobo-TV",
+        "蔡阿嘎",
+        "滴妹",
+        "傲嬌爸的養貓日常",
+        "豆漿--Soybean-Milk",
+        "蔡桃貴",
+        "阿淇博士-Dr.Achi"
+      ],
+      [
+        "丁特-Dinter"
+      ],
+      [
+        "雨揚樂活家族"
+      ],
+      [
+        "星光奈奈"
+      ],
+      [
+        "Wecook123-料理123"
+      ],
+      [
+        "史丹利視角的體育世界"
+      ],
+      [
+        "胡采蘋-Emmy-Hu"
+      ],
+      [
+        "維思維"
+      ],
+      [
+        "老王-oldwang"
       ]
     ],
+    "node_metrics": {
+      "Campfire營火部落": {
+        "Within_module_Degree": -0.7037,
+        "Participation_Coefficient": 0.6475
+      },
+      "How-Fun-如何爽": {
+        "Within_module_Degree": 2.019,
+        "Participation_Coefficient": 0.6511
+      },
+      "辣媽Shania": {
+        "Within_module_Degree": -1.1575,
+        "Participation_Coefficient": 0.62
+      },
+      "電瀨少女-女孩的科技日常": {
+        "Within_module_Degree": -0.6129,
+        "Participation_Coefficient": 0.6597
+      },
+      "阿滴英文": {
+        "Within_module_Degree": 2.9266,
+        "Participation_Coefficient": 0.7033
+      },
+      "DE-JuN": {
+        "Within_module_Degree": -1.339,
+        "Participation_Coefficient": 0.0
+      },
+      "尤汐伯夷": {
+        "Within_module_Degree": -0.8852,
+        "Participation_Coefficient": 0.4298
+      },
+      "PanSci-泛科學": {
+        "Within_module_Degree": 0.2039,
+        "Participation_Coefficient": 0.3648
+      },
+      "厭世甜點店": {
+        "Within_module_Degree": 0.0224,
+        "Participation_Coefficient": 0.6372
+      },
+      "鵝鵝就是鵝鵝": {
+        "Within_module_Degree": -1.2483,
+        "Participation_Coefficient": 0.48
+      },
+      "希露弟弟啃雞腿": {
+        "Within_module_Degree": 0.5669,
+        "Participation_Coefficient": 0.6861
+      },
+      "人類超有病-Baxuan": {
+        "Within_module_Degree": 1.0207,
+        "Participation_Coefficient": 0.509
+      },
+      "蛋事超有事EggThings": {
+        "Within_module_Degree": -0.7945,
+        "Participation_Coefficient": 0.0
+      },
+      "超粒方": {
+        "Within_module_Degree": -0.7945,
+        "Participation_Coefficient": 0.5562
+      },
+      "莊政威-Cliff-Chuang": {
+        "Within_module_Degree": -1.339,
+        "Participation_Coefficient": 0.5
+      },
+      "Lilyflute長笛姐姐": {
+        "Within_module_Degree": -1.339,
+        "Participation_Coefficient": 0.32
+      },
+      "三個麻瓜": {
+        "Within_module_Degree": 0.1131,
+        "Participation_Coefficient": 0.5949
+      },
+      "Onion-man-洋蔥先生與阿文": {
+        "Within_module_Degree": 2.4728,
+        "Participation_Coefficient": 0.6491
+      },
+      "Coffee-Time": {
+        "Within_module_Degree": -1.0667,
+        "Participation_Coefficient": 0.46
+      },
+      "貝莉莓": {
+        "Within_module_Degree": -0.0684,
+        "Participation_Coefficient": 0.6825
+      },
+      "廉傑克曼": {
+        "Within_module_Degree": 2.2006,
+        "Participation_Coefficient": 0.6603
+      },
+      "牛排": {
+        "Within_module_Degree": 0.2946,
+        "Participation_Coefficient": 0.6641
+      },
+      "Six-Wang": {
+        "Within_module_Degree": 0.6577,
+        "Participation_Coefficient": 0.5818
+      },
+      "台灣妞韓國媳": {
+        "Within_module_Degree": -0.976,
+        "Participation_Coefficient": 0.644
+      },
+      "那那大師": {
+        "Within_module_Degree": 0.3854,
+        "Participation_Coefficient": 0.6518
+      },
+      "魔術Channel---Davio": {
+        "Within_module_Degree": -1.0667,
+        "Participation_Coefficient": 0.642
+      },
+      "木曜4超玩": {
+        "Within_module_Degree": -0.0684,
+        "Participation_Coefficient": 0.6389
+      },
+      "鐵牛-Ironbull": {
+        "Within_module_Degree": 1.7468,
+        "Participation_Coefficient": 0.6801
+      },
+      "吃貨豪豪": {
+        "Within_module_Degree": -0.6129,
+        "Participation_Coefficient": 0.6148
+      },
+      "麻糬爸": {
+        "Within_module_Degree": -0.6129,
+        "Participation_Coefficient": 0.3045
+      },
+      "Gary蓋瑞": {
+        "Within_module_Degree": -1.1575,
+        "Participation_Coefficient": 0.4688
+      },
+      "囂搞-Shaogao": {
+        "Within_module_Degree": 0.5669,
+        "Participation_Coefficient": 0.3273
+      },
+      "上發條俱樂部": {
+        "Within_module_Degree": -0.2499,
+        "Participation_Coefficient": 0.3904
+      },
+      "廚佛瑞德Fred": {
+        "Within_module_Degree": 0.5669,
+        "Participation_Coefficient": 0.7086
+      },
+      "Ru's-Piano-Ru味春捲": {
+        "Within_module_Degree": 0.0224,
+        "Participation_Coefficient": 0.6193
+      },
+      "J-Bao賤葆": {
+        "Within_module_Degree": 1.1115,
+        "Participation_Coefficient": 0.6096
+      },
+      "魯蛋的頻道": {
+        "Within_module_Degree": -0.7037,
+        "Participation_Coefficient": 0.4152
+      },
+      "黃氏兄弟": {
+        "Within_module_Degree": 0.1131,
+        "Participation_Coefficient": 0.7009
+      },
+      "IFBB-Pro-Lin-Ching-Chieh-林敬傑": {
+        "Within_module_Degree": -0.1592,
+        "Participation_Coefficient": 0.5311
+      },
+      "台灣吧": {
+        "Within_module_Degree": -0.0684,
+        "Participation_Coefficient": 0.4709
+      },
+      "人生肥宅x尊": {
+        "Within_module_Degree": -0.6129,
+        "Participation_Coefficient": 0.2901
+      },
+      "魚乾": {
+        "Within_module_Degree": 1.656,
+        "Participation_Coefficient": 0.7132
+      },
+      "蔡哥": {
+        "Within_module_Degree": 1.4745,
+        "Participation_Coefficient": 0.7065
+      },
+      "我得了一種吃菜就會死的病-微疼": {
+        "Within_module_Degree": 0.7484,
+        "Participation_Coefficient": 0.4961
+      },
+      "艾爾文": {
+        "Within_module_Degree": -1.2483,
+        "Participation_Coefficient": 0.6111
+      },
+      "Linzin-阿哲": {
+        "Within_module_Degree": -1.2483,
+        "Participation_Coefficient": 0.375
+      },
+      "志祺七七": {
+        "Within_module_Degree": 1.0207,
+        "Participation_Coefficient": 0.653
+      },
+      "小尾巴": {
+        "Within_module_Degree": 0.6577,
+        "Participation_Coefficient": 0.4005
+      },
+      "超認真少年-I'm-Serious": {
+        "Within_module_Degree": 0.3854,
+        "Participation_Coefficient": 0.6674
+      },
+      "胡子Huz": {
+        "Within_module_Degree": 0.4762,
+        "Participation_Coefficient": 0.5144
+      },
+      "LoganDBeck-小貝": {
+        "Within_module_Degree": -0.976,
+        "Participation_Coefficient": 0.6641
+      },
+      "現在宅知道": {
+        "Within_module_Degree": -0.3407,
+        "Participation_Coefficient": 0.4362
+      },
+      "阿啾繪圖同萌": {
+        "Within_module_Degree": -0.2499,
+        "Participation_Coefficient": 0.2344
+      },
+      "High咖-邱志恒": {
+        "Within_module_Degree": -0.1592,
+        "Participation_Coefficient": 0.6554
+      },
+      "大蛇丸": {
+        "Within_module_Degree": 1.7468,
+        "Participation_Coefficient": 0.6258
+      },
+      "健人蓋伊": {
+        "Within_module_Degree": -0.1592,
+        "Participation_Coefficient": 0.57
+      },
+      "Jason-Chen-陳以桐": {
+        "Within_module_Degree": -1.1575,
+        "Participation_Coefficient": 0.32
+      },
+      "貓貓蟲-咖波": {
+        "Within_module_Degree": -0.0684,
+        "Participation_Coefficient": 0.5087
+      },
+      "蕭志瑋": {
+        "Within_module_Degree": 0.0224,
+        "Participation_Coefficient": 0.662
+      },
+      "KEOKI-BLACK布萊克薛薛": {
+        "Within_module_Degree": -1.0667,
+        "Participation_Coefficient": 0.7092
+      },
+      "MR.JOE-HOBBY.tv": {
+        "Within_module_Degree": -0.2499,
+        "Participation_Coefficient": 0.5566
+      },
+      "鼻妹的廢話亂畫": {
+        "Within_module_Degree": -0.0684,
+        "Participation_Coefficient": 0.4833
+      },
+      "HahaTai-哈哈台": {
+        "Within_module_Degree": 0.4762,
+        "Participation_Coefficient": 0.6487
+      },
+      "SMG-Sirenia海牛": {
+        "Within_module_Degree": -0.7945,
+        "Participation_Coefficient": 0.485
+      },
+      "cheap-鄭才暐": {
+        "Within_module_Degree": -0.3407,
+        "Participation_Coefficient": 0.5712
+      },
+      "啾啾妹-by-LIIN": {
+        "Within_module_Degree": 0.0224,
+        "Participation_Coefficient": 0.3512
+      },
+      "星期天": {
+        "Within_module_Degree": 1.0207,
+        "Participation_Coefficient": 0.4701
+      },
+      "鹿人": {
+        "Within_module_Degree": 0.2946,
+        "Participation_Coefficient": 0.5725
+      },
+      "連環泡有芒果": {
+        "Within_module_Degree": -1.2483,
+        "Participation_Coefficient": 0.4082
+      },
+      "可可酒精": {
+        "Within_module_Degree": -0.6964,
+        "Participation_Coefficient": 0.6786
+      },
+      "卡特-Kart": {
+        "Within_module_Degree": 1.1938,
+        "Participation_Coefficient": 0.5222
+      },
+      "愛里": {
+        "Within_module_Degree": 1.1938,
+        "Participation_Coefficient": 0.6912
+      },
+      "邱沁宜": {
+        "Within_module_Degree": -1.6912,
+        "Participation_Coefficient": 0.5
+      },
+      "Ian&Eric": {
+        "Within_module_Degree": 0.5969,
+        "Participation_Coefficient": 0.665
+      },
+      "日本藥妝失心瘋": {
+        "Within_module_Degree": -1.3927,
+        "Participation_Coefficient": 0.32
+      },
+      "Yun-Chou": {
+        "Within_module_Degree": 0.8953,
+        "Participation_Coefficient": 0.5841
+      },
+      "欸你這週要幹嘛": {
+        "Within_module_Degree": 0.6964,
+        "Participation_Coefficient": 0.6524
+      },
+      "肉肉Neneko": {
+        "Within_module_Degree": -1.6912,
+        "Participation_Coefficient": 0.0
+      },
+      "丹妮婊姐": {
+        "Within_module_Degree": 0.6964,
+        "Participation_Coefficient": 0.483
+      },
+      "Goris-Sky": {
+        "Within_module_Degree": -1.1938,
+        "Participation_Coefficient": 0.34
+      },
+      "MaoMaoTV": {
+        "Within_module_Degree": -0.5969,
+        "Participation_Coefficient": 0.5926
+      },
+      "BlaireChen-左撇子": {
+        "Within_module_Degree": 0.6964,
+        "Participation_Coefficient": 0.4572
+      },
+      "許允樂的老兵魂": {
+        "Within_module_Degree": 0.4974,
+        "Participation_Coefficient": 0.5744
+      },
+      "GINA-HELLO!": {
+        "Within_module_Degree": 0.4974,
+        "Participation_Coefficient": 0.6574
+      },
+      "處女座媽媽的瑣碎日常": {
+        "Within_module_Degree": 0.3979,
+        "Participation_Coefficient": 0.5069
+      },
+      "小A辣": {
+        "Within_module_Degree": -0.9948,
+        "Participation_Coefficient": 0.6575
+      },
+      "Sandy-&-Mandy": {
+        "Within_module_Degree": -1.4922,
+        "Participation_Coefficient": 0.6111
+      },
+      "百變沛莉-Peri": {
+        "Within_module_Degree": -0.7958,
+        "Participation_Coefficient": 0.4989
+      },
+      "三原慧悟-Sanyuan_JAPAN": {
+        "Within_module_Degree": -0.6964,
+        "Participation_Coefficient": 0.7053
+      },
+      "陳彥婷": {
+        "Within_module_Degree": 0.6964,
+        "Participation_Coefficient": 0.6899
+      },
+      "安啾咪": {
+        "Within_module_Degree": 0.199,
+        "Participation_Coefficient": 0.6973
+      },
+      "PEETA葛格": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.693
+      },
+      "飽妮": {
+        "Within_module_Degree": 0.199,
+        "Participation_Coefficient": 0.684
+      },
+      "HOOK": {
+        "Within_module_Degree": 0.7958,
+        "Participation_Coefficient": 0.675
+      },
+      "強運少女日本日記RU-in-Japan/": {
+        "Within_module_Degree": 0.199,
+        "Participation_Coefficient": 0.2754
+      },
+      "愛莉莎莎-Alisasa": {
+        "Within_module_Degree": 1.9896,
+        "Participation_Coefficient": 0.6673
+      },
+      "崔咪Tramy": {
+        "Within_module_Degree": 0.5969,
+        "Participation_Coefficient": 0.4329
+      },
+      "Evelyn-Chen-理科太太": {
+        "Within_module_Degree": 0.5969,
+        "Participation_Coefficient": 0.634
+      },
+      "江老師": {
+        "Within_module_Degree": -0.199,
+        "Participation_Coefficient": 0.6189
+      },
+      "77老大": {
+        "Within_module_Degree": 0.4974,
+        "Participation_Coefficient": 0.6431
+      },
+      "Emma艾瑪": {
+        "Within_module_Degree": -1.1938,
+        "Participation_Coefficient": 0.5864
+      },
+      "林萱-Shiuan": {
+        "Within_module_Degree": 0.9948,
+        "Participation_Coefficient": 0.5833
+      },
+      "小象愛出門": {
+        "Within_module_Degree": -0.9948,
+        "Participation_Coefficient": 0.5485
+      },
+      "蘿潔塔的廚房": {
+        "Within_module_Degree": -1.6912,
+        "Participation_Coefficient": 0.0
+      },
+      "白癡公主": {
+        "Within_module_Degree": 1.8901,
+        "Participation_Coefficient": 0.6765
+      },
+      "肉比頭Zoebitalk": {
+        "Within_module_Degree": 0.6964,
+        "Participation_Coefficient": 0.6628
+      },
+      "找蔬食-Traveggo": {
+        "Within_module_Degree": -0.4974,
+        "Participation_Coefficient": 0.428
+      },
+      "莫彩曦Hailey": {
+        "Within_module_Degree": -0.9948,
+        "Participation_Coefficient": 0.6488
+      },
+      "Peter-Su": {
+        "Within_module_Degree": -0.2984,
+        "Participation_Coefficient": 0.1563
+      },
+      "兔女狼": {
+        "Within_module_Degree": -0.7958,
+        "Participation_Coefficient": 0.4567
+      },
+      "痘疤醫生---莊盈彥醫師": {
+        "Within_module_Degree": -1.1938,
+        "Participation_Coefficient": 0.2188
+      },
+      "阿翰po影片": {
+        "Within_module_Degree": 1.7906,
+        "Participation_Coefficient": 0.6762
+      },
+      "Ines-Wang": {
+        "Within_module_Degree": -1.1938,
+        "Participation_Coefficient": 0.1975
+      },
+      "黃山料": {
+        "Within_module_Degree": -1.4922,
+        "Participation_Coefficient": 0.375
+      },
+      "林進-飛醺卑鄙-fashion-baby": {
+        "Within_module_Degree": 0.7958,
+        "Participation_Coefficient": 0.6719
+      },
+      "周小葳": {
+        "Within_module_Degree": 0.0995,
+        "Participation_Coefficient": 0.4244
+      },
+      "融融歷險記-Ben’s-Adventure": {
+        "Within_module_Degree": -1.0943,
+        "Participation_Coefficient": 0.6485
+      },
+      "小凱老師": {
+        "Within_module_Degree": -0.4974,
+        "Participation_Coefficient": 0.0997
+      },
+      "Patti-Huang": {
+        "Within_module_Degree": -0.9948,
+        "Participation_Coefficient": 0.6712
+      },
+      "Cindy-H": {
+        "Within_module_Degree": -0.6964,
+        "Participation_Coefficient": 0.255
+      },
+      "那個女生-Kiki": {
+        "Within_module_Degree": -0.0995,
+        "Participation_Coefficient": 0.707
+      },
+      "Meg-今天穿什麼": {
+        "Within_module_Degree": 0.3979,
+        "Participation_Coefficient": 0.4642
+      },
+      "Charlene-Liu-查理": {
+        "Within_module_Degree": 0.3979,
+        "Participation_Coefficient": 0.455
+      },
+      "關韶文": {
+        "Within_module_Degree": 0.4974,
+        "Participation_Coefficient": 0.6004
+      },
+      "紫玥桃": {
+        "Within_module_Degree": -1.3927,
+        "Participation_Coefficient": 0.5938
+      },
+      "見習網美小吳": {
+        "Within_module_Degree": 1.5917,
+        "Participation_Coefficient": 0.6471
+      },
+      "村子裡的凱莉哥": {
+        "Within_module_Degree": -1.0943,
+        "Participation_Coefficient": 0.4298
+      },
+      "Natalie吳斐莉": {
+        "Within_module_Degree": 0.8953,
+        "Participation_Coefficient": 0.4438
+      },
+      "一隻阿圓": {
+        "Within_module_Degree": 1.4922,
+        "Participation_Coefficient": 0.6943
+      },
+      "黃小米-Mii": {
+        "Within_module_Degree": 0.7958,
+        "Participation_Coefficient": 0.1349
+      },
+      "紀卜心-Kimi": {
+        "Within_module_Degree": 1.0943,
+        "Participation_Coefficient": 0.5177
+      },
+      "黃大謙": {
+        "Within_module_Degree": 1.0943,
+        "Participation_Coefficient": 0.655
+      },
+      "Men's-Game-玩物誌": {
+        "Within_module_Degree": -0.6725,
+        "Participation_Coefficient": 0.7051
+      },
+      "虎麗笑嗨嗨": {
+        "Within_module_Degree": -1.3129,
+        "Participation_Coefficient": 0.0
+      },
+      "林淑芬2.0": {
+        "Within_module_Degree": -0.3522,
+        "Participation_Coefficient": 0.6427
+      },
+      "含羞草日記": {
+        "Within_module_Degree": 1.4089,
+        "Participation_Coefficient": 0.7163
+      },
+      "泥泥汝niniru": {
+        "Within_module_Degree": 0.7685,
+        "Participation_Coefficient": 0.6721
+      },
+      "咪妃Julia": {
+        "Within_module_Degree": 0.1281,
+        "Participation_Coefficient": 0.7246
+      },
+      "那對夫妻": {
+        "Within_module_Degree": -0.8326,
+        "Participation_Coefficient": 0.7109
+      },
+      "元-元": {
+        "Within_module_Degree": 0.1281,
+        "Participation_Coefficient": 0.6137
+      },
+      "Sunnie-陸筱晴": {
+        "Within_module_Degree": 0.4483,
+        "Participation_Coefficient": 0.5104
+      },
+      "我是阿樂-林妤臻": {
+        "Within_module_Degree": 1.7292,
+        "Participation_Coefficient": 0.7141
+      },
+      "小葵-XiaoKui": {
+        "Within_module_Degree": 0.9286,
+        "Participation_Coefficient": 0.6151
+      },
+      "閃電狼Flash-Wolves": {
+        "Within_module_Degree": -1.3129,
+        "Participation_Coefficient": 0.4444
+      },
+      "阿慈車庫-Dream-garage": {
+        "Within_module_Degree": -0.6725,
+        "Participation_Coefficient": 0.4592
+      },
+      "羚小鹿": {
+        "Within_module_Degree": -0.1921,
+        "Participation_Coefficient": 0.3265
+      },
+      "小熊-Yuniko": {
+        "Within_module_Degree": 0.1281,
+        "Participation_Coefficient": 0.4875
+      },
+      "Sandy-珊迪": {
+        "Within_module_Degree": 0.2882,
+        "Participation_Coefficient": 0.6754
+      },
+      "琳妲-林羿禎": {
+        "Within_module_Degree": 2.5297,
+        "Participation_Coefficient": 0.7168
+      },
+      "羅小白": {
+        "Within_module_Degree": -0.6725,
+        "Participation_Coefficient": 0.5408
+      },
+      "Lobo-蘿蔔": {
+        "Within_module_Degree": -1.473,
+        "Participation_Coefficient": 0.5
+      },
+      "Joeman": {
+        "Within_module_Degree": 2.2095,
+        "Participation_Coefficient": 0.7125
+      },
+      "這群人TGOP": {
+        "Within_module_Degree": -0.032,
+        "Participation_Coefficient": 0.6856
+      },
+      "3cTim哥生活的日常": {
+        "Within_module_Degree": -0.3522,
+        "Participation_Coefficient": 0.6979
+      },
+      "豹子腿方昶詠": {
+        "Within_module_Degree": -0.032,
+        "Participation_Coefficient": 0.6782
+      },
+      "老王愛說笑": {
+        "Within_module_Degree": -1.473,
+        "Participation_Coefficient": 0.0
+      },
+      "那些電影教我的事": {
+        "Within_module_Degree": -0.1921,
+        "Participation_Coefficient": 0.6818
+      },
+      "籃靖玟": {
+        "Within_module_Degree": 0.6084,
+        "Participation_Coefficient": 0.5083
+      },
+      "英雄日常Heroisme": {
+        "Within_module_Degree": -1.3129,
+        "Participation_Coefficient": 0.6528
+      },
+      "崔&雪莉&Jon": {
+        "Within_module_Degree": -0.6725,
+        "Participation_Coefficient": 0.635
+      },
+      "黃帝筱清Virus": {
+        "Within_module_Degree": -0.8326,
+        "Participation_Coefficient": 0.4298
+      },
+      "Aries艾瑞絲": {
+        "Within_module_Degree": 1.2488,
+        "Participation_Coefficient": 0.694
+      },
+      "大H-陳建昕": {
+        "Within_module_Degree": -0.5123,
+        "Participation_Coefficient": 0.6578
+      },
+      "瑀熙-Yuci": {
+        "Within_module_Degree": 0.9286,
+        "Participation_Coefficient": 0.6964
+      },
+      "依梨": {
+        "Within_module_Degree": -0.8326,
+        "Participation_Coefficient": 0.314
+      },
+      "Andy老師": {
+        "Within_module_Degree": 0.6084,
+        "Participation_Coefficient": 0.7211
+      },
+      "Candy-孟潔": {
+        "Within_module_Degree": 0.2882,
+        "Participation_Coefficient": 0.5208
+      },
+      "恩熙俊-aka-MC-Jeng": {
+        "Within_module_Degree": 0.1281,
+        "Participation_Coefficient": 0.6749
+      },
+      "這群人-董仔": {
+        "Within_module_Degree": 1.0887,
+        "Participation_Coefficient": 0.7067
+      },
+      "這群人-尼克": {
+        "Within_module_Degree": 0.6084,
+        "Participation_Coefficient": 0.7103
+      },
+      "王宏哲教養、育兒寶典": {
+        "Within_module_Degree": -1.473,
+        "Participation_Coefficient": 0.0
+      },
+      "有璟妍精요찡옌찡": {
+        "Within_module_Degree": -0.9927,
+        "Participation_Coefficient": 0.7197
+      },
+      "鬧著玩娛樂": {
+        "Within_module_Degree": -1.2131,
+        "Participation_Coefficient": 0.6982
+      },
+      "黃阿瑪的後宮生活": {
+        "Within_module_Degree": 0.0774,
+        "Participation_Coefficient": 0.727
+      },
+      "波蘭女孩x台灣男孩-在家環遊世界": {
+        "Within_module_Degree": -1.7294,
+        "Participation_Coefficient": 0.4444
+      },
+      "我是老爸-我不要當爸!": {
+        "Within_module_Degree": 0.3355,
+        "Participation_Coefficient": 0.7174
+      },
+      "千千進食中": {
+        "Within_module_Degree": 1.368,
+        "Participation_Coefficient": 0.6709
+      },
+      "柴犬Nana和阿楞的一天": {
+        "Within_module_Degree": -0.955,
+        "Participation_Coefficient": 0.66
+      },
+      "好味小姐": {
+        "Within_module_Degree": 0.3355,
+        "Participation_Coefficient": 0.6798
+      },
+      "Mom-&-Dad": {
+        "Within_module_Degree": 0.3355,
+        "Participation_Coefficient": 0.6634
+      },
+      "泱泱LYNN": {
+        "Within_module_Degree": -0.4388,
+        "Participation_Coefficient": 0.6881
+      },
+      "嘎嫂二伯": {
+        "Within_module_Degree": 0.8518,
+        "Participation_Coefficient": 0.7147
+      },
+      "彼得爸與蘇珊媽": {
+        "Within_module_Degree": 0.0774,
+        "Participation_Coefficient": 0.7182
+      },
+      "喪屍老爸": {
+        "Within_module_Degree": 0.0774,
+        "Participation_Coefficient": 0.6403
+      },
+      "Ciao!-Kitchen": {
+        "Within_module_Degree": -1.2131,
+        "Participation_Coefficient": 0.6875
+      },
+      "Bobo-TV": {
+        "Within_module_Degree": 0.5937,
+        "Participation_Coefficient": 0.7365
+      },
+      "蔡阿嘎": {
+        "Within_module_Degree": 1.368,
+        "Participation_Coefficient": 0.7083
+      },
+      "滴妹": {
+        "Within_module_Degree": 2.4004,
+        "Participation_Coefficient": 0.7051
+      },
+      "傲嬌爸的養貓日常": {
+        "Within_module_Degree": -0.955,
+        "Participation_Coefficient": 0.6111
+      },
+      "豆漿--Soybean-Milk": {
+        "Within_module_Degree": -0.4388,
+        "Participation_Coefficient": 0.6016
+      },
+      "蔡桃貴": {
+        "Within_module_Degree": 0.0774,
+        "Participation_Coefficient": 0.7178
+      },
+      "阿淇博士-Dr.Achi": {
+        "Within_module_Degree": -0.955,
+        "Participation_Coefficient": 0.6528
+      },
+      "丁特-Dinter": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "雨揚樂活家族": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "星光奈奈": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "Wecook123-料理123": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "史丹利視角的體育世界": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "胡采蘋-Emmy-Hu": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "維思維": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "老王-oldwang": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      }
+    },
     "params": {
       "resolution": 1.0
     }
   },
   "Greedy": {
     "modularity": 0.15927912590656093,
+    "Cluster_Density": {
+      "Group_0": 0.1766541822721598,
+      "Group_1": 0.21342592592592594,
+      "Group_2": 0.15384615384615385,
+      "Group_3": 0.4166666666666667,
+      "Group_4": 0.5,
+      "Group_5": 0.5,
+      "Group_6": 0.0,
+      "Group_7": 0.0,
+      "Group_8": 0.0,
+      "Group_9": 0.0,
+      "Group_10": 0.0,
+      "Group_11": 0.0,
+      "Group_12": 0.0
+    },
+    "Inter_cluster_Edge_Density": {
+      "Group_0": {
+        "Group_1": 0.09259259259259259,
+        "Group_2": 0.062393162393162394,
+        "Group_3": 0.07777777777777778,
+        "Group_4": 0.03888888888888889,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_1": {
+        "Group_0": 0.09300411522633745,
+        "Group_2": 0.08641975308641975,
+        "Group_3": 0.07716049382716049,
+        "Group_4": 0.037037037037037035,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_2": {
+        "Group_0": 0.07435897435897436,
+        "Group_1": 0.07502374169040836,
+        "Group_3": 0.019230769230769232,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_3": {
+        "Group_0": 0.10833333333333334,
+        "Group_1": 0.12962962962962962,
+        "Group_2": 0.07692307692307693,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_4": {
+        "Group_0": 0.027777777777777776,
+        "Group_1": 0.018518518518518517,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_5": {
+        "Group_0": 0.022222222222222223,
+        "Group_1": 0.018518518518518517,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_6": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_7": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_8": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_9": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_10": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_11": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_11": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_12": 0.0
+      },
+      "Group_12": {
+        "Group_0": 0.0,
+        "Group_1": 0.0,
+        "Group_2": 0.0,
+        "Group_3": 0.0,
+        "Group_4": 0.0,
+        "Group_5": 0.0,
+        "Group_6": 0.0,
+        "Group_7": 0.0,
+        "Group_8": 0.0,
+        "Group_9": 0.0,
+        "Group_10": 0.0,
+        "Group_11": 0.0
+      }
+    },
     "membership": [
       [
-        "Meg-今天穿什麼",
-        "Goris-Sky",
-        "Ines-Wang",
-        "阿淇博士-Dr.Achi",
-        "有璟妍精요찡옌찡",
-        "可可酒精",
-        "Sandy-&-Mandy",
-        "江老師",
-        "林進-飛醺卑鄙-fashion-baby",
-        "元-元",
-        "處女座媽媽的瑣碎日常",
-        "丹妮婊姐",
-        "Evelyn-Chen-理科太太",
-        "周小葳",
-        "融融歷險記-Ben’s-Adventure",
-        "那些電影教我的事",
-        "Emma艾瑪",
-        "兔女狼",
-        "這群人-董仔",
-        "KEOKI-BLACK布萊克薛薛",
-        "嘎嫂二伯",
-        "Bobo-TV",
-        "虎麗笑嗨嗨",
-        "王宏哲教養、育兒寶典",
-        "Yun-Chou",
-        "琳妲-林羿禎",
-        "羅小白",
-        "崔咪Tramy",
-        "瑀熙-Yuci",
-        "找蔬食-Traveggo",
-        "小A辣",
-        "痘疤醫生---莊盈彥醫師",
         "卡特-Kart",
-        "欸你這週要幹嘛",
-        "LoganDBeck-小貝",
-        "莫彩曦Hailey",
-        "豹子腿方昶詠",
-        "Sunnie-陸筱晴",
-        "籃靖玟",
-        "那那大師",
-        "三原慧悟-Sanyuan_JAPAN",
-        "77老大",
-        "GINA-HELLO!",
-        "小凱老師",
-        "關韶文",
-        "日本藥妝失心瘋",
-        "Mom-&-Dad",
-        "羚小鹿",
-        "Candy-孟潔",
-        "我是老爸-我不要當爸!",
-        "蘿潔塔的廚房",
-        "愛莉莎莎-Alisasa",
-        "許允樂的老兵魂",
-        "含羞草日記",
+        "虎麗笑嗨嗨",
         "波蘭女孩x台灣男孩-在家環遊世界",
-        "Natalie吳斐莉",
-        "村子裡的凱莉哥",
-        "Joeman",
-        "見習網美小吳",
-        "Andy老師",
+        "Ian&Eric",
+        "含羞草日記",
+        "欸你這週要幹嘛",
+        "日本藥妝失心瘋",
+        "Yun-Chou",
+        "Mom-&-Dad",
+        "元-元",
+        "Sunnie-陸筱晴",
+        "嘎嫂二伯",
         "BlaireChen-左撇子",
-        "Cindy-H",
-        "黃大謙",
-        "崔&雪莉&Jon",
-        "一隻阿圓",
-        "Patti-Huang",
-        "千千進食中",
-        "百變沛莉-Peri",
+        "三原慧悟-Sanyuan_JAPAN",
+        "Joeman",
+        "Emma艾瑪",
+        "老王愛說笑",
+        "那些電影教我的事",
+        "籃靖玟",
+        "莫彩曦Hailey",
+        "找蔬食-Traveggo",
+        "台灣妞韓國媳",
         "Peter-Su",
-        "強運少女日本日記RU-in-Japan/",
-        "那對夫妻",
-        "MaoMaoTV",
+        "兔女狼",
+        "那那大師",
+        "Aries艾瑞絲",
         "黃山料",
-        "愛里",
+        "林進-飛醺卑鄙-fashion-baby",
+        "融融歷險記-Ben’s-Adventure",
+        "小凱老師",
+        "Meg-今天穿什麼",
+        "Patti-Huang",
+        "瑀熙-Yuci",
+        "Andy老師",
+        "見習網美小吳",
+        "Candy-孟潔",
+        "村子裡的凱莉哥",
         "吃貨豪豪",
+        "這群人-董仔",
+        "一隻阿圓",
+        "王宏哲教養、育兒寶典",
+        "阿淇博士-Dr.Achi",
+        "可可酒精",
+        "愛里",
+        "林淑芬2.0",
+        "丹妮婊姐",
+        "那對夫妻",
+        "Goris-Sky",
+        "MaoMaoTV",
+        "羚小鹿",
+        "許允樂的老兵魂",
+        "GINA-HELLO!",
+        "處女座媽媽的瑣碎日常",
+        "Sandy-&-Mandy",
+        "小A辣",
+        "百變沛莉-Peri",
+        "琳妲-林羿禎",
+        "陳彥婷",
+        "PEETA葛格",
+        "羅小白",
+        "Bobo-TV",
+        "強運少女日本日記RU-in-Japan/",
+        "愛莉莎莎-Alisasa",
+        "崔咪Tramy",
+        "Evelyn-Chen-理科太太",
+        "江老師",
+        "77老大",
         "3cTim哥生活的日常",
         "林萱-Shiuan",
-        "Charlene-Liu-查理",
-        "大H-陳建昕",
-        "PEETA葛格",
-        "紀卜心-Kimi",
+        "豹子腿方昶詠",
+        "千千進食中",
+        "我是老爸-我不要當爸!",
+        "蘿潔塔的廚房",
+        "崔&雪莉&Jon",
+        "LoganDBeck-小貝",
+        "痘疤醫生---莊盈彥醫師",
         "阿翰po影片",
-        "Ian&Eric",
-        "老王愛說笑",
-        "林淑芬2.0",
-        "台灣妞韓國媳",
-        "黃小米-Mii",
+        "Ines-Wang",
         "彼得爸與蘇珊媽",
-        "陳彥婷",
-        "Aries艾瑞絲"
+        "KEOKI-BLACK布萊克薛薛",
+        "周小葳",
+        "Cindy-H",
+        "大H-陳建昕",
+        "Charlene-Liu-查理",
+        "關韶文",
+        "有璟妍精요찡옌찡",
+        "Natalie吳斐莉",
+        "黃小米-Mii",
+        "紀卜心-Kimi",
+        "黃大謙"
       ],
       [
+        "How-Fun-如何爽",
+        "泥泥汝niniru",
+        "DE-JuN",
+        "電瀨少女-女孩的科技日常",
+        "阿滴英文",
+        "好味小姐",
+        "咪妃Julia",
         "我是阿樂-林妤臻",
-        "Ru's-Piano-Ru味春捲",
+        "尤汐伯夷",
+        "PanSci-泛科學",
+        "閃電狼Flash-Wolves",
+        "喪屍老爸",
+        "鵝鵝就是鵝鵝",
+        "小熊-Yuniko",
         "希露弟弟啃雞腿",
-        "cheap-鄭才暐",
+        "Sandy-珊迪",
+        "人類超有病-Baxuan",
+        "飽妮",
+        "HOOK",
+        "蛋事超有事EggThings",
+        "超粒方",
+        "莊政威-Cliff-Chuang",
+        "Lilyflute長笛姐姐",
+        "三個麻瓜",
+        "Onion-man-洋蔥先生與阿文",
+        "Coffee-Time",
+        "貝莉莓",
+        "廉傑克曼",
+        "牛排",
+        "柴犬Nana和阿楞的一天",
+        "Six-Wang",
+        "木曜4超玩",
+        "泱泱LYNN",
+        "鐵牛-Ironbull",
+        "滴妹",
+        "麻糬爸",
         "這群人-尼克",
+        "Gary蓋瑞",
+        "囂搞-Shaogao",
+        "黃阿瑪的後宮生活",
         "上發條俱樂部",
         "小葵-XiaoKui",
-        "麻糬爸",
-        "艾爾文",
         "廚佛瑞德Fred",
-        "牛排",
-        "阿啾繪圖同萌",
-        "豆漿--Soybean-Milk",
-        "鐵牛-Ironbull",
-        "HOOK",
-        "Six-Wang",
-        "蛋事超有事EggThings",
-        "我得了一種吃菜就會死的病-微疼",
-        "莊政威-Cliff-Chuang",
-        "Lobo-蘿蔔",
-        "HahaTai-哈哈台",
-        "星期天",
-        "囂搞-Shaogao",
-        "Linzin-阿哲",
-        "小尾巴",
-        "志祺七七",
-        "人生肥宅x尊",
-        "Lilyflute長笛姐姐",
-        "滴妹",
+        "Ru's-Piano-Ru味春捲",
         "J-Bao賤葆",
-        "好味小姐",
-        "超認真少年-I'm-Serious",
-        "咪妃Julia",
-        "大蛇丸",
-        "SMG-Sirenia海牛",
-        "泥泥汝niniru",
-        "貓貓蟲-咖波",
-        "蕭志瑋",
-        "阿滴英文",
-        "安啾咪",
-        "超粒方",
-        "柴犬Nana和阿楞的一天",
-        "Onion-man-洋蔥先生與阿文",
-        "現在宅知道",
-        "鼻妹的廢話亂畫",
-        "電瀨少女-女孩的科技日常",
-        "喪屍老爸",
-        "How-Fun-如何爽",
-        "台灣吧",
-        "尤汐伯夷",
-        "木曜4超玩",
-        "恩熙俊-aka-MC-Jeng",
-        "IFBB-Pro-Lin-Ching-Chieh-林敬傑",
-        "鹿人",
-        "三個麻瓜",
-        "這群人TGOP",
-        "魚乾",
-        "Sandy-珊迪",
-        "小熊-Yuniko",
-        "蔡哥",
-        "魯蛋的頻道",
-        "飽妮",
-        "PanSci-泛科學",
         "黃氏兄弟",
-        "啾啾妹-by-LIIN",
-        "蔡阿嘎",
-        "Coffee-Time",
-        "人類超有病-Baxuan",
-        "泱泱LYNN",
-        "傲嬌爸的養貓日常",
-        "貝莉莓",
-        "鵝鵝就是鵝鵝",
-        "MR.JOE-HOBBY.tv",
-        "廉傑克曼",
-        "閃電狼Flash-Wolves",
-        "High咖-邱志恒",
+        "魯蛋的頻道",
+        "IFBB-Pro-Lin-Ching-Chieh-林敬傑",
+        "台灣吧",
+        "人生肥宅x尊",
+        "魚乾",
+        "安啾咪",
+        "蔡哥",
+        "我得了一種吃菜就會死的病-微疼",
+        "艾爾文",
+        "Linzin-阿哲",
+        "Lobo-蘿蔔",
+        "這群人TGOP",
+        "志祺七七",
+        "小尾巴",
+        "超認真少年-I'm-Serious",
         "胡子Huz",
+        "現在宅知道",
+        "阿啾繪圖同萌",
+        "High咖-邱志恒",
         "健人蓋伊",
-        "Gary蓋瑞",
-        "DE-JuN",
-        "黃阿瑪的後宮生活"
+        "大蛇丸",
+        "蕭志瑋",
+        "貓貓蟲-咖波",
+        "MR.JOE-HOBBY.tv",
+        "鼻妹的廢話亂畫",
+        "HahaTai-哈哈台",
+        "蔡阿嘎",
+        "cheap-鄭才暐",
+        "SMG-Sirenia海牛",
+        "啾啾妹-by-LIIN",
+        "傲嬌爸的養貓日常",
+        "星期天",
+        "恩熙俊-aka-MC-Jeng",
+        "豆漿--Soybean-Milk",
+        "鹿人"
       ],
       [
-        "蔡桃貴",
-        "白癡公主",
-        "鬧著玩娛樂",
-        "英雄日常Heroisme",
-        "依梨",
+        "Campfire營火部落",
         "Men's-Game-玩物誌",
-        "小象愛出門",
+        "英雄日常Heroisme",
+        "鬧著玩娛樂",
         "邱沁宜",
+        "肉比頭Zoebitalk",
+        "白癡公主",
+        "黃帝筱清Virus",
+        "依梨",
         "連環泡有芒果",
         "阿慈車庫-Dream-garage",
-        "Campfire營火部落",
-        "肉比頭Zoebitalk",
-        "黃帝筱清Virus"
+        "小象愛出門",
+        "蔡桃貴"
       ],
       [
-        "厭世甜點店",
         "辣媽Shania",
+        "厭世甜點店",
         "Ciao!-Kitchen",
         "那個女生-Kiki"
       ],
       [
-        "Jason-Chen-陳以桐",
-        "魔術Channel---Davio"
+        "魔術Channel---Davio",
+        "Jason-Chen-陳以桐"
       ],
       [
-        "紫玥桃",
-        "肉肉Neneko"
+        "肉肉Neneko",
+        "紫玥桃"
+      ],
+      [
+        "丁特-Dinter"
+      ],
+      [
+        "雨揚樂活家族"
+      ],
+      [
+        "星光奈奈"
+      ],
+      [
+        "Wecook123-料理123"
+      ],
+      [
+        "史丹利視角的體育世界"
+      ],
+      [
+        "胡采蘋-Emmy-Hu"
+      ],
+      [
+        "維思維",
+        "老王-oldwang"
       ]
     ],
+    "node_metrics": {
+      "卡特-Kart": {
+        "Within_module_Degree": 0.7931,
+        "Participation_Coefficient": 0.4897
+      },
+      "虎麗笑嗨嗨": {
+        "Within_module_Degree": -1.4677,
+        "Participation_Coefficient": 0.0
+      },
+      "波蘭女孩x台灣男孩-在家環遊世界": {
+        "Within_module_Degree": -1.4677,
+        "Participation_Coefficient": 0.0
+      },
+      "Ian&Eric": {
+        "Within_module_Degree": 0.7123,
+        "Participation_Coefficient": 0.5576
+      },
+      "含羞草日記": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.554
+      },
+      "欸你這週要幹嘛": {
+        "Within_module_Degree": 0.6316,
+        "Participation_Coefficient": 0.5815
+      },
+      "日本藥妝失心瘋": {
+        "Within_module_Degree": -1.2255,
+        "Participation_Coefficient": 0.0
+      },
+      "Yun-Chou": {
+        "Within_module_Degree": 0.8738,
+        "Participation_Coefficient": 0.4012
+      },
+      "Mom-&-Dad": {
+        "Within_module_Degree": -0.0951,
+        "Participation_Coefficient": 0.4252
+      },
+      "元-元": {
+        "Within_module_Degree": 0.2279,
+        "Participation_Coefficient": 0.3047
+      },
+      "Sunnie-陸筱晴": {
+        "Within_module_Degree": -0.0144,
+        "Participation_Coefficient": 0.1609
+      },
+      "嘎嫂二伯": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.559
+      },
+      "BlaireChen-左撇子": {
+        "Within_module_Degree": 0.7123,
+        "Participation_Coefficient": 0.3461
+      },
+      "三原慧悟-Sanyuan_JAPAN": {
+        "Within_module_Degree": -0.1758,
+        "Participation_Coefficient": 0.4581
+      },
+      "Joeman": {
+        "Within_module_Degree": 2.4887,
+        "Participation_Coefficient": 0.5518
+      },
+      "Emma艾瑪": {
+        "Within_module_Degree": -1.064,
+        "Participation_Coefficient": 0.5617
+      },
+      "老王愛說笑": {
+        "Within_module_Degree": -1.5485,
+        "Participation_Coefficient": 0.0
+      },
+      "那些電影教我的事": {
+        "Within_module_Degree": -0.741,
+        "Participation_Coefficient": 0.5
+      },
+      "籃靖玟": {
+        "Within_module_Degree": -0.3373,
+        "Participation_Coefficient": 0.4114
+      },
+      "莫彩曦Hailey": {
+        "Within_module_Degree": -0.6603,
+        "Participation_Coefficient": 0.4339
+      },
+      "找蔬食-Traveggo": {
+        "Within_module_Degree": -0.5795,
+        "Participation_Coefficient": 0.3759
+      },
+      "台灣妞韓國媳": {
+        "Within_module_Degree": -0.9833,
+        "Participation_Coefficient": 0.5533
+      },
+      "Peter-Su": {
+        "Within_module_Degree": -0.3373,
+        "Participation_Coefficient": 0.0799
+      },
+      "兔女狼": {
+        "Within_module_Degree": -0.8218,
+        "Participation_Coefficient": 0.4429
+      },
+      "那那大師": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.5212
+      },
+      "Aries艾瑞絲": {
+        "Within_module_Degree": 0.3894,
+        "Participation_Coefficient": 0.5397
+      },
+      "黃山料": {
+        "Within_module_Degree": -1.387,
+        "Participation_Coefficient": 0.375
+      },
+      "林進-飛醺卑鄙-fashion-baby": {
+        "Within_module_Degree": 1.6005,
+        "Participation_Coefficient": 0.4036
+      },
+      "融融歷險記-Ben’s-Adventure": {
+        "Within_module_Degree": -0.5795,
+        "Participation_Coefficient": 0.1769
+      },
+      "小凱老師": {
+        "Within_module_Degree": -0.5795,
+        "Participation_Coefficient": 0.0997
+      },
+      "Meg-今天穿什麼": {
+        "Within_module_Degree": -0.0951,
+        "Participation_Coefficient": 0.5062
+      },
+      "Patti-Huang": {
+        "Within_module_Degree": -0.5795,
+        "Participation_Coefficient": 0.4989
+      },
+      "瑀熙-Yuci": {
+        "Within_module_Degree": 0.3894,
+        "Participation_Coefficient": 0.529
+      },
+      "Andy老師": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.5682
+      },
+      "見習網美小吳": {
+        "Within_module_Degree": 1.8427,
+        "Participation_Coefficient": 0.4918
+      },
+      "Candy-孟潔": {
+        "Within_module_Degree": -0.0144,
+        "Participation_Coefficient": 0.3641
+      },
+      "村子裡的凱莉哥": {
+        "Within_module_Degree": -0.9833,
+        "Participation_Coefficient": 0.1653
+      },
+      "吃貨豪豪": {
+        "Within_module_Degree": -0.9833,
+        "Participation_Coefficient": 0.5612
+      },
+      "這群人-董仔": {
+        "Within_module_Degree": 1.762,
+        "Participation_Coefficient": 0.5245
+      },
+      "一隻阿圓": {
+        "Within_module_Degree": 2.0042,
+        "Participation_Coefficient": 0.5562
+      },
+      "王宏哲教養、育兒寶典": {
+        "Within_module_Degree": -1.5485,
+        "Participation_Coefficient": 0.0
+      },
+      "阿淇博士-Dr.Achi": {
+        "Within_module_Degree": -1.2255,
+        "Participation_Coefficient": 0.625
+      },
+      "可可酒精": {
+        "Within_module_Degree": -0.741,
+        "Participation_Coefficient": 0.5893
+      },
+      "愛里": {
+        "Within_module_Degree": 1.116,
+        "Participation_Coefficient": 0.5591
+      },
+      "林淑芬2.0": {
+        "Within_module_Degree": -0.5795,
+        "Participation_Coefficient": 0.4211
+      },
+      "丹妮婊姐": {
+        "Within_module_Degree": 0.3086,
+        "Participation_Coefficient": 0.4861
+      },
+      "那對夫妻": {
+        "Within_module_Degree": -0.9833,
+        "Participation_Coefficient": 0.5391
+      },
+      "Goris-Sky": {
+        "Within_module_Degree": -1.064,
+        "Participation_Coefficient": 0.18
+      },
+      "MaoMaoTV": {
+        "Within_module_Degree": -0.4988,
+        "Participation_Coefficient": 0.4362
+      },
+      "羚小鹿": {
+        "Within_module_Degree": -0.9025,
+        "Participation_Coefficient": 0.322
+      },
+      "許允樂的老兵魂": {
+        "Within_module_Degree": 0.7123,
+        "Participation_Coefficient": 0.3962
+      },
+      "GINA-HELLO!": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.5445
+      },
+      "處女座媽媽的瑣碎日常": {
+        "Within_module_Degree": 0.2279,
+        "Participation_Coefficient": 0.4022
+      },
+      "Sandy-&-Mandy": {
+        "Within_module_Degree": -1.2255,
+        "Participation_Coefficient": 0.4444
+      },
+      "小A辣": {
+        "Within_module_Degree": -0.4181,
+        "Participation_Coefficient": 0.4024
+      },
+      "百變沛莉-Peri": {
+        "Within_module_Degree": -0.6603,
+        "Participation_Coefficient": 0.2449
+      },
+      "琳妲-林羿禎": {
+        "Within_module_Degree": 1.5197,
+        "Participation_Coefficient": 0.5668
+      },
+      "陳彥婷": {
+        "Within_module_Degree": 1.3583,
+        "Participation_Coefficient": 0.4611
+      },
+      "PEETA葛格": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.5383
+      },
+      "羅小白": {
+        "Within_module_Degree": -1.1447,
+        "Participation_Coefficient": 0.4592
+      },
+      "Bobo-TV": {
+        "Within_module_Degree": -0.0144,
+        "Participation_Coefficient": 0.5092
+      },
+      "強運少女日本日記RU-in-Japan/": {
+        "Within_module_Degree": -0.0144,
+        "Participation_Coefficient": 0.2637
+      },
+      "愛莉莎莎-Alisasa": {
+        "Within_module_Degree": 2.3272,
+        "Participation_Coefficient": 0.5157
+      },
+      "崔咪Tramy": {
+        "Within_module_Degree": 0.7123,
+        "Participation_Coefficient": 0.1799
+      },
+      "Evelyn-Chen-理科太太": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.5109
+      },
+      "江老師": {
+        "Within_module_Degree": -0.0144,
+        "Participation_Coefficient": 0.5156
+      },
+      "77老大": {
+        "Within_module_Degree": 0.8738,
+        "Participation_Coefficient": 0.4817
+      },
+      "3cTim哥生活的日常": {
+        "Within_module_Degree": -0.8218,
+        "Participation_Coefficient": 0.5767
+      },
+      "林萱-Shiuan": {
+        "Within_module_Degree": 0.7931,
+        "Participation_Coefficient": 0.4703
+      },
+      "豹子腿方昶詠": {
+        "Within_module_Degree": -0.4988,
+        "Participation_Coefficient": 0.5554
+      },
+      "千千進食中": {
+        "Within_module_Degree": 2.2464,
+        "Participation_Coefficient": 0.5502
+      },
+      "我是老爸-我不要當爸!": {
+        "Within_module_Degree": -0.2566,
+        "Participation_Coefficient": 0.5284
+      },
+      "蘿潔塔的廚房": {
+        "Within_module_Degree": -1.5485,
+        "Participation_Coefficient": 0.0
+      },
+      "崔&雪莉&Jon": {
+        "Within_module_Degree": -0.5795,
+        "Participation_Coefficient": 0.395
+      },
+      "LoganDBeck-小貝": {
+        "Within_module_Degree": -1.064,
+        "Participation_Coefficient": 0.5
+      },
+      "痘疤醫生---莊盈彥醫師": {
+        "Within_module_Degree": -1.064,
+        "Participation_Coefficient": 0.0
+      },
+      "阿翰po影片": {
+        "Within_module_Degree": 2.2464,
+        "Participation_Coefficient": 0.5226
+      },
+      "Ines-Wang": {
+        "Within_module_Degree": -1.064,
+        "Participation_Coefficient": 0.0
+      },
+      "彼得爸與蘇珊媽": {
+        "Within_module_Degree": -0.0144,
+        "Participation_Coefficient": 0.5067
+      },
+      "KEOKI-BLACK布萊克薛薛": {
+        "Within_module_Degree": -0.4181,
+        "Participation_Coefficient": 0.3367
+      },
+      "周小葳": {
+        "Within_module_Degree": -0.0951,
+        "Participation_Coefficient": 0.4067
+      },
+      "Cindy-H": {
+        "Within_module_Degree": -0.741,
+        "Participation_Coefficient": 0.255
+      },
+      "大H-陳建昕": {
+        "Within_module_Degree": -0.4181,
+        "Participation_Coefficient": 0.4444
+      },
+      "Charlene-Liu-查理": {
+        "Within_module_Degree": 0.1471,
+        "Participation_Coefficient": 0.4129
+      },
+      "關韶文": {
+        "Within_module_Degree": 1.0353,
+        "Participation_Coefficient": 0.2977
+      },
+      "有璟妍精요찡옌찡": {
+        "Within_module_Degree": -0.9833,
+        "Participation_Coefficient": 0.2907
+      },
+      "Natalie吳斐莉": {
+        "Within_module_Degree": 0.8738,
+        "Participation_Coefficient": 0.2493
+      },
+      "黃小米-Mii": {
+        "Within_module_Degree": 0.5508,
+        "Participation_Coefficient": 0.0465
+      },
+      "紀卜心-Kimi": {
+        "Within_module_Degree": 1.116,
+        "Participation_Coefficient": 0.367
+      },
+      "黃大謙": {
+        "Within_module_Degree": 0.8738,
+        "Participation_Coefficient": 0.5423
+      },
+      "How-Fun-如何爽": {
+        "Within_module_Degree": 1.8278,
+        "Participation_Coefficient": 0.5103
+      },
+      "泥泥汝niniru": {
+        "Within_module_Degree": 0.1012,
+        "Participation_Coefficient": 0.5255
+      },
+      "DE-JuN": {
+        "Within_module_Degree": -1.4814,
+        "Participation_Coefficient": 0.0
+      },
+      "電瀨少女-女孩的科技日常": {
+        "Within_module_Degree": -0.6181,
+        "Participation_Coefficient": 0.512
+      },
+      "阿滴英文": {
+        "Within_module_Degree": 2.9069,
+        "Participation_Coefficient": 0.5775
+      },
+      "好味小姐": {
+        "Within_module_Degree": -0.1865,
+        "Participation_Coefficient": 0.5258
+      },
+      "咪妃Julia": {
+        "Within_module_Degree": 0.0293,
+        "Participation_Coefficient": 0.5376
+      },
+      "我是阿樂-林妤臻": {
+        "Within_module_Degree": 1.2523,
+        "Participation_Coefficient": 0.5335
+      },
+      "尤汐伯夷": {
+        "Within_module_Degree": -1.0498,
+        "Participation_Coefficient": 0.2975
+      },
+      "PanSci-泛科學": {
+        "Within_module_Degree": -0.1865,
+        "Participation_Coefficient": 0.3087
+      },
+      "閃電狼Flash-Wolves": {
+        "Within_module_Degree": -1.4095,
+        "Participation_Coefficient": 0.0
+      },
+      "喪屍老爸": {
+        "Within_module_Degree": -0.6181,
+        "Participation_Coefficient": 0.4821
+      },
+      "鵝鵝就是鵝鵝": {
+        "Within_module_Degree": -1.3375,
+        "Participation_Coefficient": 0.0
+      },
+      "小熊-Yuniko": {
+        "Within_module_Degree": -0.6181,
+        "Participation_Coefficient": 0.3878
+      },
+      "希露弟弟啃雞腿": {
+        "Within_module_Degree": 0.4609,
+        "Participation_Coefficient": 0.5694
+      },
+      "Sandy-珊迪": {
+        "Within_module_Degree": 0.2451,
+        "Participation_Coefficient": 0.489
+      },
+      "人類超有病-Baxuan": {
+        "Within_module_Degree": 0.8206,
+        "Participation_Coefficient": 0.3588
+      },
+      "飽妮": {
+        "Within_module_Degree": 0.1732,
+        "Participation_Coefficient": 0.5351
+      },
+      "HOOK": {
+        "Within_module_Degree": 0.8926,
+        "Participation_Coefficient": 0.5424
+      },
+      "蛋事超有事EggThings": {
+        "Within_module_Degree": -1.0498,
+        "Participation_Coefficient": 0.0
+      },
+      "超粒方": {
+        "Within_module_Degree": -0.834,
+        "Participation_Coefficient": 0.2604
+      },
+      "莊政威-Cliff-Chuang": {
+        "Within_module_Degree": -1.4814,
+        "Participation_Coefficient": 0.375
+      },
+      "Lilyflute長笛姐姐": {
+        "Within_module_Degree": -1.4814,
+        "Participation_Coefficient": 0.32
+      },
+      "三個麻瓜": {
+        "Within_module_Degree": -0.1865,
+        "Participation_Coefficient": 0.5387
+      },
+      "Onion-man-洋蔥先生與阿文": {
+        "Within_module_Degree": 2.6191,
+        "Participation_Coefficient": 0.4512
+      },
+      "Coffee-Time": {
+        "Within_module_Degree": -1.1937,
+        "Participation_Coefficient": 0.42
+      },
+      "貝莉莓": {
+        "Within_module_Degree": 0.1732,
+        "Participation_Coefficient": 0.3396
+      },
+      "廉傑克曼": {
+        "Within_module_Degree": 2.1875,
+        "Participation_Coefficient": 0.5073
+      },
+      "牛排": {
+        "Within_module_Degree": 0.389,
+        "Participation_Coefficient": 0.4548
+      },
+      "柴犬Nana和阿楞的一天": {
+        "Within_module_Degree": -1.1217,
+        "Participation_Coefficient": 0.46
+      },
+      "Six-Wang": {
+        "Within_module_Degree": 0.8206,
+        "Participation_Coefficient": 0.2717
+      },
+      "木曜4超玩": {
+        "Within_module_Degree": 0.0293,
+        "Participation_Coefficient": 0.3879
+      },
+      "泱泱LYNN": {
+        "Within_module_Degree": -0.1146,
+        "Participation_Coefficient": 0.4802
+      },
+      "鐵牛-Ironbull": {
+        "Within_module_Degree": 1.8278,
+        "Participation_Coefficient": 0.4853
+      },
+      "滴妹": {
+        "Within_module_Degree": 1.6839,
+        "Participation_Coefficient": 0.5529
+      },
+      "麻糬爸": {
+        "Within_module_Degree": -0.762,
+        "Participation_Coefficient": 0.1107
+      },
+      "這群人-尼克": {
+        "Within_module_Degree": 0.6048,
+        "Participation_Coefficient": 0.5521
+      },
+      "Gary蓋瑞": {
+        "Within_module_Degree": -1.1937,
+        "Participation_Coefficient": 0.2188
+      },
+      "囂搞-Shaogao": {
+        "Within_module_Degree": 0.1732,
+        "Participation_Coefficient": 0.1866
+      },
+      "黃阿瑪的後宮生活": {
+        "Within_module_Degree": 0.0293,
+        "Participation_Coefficient": 0.4617
+      },
+      "上發條俱樂部": {
+        "Within_module_Degree": -0.9059,
+        "Participation_Coefficient": 0.6336
+      },
+      "小葵-XiaoKui": {
+        "Within_module_Degree": 0.4609,
+        "Participation_Coefficient": 0.4763
+      },
+      "廚佛瑞德Fred": {
+        "Within_module_Degree": 0.5329,
+        "Participation_Coefficient": 0.5422
+      },
+      "Ru's-Piano-Ru味春捲": {
+        "Within_module_Degree": 0.1732,
+        "Participation_Coefficient": 0.3338
+      },
+      "J-Bao賤葆": {
+        "Within_module_Degree": 0.8206,
+        "Participation_Coefficient": 0.4831
+      },
+      "黃氏兄弟": {
+        "Within_module_Degree": 0.1012,
+        "Participation_Coefficient": 0.5311
+      },
+      "魯蛋的頻道": {
+        "Within_module_Degree": -0.6901,
+        "Participation_Coefficient": 0.0
+      },
+      "IFBB-Pro-Lin-Ching-Chieh-林敬傑": {
+        "Within_module_Degree": -0.6181,
+        "Participation_Coefficient": 0.5044
+      },
+      "台灣吧": {
+        "Within_module_Degree": -0.2584,
+        "Participation_Coefficient": 0.3401
+      },
+      "人生肥宅x尊": {
+        "Within_module_Degree": -0.834,
+        "Participation_Coefficient": 0.1975
+      },
+      "魚乾": {
+        "Within_module_Degree": 1.9717,
+        "Participation_Coefficient": 0.5465
+      },
+      "安啾咪": {
+        "Within_module_Degree": 0.6048,
+        "Participation_Coefficient": 0.5484
+      },
+      "蔡哥": {
+        "Within_module_Degree": 1.8278,
+        "Participation_Coefficient": 0.5529
+      },
+      "我得了一種吃菜就會死的病-微疼": {
+        "Within_module_Degree": 0.8926,
+        "Participation_Coefficient": 0.2128
+      },
+      "艾爾文": {
+        "Within_module_Degree": -1.3375,
+        "Participation_Coefficient": 0.4444
+      },
+      "Linzin-阿哲": {
+        "Within_module_Degree": -1.3375,
+        "Participation_Coefficient": 0.0
+      },
+      "Lobo-蘿蔔": {
+        "Within_module_Degree": -1.4814,
+        "Participation_Coefficient": 0.0
+      },
+      "這群人TGOP": {
+        "Within_module_Degree": -0.2584,
+        "Participation_Coefficient": 0.4986
+      },
+      "志祺七七": {
+        "Within_module_Degree": 0.8926,
+        "Participation_Coefficient": 0.5268
+      },
+      "小尾巴": {
+        "Within_module_Degree": 0.1012,
+        "Participation_Coefficient": 0.4342
+      },
+      "超認真少年-I'm-Serious": {
+        "Within_module_Degree": 0.1012,
+        "Participation_Coefficient": 0.5783
+      },
+      "胡子Huz": {
+        "Within_module_Degree": 0.1732,
+        "Participation_Coefficient": 0.4121
+      },
+      "現在宅知道": {
+        "Within_module_Degree": -0.3304,
+        "Participation_Coefficient": 0.0
+      },
+      "阿啾繪圖同萌": {
+        "Within_module_Degree": -0.834,
+        "Participation_Coefficient": 0.4045
+      },
+      "High咖-邱志恒": {
+        "Within_module_Degree": -0.2584,
+        "Participation_Coefficient": 0.5755
+      },
+      "健人蓋伊": {
+        "Within_module_Degree": -0.6181,
+        "Participation_Coefficient": 0.53
+      },
+      "大蛇丸": {
+        "Within_module_Degree": 1.3961,
+        "Participation_Coefficient": 0.4973
+      },
+      "蕭志瑋": {
+        "Within_module_Degree": -0.1146,
+        "Participation_Coefficient": 0.4889
+      },
+      "貓貓蟲-咖波": {
+        "Within_module_Degree": -0.1146,
+        "Participation_Coefficient": 0.2613
+      },
+      "MR.JOE-HOBBY.tv": {
+        "Within_module_Degree": -0.3304,
+        "Participation_Coefficient": 0.4043
+      },
+      "鼻妹的廢話亂畫": {
+        "Within_module_Degree": -0.1865,
+        "Participation_Coefficient": 0.2547
+      },
+      "HahaTai-哈哈台": {
+        "Within_module_Degree": 0.1732,
+        "Participation_Coefficient": 0.5551
+      },
+      "蔡阿嘎": {
+        "Within_module_Degree": 1.3242,
+        "Participation_Coefficient": 0.574
+      },
+      "cheap-鄭才暐": {
+        "Within_module_Degree": -0.5462,
+        "Participation_Coefficient": 0.469
+      },
+      "SMG-Sirenia海牛": {
+        "Within_module_Degree": -0.834,
+        "Participation_Coefficient": 0.185
+      },
+      "啾啾妹-by-LIIN": {
+        "Within_module_Degree": -0.2584,
+        "Participation_Coefficient": 0.2578
+      },
+      "傲嬌爸的養貓日常": {
+        "Within_module_Degree": -1.1937,
+        "Participation_Coefficient": 0.4028
+      },
+      "星期天": {
+        "Within_module_Degree": 0.4609,
+        "Participation_Coefficient": 0.4563
+      },
+      "恩熙俊-aka-MC-Jeng": {
+        "Within_module_Degree": -0.3304,
+        "Participation_Coefficient": 0.489
+      },
+      "豆漿--Soybean-Milk": {
+        "Within_module_Degree": -0.9059,
+        "Participation_Coefficient": 0.2188
+      },
+      "鹿人": {
+        "Within_module_Degree": 0.2451,
+        "Participation_Coefficient": 0.4278
+      },
+      "Campfire營火部落": {
+        "Within_module_Degree": -0.3644,
+        "Participation_Coefficient": 0.6091
+      },
+      "Men's-Game-玩物誌": {
+        "Within_module_Degree": 0.8199,
+        "Participation_Coefficient": 0.6348
+      },
+      "英雄日常Heroisme": {
+        "Within_module_Degree": -0.9565,
+        "Participation_Coefficient": 0.5694
+      },
+      "鬧著玩娛樂": {
+        "Within_module_Degree": -0.9565,
+        "Participation_Coefficient": 0.568
+      },
+      "邱沁宜": {
+        "Within_module_Degree": -0.9565,
+        "Participation_Coefficient": 0.5
+      },
+      "肉比頭Zoebitalk": {
+        "Within_module_Degree": 2.0041,
+        "Participation_Coefficient": 0.6133
+      },
+      "白癡公主": {
+        "Within_module_Degree": 2.0041,
+        "Participation_Coefficient": 0.5618
+      },
+      "黃帝筱清Virus": {
+        "Within_module_Degree": -0.3644,
+        "Participation_Coefficient": 0.6446
+      },
+      "依梨": {
+        "Within_module_Degree": -0.9565,
+        "Participation_Coefficient": 0.5785
+      },
+      "連環泡有芒果": {
+        "Within_module_Degree": -0.3644,
+        "Participation_Coefficient": 0.4082
+      },
+      "阿慈車庫-Dream-garage": {
+        "Within_module_Degree": -0.3644,
+        "Participation_Coefficient": 0.6633
+      },
+      "小象愛出門": {
+        "Within_module_Degree": 0.2277,
+        "Participation_Coefficient": 0.5319
+      },
+      "蔡桃貴": {
+        "Within_module_Degree": 0.2277,
+        "Participation_Coefficient": 0.6111
+      },
+      "辣媽Shania": {
+        "Within_module_Degree": -0.5774,
+        "Participation_Coefficient": 0.7
+      },
+      "厭世甜點店": {
+        "Within_module_Degree": 1.7321,
+        "Participation_Coefficient": 0.6111
+      },
+      "Ciao!-Kitchen": {
+        "Within_module_Degree": -0.5774,
+        "Participation_Coefficient": 0.6562
+      },
+      "那個女生-Kiki": {
+        "Within_module_Degree": -0.5774,
+        "Participation_Coefficient": 0.5374
+      },
+      "魔術Channel---Davio": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.537
+      },
+      "Jason-Chen-陳以桐": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.64
+      },
+      "肉肉Neneko": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "紫玥桃": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.5938
+      },
+      "丁特-Dinter": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "雨揚樂活家族": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "星光奈奈": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "Wecook123-料理123": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "史丹利視角的體育世界": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "胡采蘋-Emmy-Hu": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "維思維": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      },
+      "老王-oldwang": {
+        "Within_module_Degree": 0.0,
+        "Participation_Coefficient": 0.0
+      }
+    },
     "params": {}
   }
 }

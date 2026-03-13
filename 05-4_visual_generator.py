@@ -12,12 +12,13 @@ from config import *
 # 1. 資料載入與前處理函式
 # ==========================================
 def load_analysis_data():
-    """載入 05-1 與 05-3 產出的所有必要數據"""
+    """載入 05-1 與 05-3 產出的所有必要數據 (包含擴充的全域指標)"""
     metrics_path = os.path.join(INPUT_DIR, 'network_metrics_report.csv')
     recip_path = os.path.join(INPUT_DIR, 'influencer_reciprocity_matrix.csv')
     comm_path = os.path.join(INPUT_DIR, 'community_master.json')
+    global_stats_path = os.path.join(INPUT_DIR, 'global_stats_temp.json')
     
-    if not all(os.path.exists(p) for p in [metrics_path, recip_path, comm_path]):
+    if not all(os.path.exists(p) for p in [metrics_path, recip_path, comm_path, global_stats_path]):
         raise FileNotFoundError("錯誤：找不到 05-1 或 05-3 產出的必要檔案。")
         
     metrics_df = pd.read_csv(metrics_path)
@@ -26,7 +27,10 @@ def load_analysis_data():
     with open(comm_path, 'r', encoding='utf-8') as f:
         comm_data = json.load(f)
         
-    return metrics_df, recip_df, comm_data
+    with open(global_stats_path, 'r', encoding='utf-8') as f:
+        global_stats = json.load(f)
+        
+    return metrics_df, recip_df, comm_data, global_stats
 
 def get_algorithm_config(alg_name):
     """依照演算法對應 Suffix 與建立子目錄"""
@@ -158,29 +162,43 @@ def draw_network_map(G_draw, G_layout, communities, metrics_lookup, leader_map, 
     print(f"   - 圖片已儲存: {save_path}")
 
 # ==========================================
-# 4. JSON 產製函式 (與 Following 欄位對齊)
+# 4. JSON 產製函式 (與擴充 SNA 指標對齊)
 # ==========================================
-def export_web_json(G_draw, communities, metrics_lookup, output_dir, suffix):
-    """產製網頁使用的 nodes_edges.json"""
+def export_web_json(G_draw, communities, metrics_lookup, alg_result, output_dir, suffix):
+    """產製網頁使用的 nodes_edges.json (巢狀結構擴充版)"""
     nodes_json = []
     node_to_group = {n: i for i, comm in enumerate(communities) for n in comm}
+    
+    # 取出 05-3 算好的中觀指標
+    node_cluster_metrics = alg_result.get('node_metrics', {})
     
     for node in G_draw.nodes():
         g_idx = node_to_group.get(node, 12)
         m = metrics_lookup.get(node, {})
+        m_cluster = node_cluster_metrics.get(node, {})
+        
         nodes_json.append({
-            "id": node, "name": node, "group": chr(g_idx + 65), 
+            "id": node, 
+            "name": node, 
+            "group": chr(g_idx + 65), 
             "color": CUSTOM_COLORS[g_idx % len(CUSTOM_COLORS)], 
             "val": 1 + m.get('In_Degree (被追蹤數)', 0) / 4,
             "metrics": {
                 "in_degree": int(m.get('In_Degree (被追蹤數)', 0)), 
                 "out_degree": int(m.get('Out_Degree (主動追蹤數)', 0)),
                 "mutual": int(m.get('Mutual_Follow (互粉數)', 0)),
-                "Following": int(m.get('Following', 0)),
-                "Followers": int(m.get('Followers', 0)),
-                "posts": int(m.get('posts', 0)),
+                "between_centrality": float(m.get('Betweenness_Centrality', 0.0)),
+                "Eigenvector Centrality": float(m.get('Eigenvector_Centrality', 0.0)),
+                "Local Clustering Coefficient": float(m.get('Local_Clustering_Coefficient', 0.0)),
+                "Core-periphery Coreness": int(m.get('Core-periphery_Coreness', 0))
             },
-            "between_centrality": float(m.get('Betweenness_Centrality', 0)),
+            "metrics_cluster": {
+                "Within-module Degree": float(m_cluster.get('Within_module_Degree', 0.0)),
+                "Participation Coefficient": float(m_cluster.get('Participation_Coefficient', 0.0))
+            },
+            "Following": int(m.get('Following', 0)) if pd.notna(m.get('Following')) else 0,
+            "Followers": int(m.get('Followers', 0)) if pd.notna(m.get('Followers')) else 0,
+            "posts": int(m.get('posts', 0)) if pd.notna(m.get('posts')) else 0,
             "category": str(m.get('category', 'unknown'))
         })
 
@@ -192,13 +210,36 @@ def export_web_json(G_draw, communities, metrics_lookup, output_dir, suffix):
         json.dump({"nodes": nodes_json, "links": links_json}, f, ensure_ascii=False, indent=2)
 
 # ==========================================
-# 5. 主執行函式 (Main Function)
+# 5. 打包最終宏觀報表 (整合原 05-5 邏輯)
+# ==========================================
+def generate_network_summary(global_stats, comm_data):
+    """將 05-1 的總體指標與 05-3 的群體中觀指標打包"""
+    print("\n--- 整合演算法數據報表 (network_summary.json) ---")
+    summary = global_stats.copy()
+    
+    for algo in ['Greedy', 'Louvain', 'Walktrap']:
+        if algo in comm_data:
+            summary[algo] = {
+                "Group_Count": len(comm_data[algo]['membership']),
+                "Group_Size": [len(c) for c in comm_data[algo]['membership']],
+                "Modularity_Score_Q": round(comm_data[algo]['modularity'], 6),
+                "Cluster Density": comm_data[algo].get("Cluster_Density", {}),
+                "Inter-cluster Edge Density": comm_data[algo].get("Inter_cluster_Edge_Density", {})
+            }
+        
+    output_path = os.path.join(INPUT_DIR, 'network_summary.json')
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, ensure_ascii=False, indent=4)
+    print(f"最終摘要已儲存至: {output_path}")
+
+# ==========================================
+# 6. 主執行函式 (Main Function)
 # ==========================================
 def run_visual_generator():
-    print("--- 執行 05-4：Following 視覺化產製 (正式修正版) ---")
+    print("--- 執行 05-4：Following 視覺化產製與總表整合 (正式擴充版) ---")
     
     try:
-        metrics_df, recip_df, comm_data = load_analysis_data()
+        metrics_df, recip_df, comm_data, global_stats = load_analysis_data()
         metrics_lookup = metrics_df.set_index('Person_Name').to_dict('index')
         
         # [關鍵修正]：正確取得使用者名稱字串集，避免 RangeIndex (int) 造成 join 錯誤
@@ -240,8 +281,11 @@ def run_visual_generator():
             # 3. 繪製圖片
             draw_network_map(G_draw, G_layout, communities, metrics_lookup, leader_map, alg_name, q_score, zero_count, output_dir, suffix)
             
-            # 4. 產製 JSON
-            export_web_json(G_draw, communities, metrics_lookup, output_dir, suffix)
+            # 4. 產製 JSON (傳入 result 以獲取中觀指標)
+            export_web_json(G_draw, communities, metrics_lookup, result, output_dir, suffix)
+
+        # 5. 打包總表
+        generate_network_summary(global_stats, comm_data)
 
     except Exception as e:
         print(f"執行出錯：{e}")
