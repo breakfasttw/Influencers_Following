@@ -8,7 +8,7 @@
       "val": 12.5,
       "metrics": {
         "in_degree": 46,
-        "out_degree": 0,
+        "out_degree": 46,
         "mutual": 42,
         "between_centrality": 0.009331,
         "Eigenvector Centrality": 0.103363,
@@ -32,7 +32,7 @@
       "val": 14.25,
       "metrics": {
         "in_degree": 53,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 8,
         "between_centrality": 0.002154,
         "Eigenvector Centrality": 0.112576,
@@ -56,7 +56,7 @@
       "val": 24.5,
       "metrics": {
         "in_degree": 94,
-        "out_degree": 0,
+        "out_degree": 86,
         "mutual": 78,
         "between_centrality": 0.0537,
         "Eigenvector Centrality": 0.173567,
@@ -80,7 +80,7 @@
       "val": 16.0,
       "metrics": {
         "in_degree": 60,
-        "out_degree": 0,
+        "out_degree": 65,
         "mutual": 53,
         "between_centrality": 0.027817,
         "Eigenvector Centrality": 0.119854,
@@ -104,7 +104,7 @@
       "val": 10.0,
       "metrics": {
         "in_degree": 36,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 2,
         "between_centrality": 0.000229,
         "Eigenvector Centrality": 0.069791,
@@ -128,7 +128,7 @@
       "val": 6.75,
       "metrics": {
         "in_degree": 23,
-        "out_degree": 0,
+        "out_degree": 44,
         "mutual": 19,
         "between_centrality": 0.00436,
         "Eigenvector Centrality": 0.046466,
@@ -152,7 +152,7 @@
       "val": 8.5,
       "metrics": {
         "in_degree": 30,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 20,
         "between_centrality": 0.005045,
         "Eigenvector Centrality": 0.077217,
@@ -176,7 +176,7 @@
       "val": 17.25,
       "metrics": {
         "in_degree": 65,
-        "out_degree": 0,
+        "out_degree": 54,
         "mutual": 48,
         "between_centrality": 0.012182,
         "Eigenvector Centrality": 0.141262,
@@ -200,7 +200,7 @@
       "val": 12.0,
       "metrics": {
         "in_degree": 44,
-        "out_degree": 0,
+        "out_degree": 49,
         "mutual": 40,
         "between_centrality": 0.017004,
         "Eigenvector Centrality": 0.097121,
@@ -224,7 +224,7 @@
       "val": 28.75,
       "metrics": {
         "in_degree": 111,
-        "out_degree": 0,
+        "out_degree": 119,
         "mutual": 100,
         "between_centrality": 0.110309,
         "Eigenvector Centrality": 0.201272,
@@ -248,7 +248,7 @@
       "val": 12.5,
       "metrics": {
         "in_degree": 46,
-        "out_degree": 0,
+        "out_degree": 70,
         "mutual": 42,
         "between_centrality": 0.013093,
         "Eigenvector Centrality": 0.107081,
@@ -272,7 +272,7 @@
       "val": 19.0,
       "metrics": {
         "in_degree": 72,
-        "out_degree": 0,
+        "out_degree": 74,
         "mutual": 54,
         "between_centrality": 0.033339,
         "Eigenvector Centrality": 0.152058,
@@ -296,7 +296,7 @@
       "val": 17.5,
       "metrics": {
         "in_degree": 66,
-        "out_degree": 0,
+        "out_degree": 73,
         "mutual": 54,
         "between_centrality": 0.017975,
         "Eigenvector Centrality": 0.154804,
@@ -320,7 +320,7 @@
       "val": 13.5,
       "metrics": {
         "in_degree": 50,
-        "out_degree": 0,
+        "out_degree": 47,
         "mutual": 45,
         "between_centrality": 0.008328,
         "Eigenvector Centrality": 0.116631,
@@ -344,7 +344,7 @@
       "val": 11.75,
       "metrics": {
         "in_degree": 43,
-        "out_degree": 0,
+        "out_degree": 49,
         "mutual": 35,
         "between_centrality": 0.00642,
         "Eigenvector Centrality": 0.109163,
@@ -368,7 +368,7 @@
       "val": 17.75,
       "metrics": {
         "in_degree": 67,
-        "out_degree": 0,
+        "out_degree": 83,
         "mutual": 61,
         "between_centrality": 0.029431,
         "Eigenvector Centrality": 0.141298,
@@ -392,7 +392,7 @@
       "val": 11.25,
       "metrics": {
         "in_degree": 41,
-        "out_degree": 0,
+        "out_degree": 43,
         "mutual": 33,
         "between_centrality": 0.00672,
         "Eigenvector Centrality": 0.10627,
@@ -416,7 +416,7 @@
       "val": 20.0,
       "metrics": {
         "in_degree": 76,
-        "out_degree": 0,
+        "out_degree": 43,
         "mutual": 41,
         "between_centrality": 0.014383,
         "Eigenvector Centrality": 0.166088,
@@ -440,7 +440,7 @@
       "val": 18.5,
       "metrics": {
         "in_degree": 70,
-        "out_degree": 0,
+        "out_degree": 79,
         "mutual": 64,
         "between_centrality": 0.021799,
         "Eigenvector Centrality": 0.164186,
@@ -464,7 +464,7 @@
       "val": 3.0,
       "metrics": {
         "in_degree": 8,
-        "out_degree": 0,
+        "out_degree": 6,
         "mutual": 6,
         "between_centrality": 6e-05,
         "Eigenvector Centrality": 0.018124,
@@ -488,7 +488,7 @@
       "val": 7.5,
       "metrics": {
         "in_degree": 26,
-        "out_degree": 0,
+        "out_degree": 60,
         "mutual": 26,
         "between_centrality": 0.006292,
         "Eigenvector Centrality": 0.053075,
@@ -512,7 +512,7 @@
       "val": 6.75,
       "metrics": {
         "in_degree": 23,
-        "out_degree": 0,
+        "out_degree": 31,
         "mutual": 20,
         "between_centrality": 0.003009,
         "Eigenvector Centrality": 0.055759,
@@ -536,7 +536,7 @@
       "val": 7.5,
       "metrics": {
         "in_degree": 26,
-        "out_degree": 0,
+        "out_degree": 34,
         "mutual": 20,
         "between_centrality": 0.005143,
         "Eigenvector Centrality": 0.054433,
@@ -560,7 +560,7 @@
       "val": 7.5,
       "metrics": {
         "in_degree": 26,
-        "out_degree": 0,
+        "out_degree": 27,
         "mutual": 19,
         "between_centrality": 0.002631,
         "Eigenvector Centrality": 0.053829,
@@ -584,7 +584,7 @@
       "val": 10.25,
       "metrics": {
         "in_degree": 37,
-        "out_degree": 0,
+        "out_degree": 39,
         "mutual": 35,
         "between_centrality": 0.006019,
         "Eigenvector Centrality": 0.080899,
@@ -608,7 +608,7 @@
       "val": 8.25,
       "metrics": {
         "in_degree": 29,
-        "out_degree": 0,
+        "out_degree": 39,
         "mutual": 24,
         "between_centrality": 0.003959,
         "Eigenvector Centrality": 0.061913,
@@ -632,7 +632,7 @@
       "val": 7.5,
       "metrics": {
         "in_degree": 26,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 12,
         "between_centrality": 0.00375,
         "Eigenvector Centrality": 0.0536,
@@ -656,7 +656,7 @@
       "val": 9.75,
       "metrics": {
         "in_degree": 35,
-        "out_degree": 0,
+        "out_degree": 42,
         "mutual": 31,
         "between_centrality": 0.004046,
         "Eigenvector Centrality": 0.092309,
@@ -680,7 +680,7 @@
       "val": 19.5,
       "metrics": {
         "in_degree": 74,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 6,
         "between_centrality": 0.00173,
         "Eigenvector Centrality": 0.147997,
@@ -704,7 +704,7 @@
       "val": 15.5,
       "metrics": {
         "in_degree": 58,
-        "out_degree": 0,
+        "out_degree": 75,
         "mutual": 50,
         "between_centrality": 0.018644,
         "Eigenvector Centrality": 0.128748,
@@ -728,7 +728,7 @@
       "val": 5.0,
       "metrics": {
         "in_degree": 16,
-        "out_degree": 0,
+        "out_degree": 17,
         "mutual": 13,
         "between_centrality": 0.000783,
         "Eigenvector Centrality": 0.034982,
@@ -752,7 +752,7 @@
       "val": 4.25,
       "metrics": {
         "in_degree": 13,
-        "out_degree": 0,
+        "out_degree": 21,
         "mutual": 12,
         "between_centrality": 0.003338,
         "Eigenvector Centrality": 0.026002,
@@ -800,7 +800,7 @@
       "val": 8.25,
       "metrics": {
         "in_degree": 29,
-        "out_degree": 0,
+        "out_degree": 43,
         "mutual": 26,
         "between_centrality": 0.021648,
         "Eigenvector Centrality": 0.056289,
@@ -824,7 +824,7 @@
       "val": 5.0,
       "metrics": {
         "in_degree": 16,
-        "out_degree": 0,
+        "out_degree": 15,
         "mutual": 9,
         "between_centrality": 0.005518,
         "Eigenvector Centrality": 0.033339,
@@ -848,7 +848,7 @@
       "val": 9.5,
       "metrics": {
         "in_degree": 34,
-        "out_degree": 0,
+        "out_degree": 34,
         "mutual": 20,
         "between_centrality": 0.009618,
         "Eigenvector Centrality": 0.078722,
@@ -872,7 +872,7 @@
       "val": 14.5,
       "metrics": {
         "in_degree": 54,
-        "out_degree": 0,
+        "out_degree": 31,
         "mutual": 28,
         "between_centrality": 0.004764,
         "Eigenvector Centrality": 0.111315,
@@ -920,7 +920,7 @@
       "val": 3.5,
       "metrics": {
         "in_degree": 10,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 3,
         "between_centrality": 0.00107,
         "Eigenvector Centrality": 0.012329,
@@ -944,7 +944,7 @@
       "val": 6.5,
       "metrics": {
         "in_degree": 22,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 8,
         "between_centrality": 0.000557,
         "Eigenvector Centrality": 0.045168,
@@ -968,7 +968,7 @@
       "val": 7.25,
       "metrics": {
         "in_degree": 25,
-        "out_degree": 0,
+        "out_degree": 40,
         "mutual": 22,
         "between_centrality": 0.004527,
         "Eigenvector Centrality": 0.054667,
@@ -992,7 +992,7 @@
       "val": 7.0,
       "metrics": {
         "in_degree": 24,
-        "out_degree": 0,
+        "out_degree": 24,
         "mutual": 20,
         "between_centrality": 0.002572,
         "Eigenvector Centrality": 0.053837,
@@ -1016,7 +1016,7 @@
       "val": 4.5,
       "metrics": {
         "in_degree": 14,
-        "out_degree": 0,
+        "out_degree": 32,
         "mutual": 10,
         "between_centrality": 0.000534,
         "Eigenvector Centrality": 0.037376,
@@ -1040,7 +1040,7 @@
       "val": 5.75,
       "metrics": {
         "in_degree": 19,
-        "out_degree": 0,
+        "out_degree": 16,
         "mutual": 12,
         "between_centrality": 0.003601,
         "Eigenvector Centrality": 0.041538,
@@ -1064,7 +1064,7 @@
       "val": 4.0,
       "metrics": {
         "in_degree": 12,
-        "out_degree": 0,
+        "out_degree": 20,
         "mutual": 9,
         "between_centrality": 0.000316,
         "Eigenvector Centrality": 0.034692,
@@ -1088,7 +1088,7 @@
       "val": 7.5,
       "metrics": {
         "in_degree": 26,
-        "out_degree": 0,
+        "out_degree": 28,
         "mutual": 24,
         "between_centrality": 0.00138,
         "Eigenvector Centrality": 0.070971,
@@ -1112,7 +1112,7 @@
       "val": 8.0,
       "metrics": {
         "in_degree": 28,
-        "out_degree": 0,
+        "out_degree": 15,
         "mutual": 11,
         "between_centrality": 0.001071,
         "Eigenvector Centrality": 0.06543,
@@ -1136,7 +1136,7 @@
       "val": 4.5,
       "metrics": {
         "in_degree": 14,
-        "out_degree": 0,
+        "out_degree": 13,
         "mutual": 9,
         "between_centrality": 0.000374,
         "Eigenvector Centrality": 0.028898,
@@ -1160,7 +1160,7 @@
       "val": 10.25,
       "metrics": {
         "in_degree": 37,
-        "out_degree": 0,
+        "out_degree": 28,
         "mutual": 27,
         "between_centrality": 0.019827,
         "Eigenvector Centrality": 0.079612,
@@ -1184,7 +1184,7 @@
       "val": 8.0,
       "metrics": {
         "in_degree": 28,
-        "out_degree": 0,
+        "out_degree": 41,
         "mutual": 26,
         "between_centrality": 0.006987,
         "Eigenvector Centrality": 0.066831,
@@ -1208,7 +1208,7 @@
       "val": 3.75,
       "metrics": {
         "in_degree": 11,
-        "out_degree": 0,
+        "out_degree": 6,
         "mutual": 4,
         "between_centrality": 0.000153,
         "Eigenvector Centrality": 0.020092,
@@ -1232,7 +1232,7 @@
       "val": 9.5,
       "metrics": {
         "in_degree": 34,
-        "out_degree": 0,
+        "out_degree": 34,
         "mutual": 23,
         "between_centrality": 0.004914,
         "Eigenvector Centrality": 0.072946,
@@ -1256,7 +1256,7 @@
       "val": 10.0,
       "metrics": {
         "in_degree": 36,
-        "out_degree": 0,
+        "out_degree": 23,
         "mutual": 16,
         "between_centrality": 0.001872,
         "Eigenvector Centrality": 0.091523,
@@ -1304,7 +1304,7 @@
       "val": 4.5,
       "metrics": {
         "in_degree": 14,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 7,
         "between_centrality": 0.000515,
         "Eigenvector Centrality": 0.029396,
@@ -1328,7 +1328,7 @@
       "val": 8.5,
       "metrics": {
         "in_degree": 30,
-        "out_degree": 0,
+        "out_degree": 41,
         "mutual": 26,
         "between_centrality": 0.00736,
         "Eigenvector Centrality": 0.064513,
@@ -1352,7 +1352,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 3,
         "between_centrality": 0.000264,
         "Eigenvector Centrality": 0.013714,
@@ -1376,7 +1376,7 @@
       "val": 5.25,
       "metrics": {
         "in_degree": 17,
-        "out_degree": 0,
+        "out_degree": 23,
         "mutual": 14,
         "between_centrality": 0.001522,
         "Eigenvector Centrality": 0.038175,
@@ -1400,7 +1400,7 @@
       "val": 5.75,
       "metrics": {
         "in_degree": 19,
-        "out_degree": 0,
+        "out_degree": 15,
         "mutual": 10,
         "between_centrality": 0.001069,
         "Eigenvector Centrality": 0.037891,
@@ -1424,7 +1424,7 @@
       "val": 3.0,
       "metrics": {
         "in_degree": 8,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 8,
         "between_centrality": 4.5e-05,
         "Eigenvector Centrality": 0.014503,
@@ -1448,7 +1448,7 @@
       "val": 7.0,
       "metrics": {
         "in_degree": 24,
-        "out_degree": 0,
+        "out_degree": 33,
         "mutual": 20,
         "between_centrality": 0.003208,
         "Eigenvector Centrality": 0.052825,
@@ -1472,7 +1472,7 @@
       "val": 6.25,
       "metrics": {
         "in_degree": 21,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 18,
         "between_centrality": 0.001305,
         "Eigenvector Centrality": 0.050425,
@@ -1496,7 +1496,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 6,
         "between_centrality": 0.007045,
         "Eigenvector Centrality": 0.005778,
@@ -1520,7 +1520,7 @@
       "val": 4.5,
       "metrics": {
         "in_degree": 14,
-        "out_degree": 0,
+        "out_degree": 29,
         "mutual": 13,
         "between_centrality": 0.002511,
         "Eigenvector Centrality": 0.029436,
@@ -1544,7 +1544,7 @@
       "val": 6.75,
       "metrics": {
         "in_degree": 23,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 10,
         "between_centrality": 0.000478,
         "Eigenvector Centrality": 0.0585,
@@ -1568,7 +1568,7 @@
       "val": 3.25,
       "metrics": {
         "in_degree": 9,
-        "out_degree": 0,
+        "out_degree": 7,
         "mutual": 5,
         "between_centrality": 0.000231,
         "Eigenvector Centrality": 0.022412,
@@ -1592,7 +1592,7 @@
       "val": 8.25,
       "metrics": {
         "in_degree": 29,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 12,
         "between_centrality": 0.002144,
         "Eigenvector Centrality": 0.061458,
@@ -1640,7 +1640,7 @@
       "val": 3.75,
       "metrics": {
         "in_degree": 11,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 10,
         "between_centrality": 0.000867,
         "Eigenvector Centrality": 0.022178,
@@ -1664,7 +1664,7 @@
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
-        "out_degree": 0,
+        "out_degree": 4,
         "mutual": 0,
         "between_centrality": 0.000122,
         "Eigenvector Centrality": 0.001242,
@@ -1688,7 +1688,7 @@
       "val": 4.25,
       "metrics": {
         "in_degree": 13,
-        "out_degree": 0,
+        "out_degree": 5,
         "mutual": 5,
         "between_centrality": 0.00023,
         "Eigenvector Centrality": 0.029319,
@@ -1712,7 +1712,7 @@
       "val": 5.25,
       "metrics": {
         "in_degree": 17,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 14,
         "between_centrality": 0.00264,
         "Eigenvector Centrality": 0.04345,
@@ -1736,7 +1736,7 @@
       "val": 3.75,
       "metrics": {
         "in_degree": 11,
-        "out_degree": 0,
+        "out_degree": 16,
         "mutual": 10,
         "between_centrality": 0.002644,
         "Eigenvector Centrality": 0.017539,
@@ -1760,7 +1760,7 @@
       "val": 4.75,
       "metrics": {
         "in_degree": 15,
-        "out_degree": 0,
+        "out_degree": 30,
         "mutual": 15,
         "between_centrality": 0.009595,
         "Eigenvector Centrality": 0.047946,
@@ -1784,7 +1784,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 4,
         "between_centrality": 0.000229,
         "Eigenvector Centrality": 0.016571,
@@ -1808,7 +1808,7 @@
       "val": 5.5,
       "metrics": {
         "in_degree": 18,
-        "out_degree": 0,
+        "out_degree": 36,
         "mutual": 18,
         "between_centrality": 0.00646,
         "Eigenvector Centrality": 0.032962,
@@ -1832,7 +1832,7 @@
       "val": 3.0,
       "metrics": {
         "in_degree": 8,
-        "out_degree": 0,
+        "out_degree": 20,
         "mutual": 6,
         "between_centrality": 0.000491,
         "Eigenvector Centrality": 0.017363,
@@ -1856,7 +1856,7 @@
       "val": 3.25,
       "metrics": {
         "in_degree": 9,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 4,
         "between_centrality": 0.000141,
         "Eigenvector Centrality": 0.011868,
@@ -1880,7 +1880,7 @@
       "val": 8.5,
       "metrics": {
         "in_degree": 30,
-        "out_degree": 0,
+        "out_degree": 24,
         "mutual": 21,
         "between_centrality": 0.007897,
         "Eigenvector Centrality": 0.064235,
@@ -1904,7 +1904,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 7,
         "mutual": 3,
         "between_centrality": 0.000104,
         "Eigenvector Centrality": 0.008506,
@@ -1928,7 +1928,7 @@
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
-        "out_degree": 0,
+        "out_degree": 10,
         "mutual": 1,
         "between_centrality": 2.3e-05,
         "Eigenvector Centrality": 0.003817,
@@ -1952,7 +1952,7 @@
       "val": 2.0,
       "metrics": {
         "in_degree": 4,
-        "out_degree": 0,
+        "out_degree": 4,
         "mutual": 1,
         "between_centrality": 5.1e-05,
         "Eigenvector Centrality": 0.004326,
@@ -2000,7 +2000,7 @@
       "val": 3.5,
       "metrics": {
         "in_degree": 10,
-        "out_degree": 0,
+        "out_degree": 24,
         "mutual": 10,
         "between_centrality": 0.001667,
         "Eigenvector Centrality": 0.020989,
@@ -2024,7 +2024,7 @@
       "val": 2.0,
       "metrics": {
         "in_degree": 4,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 3,
         "between_centrality": 0.000316,
         "Eigenvector Centrality": 0.010768,
@@ -2048,7 +2048,7 @@
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 1,
         "between_centrality": 0.000115,
         "Eigenvector Centrality": 0.002803,
@@ -2072,7 +2072,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 53,
         "mutual": 7,
         "between_centrality": 0.004405,
         "Eigenvector Centrality": 0.020086,
@@ -2096,7 +2096,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 10,
         "mutual": 5,
         "between_centrality": 0.000346,
         "Eigenvector Centrality": 0.006413,
@@ -2144,7 +2144,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 6,
         "mutual": 4,
         "between_centrality": 9.3e-05,
         "Eigenvector Centrality": 0.009273,
@@ -2168,7 +2168,7 @@
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
-        "out_degree": 0,
+        "out_degree": 3,
         "mutual": 2,
         "between_centrality": 1.8e-05,
         "Eigenvector Centrality": 0.002816,
@@ -2192,7 +2192,7 @@
       "val": 2.0,
       "metrics": {
         "in_degree": 4,
-        "out_degree": 0,
+        "out_degree": 7,
         "mutual": 3,
         "between_centrality": 0.000228,
         "Eigenvector Centrality": 0.006034,
@@ -2216,7 +2216,7 @@
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
-        "out_degree": 0,
+        "out_degree": 1,
         "mutual": 0,
         "between_centrality": 4e-06,
         "Eigenvector Centrality": 0.007831,
@@ -2240,7 +2240,7 @@
       "val": 2.0,
       "metrics": {
         "in_degree": 4,
-        "out_degree": 0,
+        "out_degree": 15,
         "mutual": 2,
         "between_centrality": 0.000376,
         "Eigenvector Centrality": 0.003065,
@@ -2264,7 +2264,7 @@
       "val": 7.75,
       "metrics": {
         "in_degree": 27,
-        "out_degree": 0,
+        "out_degree": 65,
         "mutual": 21,
         "between_centrality": 0.007714,
         "Eigenvector Centrality": 0.052062,
@@ -2288,7 +2288,7 @@
       "val": 9.25,
       "metrics": {
         "in_degree": 33,
-        "out_degree": 0,
+        "out_degree": 40,
         "mutual": 26,
         "between_centrality": 0.005627,
         "Eigenvector Centrality": 0.075594,
@@ -2312,7 +2312,7 @@
       "val": 3.25,
       "metrics": {
         "in_degree": 9,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 8,
         "between_centrality": 0.001278,
         "Eigenvector Centrality": 0.013372,
@@ -2336,7 +2336,7 @@
       "val": 12.5,
       "metrics": {
         "in_degree": 46,
-        "out_degree": 0,
+        "out_degree": 34,
         "mutual": 25,
         "between_centrality": 0.004287,
         "Eigenvector Centrality": 0.098791,
@@ -2360,7 +2360,7 @@
       "val": 20.25,
       "metrics": {
         "in_degree": 77,
-        "out_degree": 0,
+        "out_degree": 55,
         "mutual": 48,
         "between_centrality": 0.020041,
         "Eigenvector Centrality": 0.151784,
@@ -2384,7 +2384,7 @@
       "val": 17.5,
       "metrics": {
         "in_degree": 66,
-        "out_degree": 0,
+        "out_degree": 73,
         "mutual": 59,
         "between_centrality": 0.030079,
         "Eigenvector Centrality": 0.148222,
@@ -2408,7 +2408,7 @@
       "val": 4.75,
       "metrics": {
         "in_degree": 15,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 2,
         "between_centrality": 0.005212,
         "Eigenvector Centrality": 0.019904,
@@ -2432,7 +2432,7 @@
       "val": 5.75,
       "metrics": {
         "in_degree": 19,
-        "out_degree": 0,
+        "out_degree": 20,
         "mutual": 18,
         "between_centrality": 0.004673,
         "Eigenvector Centrality": 0.046344,
@@ -2456,7 +2456,7 @@
       "val": 10.5,
       "metrics": {
         "in_degree": 38,
-        "out_degree": 0,
+        "out_degree": 53,
         "mutual": 33,
         "between_centrality": 0.007965,
         "Eigenvector Centrality": 0.084358,
@@ -2480,7 +2480,7 @@
       "val": 6.75,
       "metrics": {
         "in_degree": 23,
-        "out_degree": 0,
+        "out_degree": 25,
         "mutual": 19,
         "between_centrality": 0.00163,
         "Eigenvector Centrality": 0.058995,
@@ -2504,7 +2504,7 @@
       "val": 12.5,
       "metrics": {
         "in_degree": 46,
-        "out_degree": 0,
+        "out_degree": 47,
         "mutual": 42,
         "between_centrality": 0.008351,
         "Eigenvector Centrality": 0.11183,
@@ -2528,7 +2528,7 @@
       "val": 13.25,
       "metrics": {
         "in_degree": 49,
-        "out_degree": 0,
+        "out_degree": 45,
         "mutual": 40,
         "between_centrality": 0.005499,
         "Eigenvector Centrality": 0.120144,
@@ -2552,7 +2552,7 @@
       "val": 6.5,
       "metrics": {
         "in_degree": 22,
-        "out_degree": 0,
+        "out_degree": 17,
         "mutual": 9,
         "between_centrality": 0.008096,
         "Eigenvector Centrality": 0.036955,
@@ -2576,7 +2576,7 @@
       "val": 11.75,
       "metrics": {
         "in_degree": 43,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 16,
         "between_centrality": 0.006133,
         "Eigenvector Centrality": 0.079536,
@@ -2600,7 +2600,7 @@
       "val": 9.5,
       "metrics": {
         "in_degree": 34,
-        "out_degree": 0,
+        "out_degree": 23,
         "mutual": 19,
         "between_centrality": 0.012599,
         "Eigenvector Centrality": 0.059477,
@@ -2624,7 +2624,7 @@
       "val": 21.0,
       "metrics": {
         "in_degree": 80,
-        "out_degree": 0,
+        "out_degree": 45,
         "mutual": 44,
         "between_centrality": 0.01409,
         "Eigenvector Centrality": 0.159432,
@@ -2648,7 +2648,7 @@
       "val": 11.5,
       "metrics": {
         "in_degree": 42,
-        "out_degree": 0,
+        "out_degree": 44,
         "mutual": 38,
         "between_centrality": 0.006593,
         "Eigenvector Centrality": 0.101742,
@@ -2672,7 +2672,7 @@
       "val": 18.75,
       "metrics": {
         "in_degree": 71,
-        "out_degree": 0,
+        "out_degree": 65,
         "mutual": 54,
         "between_centrality": 0.01623,
         "Eigenvector Centrality": 0.149113,
@@ -2696,7 +2696,7 @@
       "val": 17.0,
       "metrics": {
         "in_degree": 64,
-        "out_degree": 0,
+        "out_degree": 56,
         "mutual": 51,
         "between_centrality": 0.009512,
         "Eigenvector Centrality": 0.150936,
@@ -2720,7 +2720,7 @@
       "val": 5.75,
       "metrics": {
         "in_degree": 19,
-        "out_degree": 0,
+        "out_degree": 19,
         "mutual": 16,
         "between_centrality": 0.001652,
         "Eigenvector Centrality": 0.032931,
@@ -2744,7 +2744,7 @@
       "val": 11.0,
       "metrics": {
         "in_degree": 40,
-        "out_degree": 0,
+        "out_degree": 34,
         "mutual": 33,
         "between_centrality": 0.004304,
         "Eigenvector Centrality": 0.10088,
@@ -2768,7 +2768,7 @@
       "val": 12.75,
       "metrics": {
         "in_degree": 47,
-        "out_degree": 0,
+        "out_degree": 29,
         "mutual": 29,
         "between_centrality": 0.011167,
         "Eigenvector Centrality": 0.09401,
@@ -2792,7 +2792,7 @@
       "val": 4.25,
       "metrics": {
         "in_degree": 13,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 10,
         "between_centrality": 0.001543,
         "Eigenvector Centrality": 0.018699,
@@ -2816,7 +2816,7 @@
       "val": 4.0,
       "metrics": {
         "in_degree": 12,
-        "out_degree": 0,
+        "out_degree": 10,
         "mutual": 9,
         "between_centrality": 0.000359,
         "Eigenvector Centrality": 0.020335,
@@ -2840,7 +2840,7 @@
       "val": 11.5,
       "metrics": {
         "in_degree": 42,
-        "out_degree": 0,
+        "out_degree": 40,
         "mutual": 35,
         "between_centrality": 0.006242,
         "Eigenvector Centrality": 0.108307,
@@ -2864,7 +2864,7 @@
       "val": 15.25,
       "metrics": {
         "in_degree": 57,
-        "out_degree": 0,
+        "out_degree": 26,
         "mutual": 21,
         "between_centrality": 0.004783,
         "Eigenvector Centrality": 0.126085,
@@ -2888,7 +2888,7 @@
       "val": 7.0,
       "metrics": {
         "in_degree": 24,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 20,
         "between_centrality": 0.0069,
         "Eigenvector Centrality": 0.048362,
@@ -2912,7 +2912,7 @@
       "val": 5.0,
       "metrics": {
         "in_degree": 16,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 7,
         "between_centrality": 0.00024,
         "Eigenvector Centrality": 0.030274,
@@ -2936,7 +2936,7 @@
       "val": 13.25,
       "metrics": {
         "in_degree": 49,
-        "out_degree": 0,
+        "out_degree": 37,
         "mutual": 34,
         "between_centrality": 0.005295,
         "Eigenvector Centrality": 0.125679,
@@ -2960,7 +2960,7 @@
       "val": 22.0,
       "metrics": {
         "in_degree": 84,
-        "out_degree": 0,
+        "out_degree": 78,
         "mutual": 64,
         "between_centrality": 0.028382,
         "Eigenvector Centrality": 0.17871,
@@ -2984,7 +2984,7 @@
       "val": 8.75,
       "metrics": {
         "in_degree": 31,
-        "out_degree": 0,
+        "out_degree": 41,
         "mutual": 24,
         "between_centrality": 0.002127,
         "Eigenvector Centrality": 0.084981,
@@ -3008,7 +3008,7 @@
       "val": 10.75,
       "metrics": {
         "in_degree": 39,
-        "out_degree": 0,
+        "out_degree": 31,
         "mutual": 27,
         "between_centrality": 0.005164,
         "Eigenvector Centrality": 0.079803,
@@ -3032,7 +3032,7 @@
       "val": 6.75,
       "metrics": {
         "in_degree": 23,
-        "out_degree": 0,
+        "out_degree": 24,
         "mutual": 18,
         "between_centrality": 0.001733,
         "Eigenvector Centrality": 0.056935,
@@ -3056,7 +3056,7 @@
       "val": 4.25,
       "metrics": {
         "in_degree": 13,
-        "out_degree": 0,
+        "out_degree": 14,
         "mutual": 9,
         "between_centrality": 0.000494,
         "Eigenvector Centrality": 0.031612,
@@ -3080,7 +3080,7 @@
       "val": 16.0,
       "metrics": {
         "in_degree": 60,
-        "out_degree": 0,
+        "out_degree": 46,
         "mutual": 38,
         "between_centrality": 0.006991,
         "Eigenvector Centrality": 0.143959,
@@ -3104,7 +3104,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 5,
         "mutual": 5,
         "between_centrality": 6e-05,
         "Eigenvector Centrality": 0.015411,
@@ -3128,7 +3128,7 @@
       "val": 9.0,
       "metrics": {
         "in_degree": 32,
-        "out_degree": 0,
+        "out_degree": 28,
         "mutual": 21,
         "between_centrality": 0.003169,
         "Eigenvector Centrality": 0.076773,
@@ -3152,7 +3152,7 @@
       "val": 23.5,
       "metrics": {
         "in_degree": 90,
-        "out_degree": 0,
+        "out_degree": 72,
         "mutual": 68,
         "between_centrality": 0.035453,
         "Eigenvector Centrality": 0.177909,
@@ -3176,7 +3176,7 @@
       "val": 6.0,
       "metrics": {
         "in_degree": 20,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 1,
         "between_centrality": 0.00017,
         "Eigenvector Centrality": 0.036863,
@@ -3200,7 +3200,7 @@
       "val": 8.0,
       "metrics": {
         "in_degree": 28,
-        "out_degree": 0,
+        "out_degree": 25,
         "mutual": 23,
         "between_centrality": 0.001776,
         "Eigenvector Centrality": 0.074745,
@@ -3224,7 +3224,7 @@
       "val": 6.75,
       "metrics": {
         "in_degree": 23,
-        "out_degree": 0,
+        "out_degree": 25,
         "mutual": 13,
         "between_centrality": 0.001507,
         "Eigenvector Centrality": 0.062309,
@@ -3248,7 +3248,7 @@
       "val": 8.5,
       "metrics": {
         "in_degree": 30,
-        "out_degree": 0,
+        "out_degree": 36,
         "mutual": 27,
         "between_centrality": 0.003481,
         "Eigenvector Centrality": 0.073089,
@@ -3272,7 +3272,7 @@
       "val": 5.75,
       "metrics": {
         "in_degree": 19,
-        "out_degree": 0,
+        "out_degree": 32,
         "mutual": 17,
         "between_centrality": 0.004736,
         "Eigenvector Centrality": 0.04311,
@@ -3296,7 +3296,7 @@
       "val": 12.0,
       "metrics": {
         "in_degree": 44,
-        "out_degree": 0,
+        "out_degree": 31,
         "mutual": 28,
         "between_centrality": 0.002405,
         "Eigenvector Centrality": 0.111752,
@@ -3320,7 +3320,7 @@
       "val": 12.5,
       "metrics": {
         "in_degree": 46,
-        "out_degree": 0,
+        "out_degree": 47,
         "mutual": 38,
         "between_centrality": 0.007495,
         "Eigenvector Centrality": 0.109568,
@@ -3344,7 +3344,7 @@
       "val": 8.0,
       "metrics": {
         "in_degree": 28,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 2,
         "between_centrality": 8e-06,
         "Eigenvector Centrality": 0.079258,
@@ -3368,7 +3368,7 @@
       "val": 20.75,
       "metrics": {
         "in_degree": 79,
-        "out_degree": 0,
+        "out_degree": 40,
         "mutual": 33,
         "between_centrality": 0.018662,
         "Eigenvector Centrality": 0.162985,
@@ -3392,7 +3392,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 10,
         "mutual": 6,
         "between_centrality": 0.00012,
         "Eigenvector Centrality": 0.022054,
@@ -3416,7 +3416,7 @@
       "val": 3.0,
       "metrics": {
         "in_degree": 8,
-        "out_degree": 0,
+        "out_degree": 13,
         "mutual": 8,
         "between_centrality": 0.000425,
         "Eigenvector Centrality": 0.021451,
@@ -3440,7 +3440,7 @@
       "val": 3.5,
       "metrics": {
         "in_degree": 10,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 5,
         "between_centrality": 0.00064,
         "Eigenvector Centrality": 0.017722,
@@ -3464,7 +3464,7 @@
       "val": 7.75,
       "metrics": {
         "in_degree": 27,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 17,
         "between_centrality": 0.008047,
         "Eigenvector Centrality": 0.0499,
@@ -3512,7 +3512,7 @@
       "val": 12.75,
       "metrics": {
         "in_degree": 47,
-        "out_degree": 0,
+        "out_degree": 51,
         "mutual": 40,
         "between_centrality": 0.010375,
         "Eigenvector Centrality": 0.117665,
@@ -3536,7 +3536,7 @@
       "val": 3.5,
       "metrics": {
         "in_degree": 10,
-        "out_degree": 0,
+        "out_degree": 20,
         "mutual": 8,
         "between_centrality": 0.004934,
         "Eigenvector Centrality": 0.018967,
@@ -3560,7 +3560,7 @@
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
-        "out_degree": 0,
+        "out_degree": 17,
         "mutual": 2,
         "between_centrality": 0.000229,
         "Eigenvector Centrality": 0.002289,
@@ -3584,7 +3584,7 @@
       "val": 6.5,
       "metrics": {
         "in_degree": 22,
-        "out_degree": 0,
+        "out_degree": 29,
         "mutual": 18,
         "between_centrality": 0.009173,
         "Eigenvector Centrality": 0.044964,
@@ -3608,7 +3608,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 12,
         "mutual": 3,
         "between_centrality": 0.00011,
         "Eigenvector Centrality": 0.007239,
@@ -3632,7 +3632,7 @@
       "val": 5.75,
       "metrics": {
         "in_degree": 19,
-        "out_degree": 0,
+        "out_degree": 23,
         "mutual": 14,
         "between_centrality": 0.004401,
         "Eigenvector Centrality": 0.032268,
@@ -3656,7 +3656,7 @@
       "val": 5.0,
       "metrics": {
         "in_degree": 16,
-        "out_degree": 0,
+        "out_degree": 7,
         "mutual": 6,
         "between_centrality": 0.00032,
         "Eigenvector Centrality": 0.032356,
@@ -3680,7 +3680,7 @@
       "val": 3.0,
       "metrics": {
         "in_degree": 8,
-        "out_degree": 0,
+        "out_degree": 11,
         "mutual": 5,
         "between_centrality": 0.00044,
         "Eigenvector Centrality": 0.017834,
@@ -3704,7 +3704,7 @@
       "val": 3.25,
       "metrics": {
         "in_degree": 9,
-        "out_degree": 0,
+        "out_degree": 23,
         "mutual": 9,
         "between_centrality": 0.000447,
         "Eigenvector Centrality": 0.024922,
@@ -3728,7 +3728,7 @@
       "val": 6.25,
       "metrics": {
         "in_degree": 21,
-        "out_degree": 0,
+        "out_degree": 47,
         "mutual": 21,
         "between_centrality": 0.006401,
         "Eigenvector Centrality": 0.057851,
@@ -3752,7 +3752,7 @@
       "val": 3.25,
       "metrics": {
         "in_degree": 9,
-        "out_degree": 0,
+        "out_degree": 29,
         "mutual": 9,
         "between_centrality": 0.003228,
         "Eigenvector Centrality": 0.016858,
@@ -3776,7 +3776,7 @@
       "val": 6.0,
       "metrics": {
         "in_degree": 20,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 8,
         "between_centrality": 0.000486,
         "Eigenvector Centrality": 0.048559,
@@ -3800,7 +3800,7 @@
       "val": 3.75,
       "metrics": {
         "in_degree": 11,
-        "out_degree": 0,
+        "out_degree": 10,
         "mutual": 7,
         "between_centrality": 0.000439,
         "Eigenvector Centrality": 0.020542,
@@ -3872,7 +3872,7 @@
       "val": 2.0,
       "metrics": {
         "in_degree": 4,
-        "out_degree": 0,
+        "out_degree": 4,
         "mutual": 1,
         "between_centrality": 5.6e-05,
         "Eigenvector Centrality": 0.007683,
@@ -3896,7 +3896,7 @@
       "val": 3.0,
       "metrics": {
         "in_degree": 8,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 4,
         "between_centrality": 0.001282,
         "Eigenvector Centrality": 0.015159,
@@ -3920,7 +3920,7 @@
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 2,
         "between_centrality": 0.000314,
         "Eigenvector Centrality": 0.001552,
@@ -3944,7 +3944,7 @@
       "val": 3.0,
       "metrics": {
         "in_degree": 8,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 2,
         "between_centrality": 4.7e-05,
         "Eigenvector Centrality": 0.014308,
@@ -3968,7 +3968,7 @@
       "val": 3.75,
       "metrics": {
         "in_degree": 11,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 7,
         "between_centrality": 0.000179,
         "Eigenvector Centrality": 0.024032,
@@ -3992,7 +3992,7 @@
       "val": 4.0,
       "metrics": {
         "in_degree": 12,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 6,
         "between_centrality": 0.000673,
         "Eigenvector Centrality": 0.020983,
@@ -4016,7 +4016,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 36,
         "mutual": 5,
         "between_centrality": 0.000424,
         "Eigenvector Centrality": 0.010519,
@@ -4040,7 +4040,7 @@
       "val": 3.5,
       "metrics": {
         "in_degree": 10,
-        "out_degree": 0,
+        "out_degree": 17,
         "mutual": 7,
         "between_centrality": 0.001235,
         "Eigenvector Centrality": 0.023816,
@@ -4064,7 +4064,7 @@
       "val": 2.0,
       "metrics": {
         "in_degree": 4,
-        "out_degree": 0,
+        "out_degree": 29,
         "mutual": 3,
         "between_centrality": 0.000883,
         "Eigenvector Centrality": 0.003563,
@@ -4088,7 +4088,7 @@
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
-        "out_degree": 0,
+        "out_degree": 18,
         "mutual": 2,
         "between_centrality": 0.000482,
         "Eigenvector Centrality": 0.003405,
@@ -4112,7 +4112,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 21,
         "mutual": 7,
         "between_centrality": 0.001118,
         "Eigenvector Centrality": 0.020076,
@@ -4136,7 +4136,7 @@
       "val": 4.0,
       "metrics": {
         "in_degree": 12,
-        "out_degree": 0,
+        "out_degree": 22,
         "mutual": 12,
         "between_centrality": 0.004834,
         "Eigenvector Centrality": 0.018868,
@@ -4160,7 +4160,7 @@
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 0,
         "between_centrality": 0.0,
         "Eigenvector Centrality": 0.0,
@@ -4184,7 +4184,7 @@
       "val": 2.75,
       "metrics": {
         "in_degree": 7,
-        "out_degree": 0,
+        "out_degree": 11,
         "mutual": 7,
         "between_centrality": 0.001242,
         "Eigenvector Centrality": 0.011154,
@@ -4208,7 +4208,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 9,
         "mutual": 4,
         "between_centrality": 0.000144,
         "Eigenvector Centrality": 0.013336,
@@ -4232,7 +4232,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 4,
         "mutual": 2,
         "between_centrality": 9e-05,
         "Eigenvector Centrality": 0.003582,
@@ -4256,7 +4256,7 @@
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 1,
         "between_centrality": 1.4e-05,
         "Eigenvector Centrality": 0.001493,
@@ -4280,7 +4280,7 @@
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
-        "out_degree": 0,
+        "out_degree": 11,
         "mutual": 1,
         "between_centrality": 5.9e-05,
         "Eigenvector Centrality": 0.007719,
@@ -4304,7 +4304,7 @@
       "val": 3.25,
       "metrics": {
         "in_degree": 9,
-        "out_degree": 0,
+        "out_degree": 11,
         "mutual": 7,
         "between_centrality": 0.002592,
         "Eigenvector Centrality": 0.016703,
@@ -4352,7 +4352,7 @@
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
-        "out_degree": 0,
+        "out_degree": 6,
         "mutual": 1,
         "between_centrality": 5e-05,
         "Eigenvector Centrality": 0.001832,
@@ -4376,7 +4376,7 @@
       "val": 1.5,
       "metrics": {
         "in_degree": 2,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 2,
         "between_centrality": 0.0,
         "Eigenvector Centrality": 0.001832,
@@ -4400,7 +4400,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 2,
         "mutual": 2,
         "between_centrality": 0.000227,
         "Eigenvector Centrality": 0.005325,
@@ -4424,7 +4424,7 @@
       "val": 2.25,
       "metrics": {
         "in_degree": 5,
-        "out_degree": 0,
+        "out_degree": 5,
         "mutual": 2,
         "between_centrality": 0.00064,
         "Eigenvector Centrality": 0.005487,
@@ -4448,7 +4448,7 @@
       "val": 1.75,
       "metrics": {
         "in_degree": 3,
-        "out_degree": 0,
+        "out_degree": 1,
         "mutual": 1,
         "between_centrality": 1.2e-05,
         "Eigenvector Centrality": 0.002489,
@@ -4472,7 +4472,7 @@
       "val": 1.25,
       "metrics": {
         "in_degree": 1,
-        "out_degree": 0,
+        "out_degree": 4,
         "mutual": 1,
         "between_centrality": 1.5e-05,
         "Eigenvector Centrality": 0.001998,
@@ -4568,7 +4568,7 @@
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
-        "out_degree": 0,
+        "out_degree": 8,
         "mutual": 0,
         "between_centrality": 0.0,
         "Eigenvector Centrality": 0.0,
@@ -4616,7 +4616,7 @@
       "val": 1.0,
       "metrics": {
         "in_degree": 0,
-        "out_degree": 0,
+        "out_degree": 1,
         "mutual": 0,
         "between_centrality": 0.0,
         "Eigenvector Centrality": 0.0,

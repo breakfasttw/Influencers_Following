@@ -185,7 +185,7 @@ def export_web_json(G_draw, communities, metrics_lookup, alg_result, output_dir,
             "val": 1 + m.get('In_Degree (被追蹤數)', 0) / 4,
             "metrics": {
                 "in_degree": int(m.get('In_Degree (被追蹤數)', 0)), 
-                "out_degree": int(m.get('Out_Degree (主 ক্যামের主動追蹤數)', 0)) if pd.notna(m.get('Out_Degree (主動追蹤數)')) else 0, # 防呆
+                "out_degree": int(m.get('Out_Degree (主動追蹤數)', 0)) if pd.notna(m.get('Out_Degree (主動追蹤數)')) else 0, # 防呆
                 "mutual": int(m.get('Mutual_Follow (互粉數)', 0)),
                 "between_centrality": float(m.get('Betweenness_Centrality', 0.0)),
                 "Eigenvector Centrality": float(m.get('Eigenvector_Centrality', 0.0)),
